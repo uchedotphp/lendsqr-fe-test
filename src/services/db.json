@@ -1,0 +1,4683 @@
+{
+  "profile": {
+    "id": 1,
+    "organization": "Lendsqr",
+    "role": "admin",
+    "username": "uchedotphp",
+    "email": "uchedotphp@test.com",
+    "phoneNumber": "07012345678",
+    "createdAt": "2025-06-01T09:00:00Z",
+    "updatedAt": "2025-06-01T09:00:00Z", 
+    "status": "active",
+    "firstName": "uchechukwu",
+    "lastName": "nwulu",
+    "imgUrl": "https://via.placeholder.com/150",
+    "organizations": ["Lendsqr", "Lendstar", "Ironun", "FinanceCo"],
+    "password": "adminpassword"
+  },
+  "dashboard": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "dashboard-kpis": [
+    {
+      "label": "total loans",
+      "value": 2456789000
+    },
+    {
+      "label": "active loans", 
+      "value": 1234
+    },
+    {
+      "label": "total revenue",
+      "value": 456789000
+    },
+    {
+      "label": "pending applications",
+      "value": 89
+    }
+  ],
+  "dashboard-activities": [
+    {
+      "id": 1,
+      "type": "loan_application",
+      "user": "John Doe",
+      "action": "submitted loan application",
+      "amount": "₦500,000",
+      "time": "2 hours ago",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "type": "user_registration",
+      "user": "Sarah Wilson",
+      "action": "registered new account",
+      "time": "4 hours ago",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "type": "payment",
+      "user": "Mike Johnson",
+      "action": "made loan payment",
+      "amount": "₦75,000",
+      "time": "6 hours ago",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "type": "status_change",
+      "user": "Lisa Brown",
+      "action": "account activated",
+      "time": "1 day ago",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "type": "loan_approval",
+      "user": "David Smith",
+      "action": "loan approved",
+      "amount": "₦250,000",
+      "time": "1 day ago",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "type": "payment",
+      "user": "Emma Davis",
+      "action": "made loan payment",
+      "amount": "₦120,000",
+      "time": "2 days ago",
+      "status": "active"
+    }
+  ],
+  "dashboard-quick-stats": {
+    "pendingApplications": 12,
+    "usersToActivate": 5,
+    "overduePayments": 3,
+    "newRegistrations": 8
+  },
+  "users-kpis": [
+    {
+      "label": "users",
+      "value": 156005000
+    },
+    {
+      "label": "active users", 
+      "value": 966899
+    },
+    {
+      "label": "users with loans",
+      "value": 689474
+    },
+    {
+      "label": "users with savings",
+      "value": 568947
+    }
+  ],
+  "users-records": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "email": "vasquez.mitchell@example.com vasquez.mitchell@example.com vasquez.mitchell@example.com vasquez.mitchell@example.com",
+      "phoneNumber": "+11353877918",
+      "status": "blacklisted",
+      "username": "vasquez_mitchell",
+      "createdAt": "2025-04-04T17:22:00.578Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "email": "jacobson.bullock@example.com",
+      "phoneNumber": "+19200115819+19200115819+19200115819+19200115819+19200115819+19200115819+19200115819+19200115819+19200115819",
+      "status": "active",
+      "username": "jacobson_bullock",
+      "createdAt": "2022-04-29T13:55:02.171Z", 
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D Bank D Bank D Bank D Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "email": "lewis.dillard@example.com",
+      "phoneNumber": "+11456138155",
+      "status": "blacklisted",
+      "username": "lewis_dillard",
+      "createdAt": "2023-01-26T05:19:35.770Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "email": "queen.wilkerson@example.com",
+      "phoneNumber": "+16190132678",
+      "status": "pending",
+      "username": "queen_wilkerson", 
+      "createdAt": "2024-11-04T20:51:44.521Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "email": "lillian.young@example.com",
+      "phoneNumber": "+14831442223",
+      "status": "blacklisted",
+      "username": "lillian_young",
+      "createdAt": "2023-08-24T12:03:24.752Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "email": "jeanette.sutton@example.com",
+      "phoneNumber": "+16939577767",
+      "status": "active",
+      "username": "jeanette_sutton",
+      "createdAt": "2023-12-01T07:30:41.291Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "email": "kellie.adams@example.com",
+      "phoneNumber": "+11366341548",
+      "status": "pending",
+      "username": "kellie_adams",
+      "createdAt": "2023-12-15T11:42:14.987Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "email": "douglas.abbott@example.com",
+      "phoneNumber": "+17540221017",
+      "status": "blacklisted",
+      "username": "douglas_abbott",
+      "createdAt": "2023-12-16T20:55:14.792Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "email": "greta.olsen@example.com",
+      "phoneNumber": "+14400369895",
+      "status": "active",
+      "username": "greta_olsen",
+      "createdAt": "2024-09-18T13:41:07.767Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "email": "cote.christian@example.com",
+      "phoneNumber": "+16675111340",
+      "status": "pending",
+      "username": "cote_christian",
+      "createdAt": "2024-10-02T02:32:09.035Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440010",
+      "email": "rodriguez.perry@example.com",
+      "phoneNumber": "+17505422938",
+      "status": "blacklisted",
+      "username": "rodriguez_perry",
+      "createdAt": "2023-01-28T13:33:53.916Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440011",
+      "email": "aurora.casey@example.com",
+      "phoneNumber": "+18822257728",
+      "status": "active",
+      "username": "aurora_casey",
+      "createdAt": "2024-03-31T05:34:50.791Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440012",
+      "email": "meyers.workman@example.com",
+      "phoneNumber": "+16573519426",
+      "status": "pending",
+      "username": "meyers_workman",
+      "createdAt": "2024-11-25T09:52:51.914Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440013",
+      "email": "desiree.rich@example.com",
+      "phoneNumber": "+19553542566",
+      "status": "blacklisted",
+      "username": "desiree_rich",
+      "createdAt": "2023-09-04T02:10:44.657Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440014",
+      "email": "greer.fisher@example.com",
+      "phoneNumber": "+13881422118",
+      "status": "active",
+      "username": "greer_fisher",
+      "createdAt": "2022-12-10T06:35:11.670Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440015",
+      "email": "gamble.alvarado@example.com",
+      "phoneNumber": "+15761666134",
+      "status": "pending",
+      "username": "gamble_alvarado",
+      "createdAt": "2024-07-03T21:15:43.663Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440016",
+      "email": "sampson.blankenship@example.com",
+      "phoneNumber": "+13558111554",
+      "status": "blacklisted",
+      "username": "sampson_blankenship",
+      "createdAt": "2024-03-17T01:54:59.469Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440017",
+      "email": "willis.tyson@example.com",
+      "phoneNumber": "+11182850427",
+      "status": "active",
+      "username": "willis_tyson",
+      "createdAt": "2022-09-15T11:46:04.676Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440018",
+      "email": "hewitt.greer@example.com",
+      "phoneNumber": "+14158456544",
+      "status": "pending",
+      "username": "hewitt_greer",
+      "createdAt": "2024-12-16T01:51:58.589Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440019",
+      "email": "ollie.finley@example.com",
+      "phoneNumber": "+12123654425",
+      "status": "blacklisted",
+      "username": "ollie_finley",
+      "createdAt": "2024-11-10T10:51:46.324Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440020",
+      "email": "brigitte.cooke@example.com",
+      "phoneNumber": "+11951784464",
+      "status": "active",
+      "username": "brigitte_cooke",
+      "createdAt": "2025-05-05T10:40:28.888Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440021",
+      "email": "gabriela.webb@example.com",
+      "phoneNumber": "+17163973682",
+      "status": "pending",
+      "username": "gabriela_webb",
+      "createdAt": "2024-06-17T06:02:03.673Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440022",
+      "email": "guzman.quinn@example.com",
+      "phoneNumber": "+15905322348",
+      "status": "blacklisted",
+      "username": "guzman_quinn",
+      "createdAt": "2025-05-18T06:54:43.724Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440023",
+      "email": "willie.le@example.com",
+      "phoneNumber": "+13525466681",
+      "status": "active",
+      "username": "willie_le",
+      "createdAt": "2024-06-08T20:04:04.012Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440024",
+      "email": "doris.bond@example.com",
+      "phoneNumber": "+12921288519",
+      "status": "pending",
+      "username": "doris_bond",
+      "createdAt": "2023-06-22T04:24:15.263Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440025",
+      "email": "norman.chavez@example.com",
+      "phoneNumber": "+19695629385",
+      "status": "blacklisted",
+      "username": "norman_chavez",
+      "createdAt": "2022-08-19T21:19:33.318Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440026",
+      "email": "shauna.delgado@example.com",
+      "phoneNumber": "+17842465563",
+      "status": "active",
+      "username": "shauna_delgado",
+      "createdAt": "2024-08-01T11:23:08.615Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440027",
+      "email": "rhodes.meyers@example.com",
+      "phoneNumber": "+16945555272",
+      "status": "pending",
+      "username": "rhodes_meyers",
+      "createdAt": "2022-05-03T04:44:11.974Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440028",
+      "email": "letitia.dunlap@example.com",
+      "phoneNumber": "+11825166182",
+      "status": "blacklisted",
+      "username": "letitia_dunlap",
+      "createdAt": "2022-08-23T08:33:11.204Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440029",
+      "email": "ivy.nguyen@example.com",
+      "phoneNumber": "+17704279197",
+      "status": "active",
+      "username": "ivy_nguyen",
+      "createdAt": "2025-05-08T03:39:39.715Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440030",
+      "email": "berry.rice@example.com",
+      "phoneNumber": "+19050481731",
+      "status": "pending",
+      "username": "berry_rice",
+      "createdAt": "2024-12-19T18:01:24.857Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440031",
+      "email": "elma.mendez@example.com",
+      "phoneNumber": "+12406442456",
+      "status": "blacklisted",
+      "username": "elma_mendez",
+      "createdAt": "2023-05-10T19:09:51.964Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440032",
+      "email": "nona.dominguez@example.com",
+      "phoneNumber": "+13030348546",
+      "status": "active",
+      "username": "nona_dominguez",
+      "createdAt": "2023-10-08T14:31:56.470Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440033",
+      "email": "fry.suarez@example.com",
+      "phoneNumber": "+15107241513",
+      "status": "pending",
+      "username": "fry_suarez",
+      "createdAt": "2023-09-28T10:11:14.652Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440034",
+      "email": "karla.charles@example.com",
+      "phoneNumber": "+17497947593",
+      "status": "blacklisted",
+      "username": "karla_charles",
+      "createdAt": "2024-10-08T15:10:27.566Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440035",
+      "email": "dale.garrett@example.com",
+      "phoneNumber": "+16994453154",
+      "status": "active",
+      "username": "dale_garrett",
+      "createdAt": "2024-02-07T23:15:32.328Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440036",
+      "email": "nora.benjamin@example.com",
+      "phoneNumber": "+11212885422",
+      "status": "pending",
+      "username": "nora_benjamin",
+      "createdAt": "2025-04-01T18:15:07.034Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440037",
+      "email": "courtney.church@example.com",
+      "phoneNumber": "+13598181869",
+      "status": "blacklisted",
+      "username": "courtney_church",
+      "createdAt": "2025-03-28T15:27:50.980Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440038",
+      "email": "minnie.dejesus@example.com",
+      "phoneNumber": "+14678702810",
+      "status": "active",
+      "username": "minnie_dejesus",
+      "createdAt": "2025-03-21T00:38:46.431Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440039",
+      "email": "hardin.foley@example.com",
+      "phoneNumber": "+11486844153",
+      "status": "pending",
+      "username": "hardin_foley",
+      "createdAt": "2024-08-14T00:09:28.864Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440040",
+      "email": "frances.camacho@example.com",
+      "phoneNumber": "+18844174444",
+      "status": "blacklisted",
+      "username": "frances_camacho",
+      "createdAt": "2023-07-30T04:49:21.532Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440041",
+      "email": "robertson.goodman@example.com",
+      "phoneNumber": "+19531979052",
+      "status": "active",
+      "username": "robertson_goodman",
+      "createdAt": "2023-05-18T18:23:42.516Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440042",
+      "email": "malone.gates@example.com",
+      "phoneNumber": "+18676713440",
+      "status": "pending",
+      "username": "malone_gates",
+      "createdAt": "2023-04-26T15:43:19.073Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440043",
+      "email": "gena.cherry@example.com",
+      "phoneNumber": "+13869418084",
+      "status": "blacklisted",
+      "username": "gena_cherry",
+      "createdAt": "2023-12-07T22:06:04.560Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440044",
+      "email": "latasha.fitzgerald@example.com",
+      "phoneNumber": "+15585417043",
+      "status": "active",
+      "username": "latasha_fitzgerald",
+      "createdAt": "2025-06-12T02:18:37.676Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440045",
+      "email": "rowland.bush@example.com",
+      "phoneNumber": "+13313678560",
+      "status": "pending",
+      "username": "rowland_bush",
+      "createdAt": "2022-07-01T02:36:19.384Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440046",
+      "email": "martinez.knowles@example.com",
+      "phoneNumber": "+15893251508",
+      "status": "blacklisted",
+      "username": "martinez_knowles",
+      "createdAt": "2022-07-23T18:19:03.301Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440047",
+      "email": "lora.hardin@example.com",
+      "phoneNumber": "+16694243269",
+      "status": "active",
+      "username": "lora_hardin",
+      "createdAt": "2023-09-19T21:11:48.042Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440048",
+      "email": "shari.pate@example.com",
+      "phoneNumber": "+16351546407",
+      "status": "pending",
+      "username": "shari_pate",
+      "createdAt": "2024-10-10T08:57:41.137Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440049",
+      "email": "tommie.robinson@example.com",
+      "phoneNumber": "+12044217927",
+      "status": "blacklisted",
+      "username": "tommie_robinson",
+      "createdAt": "2024-11-02T11:42:49.866Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440050",
+      "email": "jacklyn.hull@example.com",
+      "phoneNumber": "+17850864997",
+      "status": "active",
+      "username": "jacklyn_hull",
+      "createdAt": "2024-03-13T22:20:41.735Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440051",
+      "email": "cecelia.ellis@example.com",
+      "phoneNumber": "+15980052130",
+      "status": "pending",
+      "username": "cecelia_ellis",
+      "createdAt": "2024-12-21T19:44:15.139Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440052",
+      "email": "wiley.barry@example.com",
+      "phoneNumber": "+11182094225",
+      "status": "blacklisted",
+      "username": "wiley_barry",
+      "createdAt": "2022-03-04T12:40:47.161Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440053",
+      "email": "letha.wyatt@example.com",
+      "phoneNumber": "+19262088706",
+      "status": "active",
+      "username": "letha_wyatt",
+      "createdAt": "2024-10-08T07:46:50.242Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440054",
+      "email": "pope.summers@example.com",
+      "phoneNumber": "+11841826144",
+      "status": "pending",
+      "username": "pope_summers",
+      "createdAt": "2023-07-20T23:25:24.698Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440055",
+      "email": "roxanne.clemons@example.com",
+      "phoneNumber": "+11224786476",
+      "status": "blacklisted",
+      "username": "roxanne_clemons",
+      "createdAt": "2022-01-16T15:38:32.919Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440056",
+      "email": "trisha.lester@example.com",
+      "phoneNumber": "+14908160315",
+      "status": "active",
+      "username": "trisha_lester",
+      "createdAt": "2023-03-06T12:44:57.335Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440057",
+      "email": "langley.donovan@example.com",
+      "phoneNumber": "+13594017915",
+      "status": "pending",
+      "username": "langley_donovan",
+      "createdAt": "2022-04-26T18:12:11.615Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440058",
+      "email": "joni.zimmerman@example.com",
+      "phoneNumber": "+18141867049",
+      "status": "blacklisted",
+      "username": "joni_zimmerman",
+      "createdAt": "2024-10-17T07:09:29.086Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440059",
+      "email": "glass.rocha@example.com",
+      "phoneNumber": "+17145506090",
+      "status": "active",
+      "username": "glass_rocha",
+      "createdAt": "2023-07-01T23:43:43.925Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440060",
+      "email": "herminia.holcomb@example.com",
+      "phoneNumber": "+15276338972",
+      "status": "pending",
+      "username": "herminia_holcomb",
+      "createdAt": "2022-05-28T03:37:34.821Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440061",
+      "email": "melisa.hart@example.com",
+      "phoneNumber": "+19889320716",
+      "status": "blacklisted",
+      "username": "melisa_hart",
+      "createdAt": "2024-12-08T01:49:58.192Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440062",
+      "email": "lorna.dixon@example.com",
+      "phone": "+17505140542",
+      "status": "active",
+      "username": "lorna_dixon",
+      "createdAt": "2023-07-11T10:05:47.759Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "blevins.benton@example.com",
+      "phone": "+16470860253",
+      "status": "active",
+      "username": "blevins_benton",
+      "createdAt": "2024-04-24T19:00:59.515Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "arline.lindsey@example.com",
+      "phone": "+18322889172",
+      "status": "inactive",
+      "username": "arline_lindsey",
+      "createdAt": "2024-02-04T00:03:08.936Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "black.mccarthy@example.com",
+      "phone": "+17876155612",
+      "status": "active",
+      "username": "black_mccarthy",
+      "createdAt": "2023-07-14T12:36:52.692Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "hodges.gardner@example.com",
+      "phone": "+19045249498",
+      "status": "active",
+      "username": "hodges_gardner",
+      "createdAt": "2023-02-26T21:03:35.438Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "jaclyn.pena@example.com",
+      "phone": "+13949952304",
+      "status": "inactive",
+      "username": "jaclyn_pena",
+      "createdAt": "2024-05-28T23:57:52.592Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "hunt.hardy@example.com",
+      "phone": "+13283056405",
+      "status": "pending",
+      "username": "hunt_hardy",
+      "createdAt": "2022-02-20T19:29:38.431Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "daniels.parsons@example.com",
+      "phone": "+17830071096",
+      "status": "active",
+      "username": "daniels_parsons",
+      "createdAt": "2024-10-20T19:55:14.858Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "irene.hendricks@example.com",
+      "phone": "+11678850938",
+      "status": "active",
+      "username": "irene_hendricks",
+      "createdAt": "2025-04-22T03:14:51.645Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "chang.walker@example.com",
+      "phone": "+13721551609",
+      "status": "inactive",
+      "username": "chang_walker",
+      "createdAt": "2023-03-24T11:51:08.688Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "hopper.martinez@example.com",
+      "phone": "+16059095839",
+      "status": "active",
+      "username": "hopper_martinez",
+      "createdAt": "2024-12-04T15:58:15.638Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "lynette.howell@example.com",
+      "phone": "+19727458555",
+      "status": "inactive",
+      "username": "lynette_howell",
+      "createdAt": "2022-10-02T06:59:44.367Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "farley.morales@example.com",
+      "phone": "+11440406327",
+      "status": "active",
+      "username": "farley_morales",
+      "createdAt": "2024-12-31T01:08:22.355Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "heath.stokes@example.com",
+      "phone": "+13529382744",
+      "status": "inactive",
+      "username": "heath_stokes",
+      "createdAt": "2022-08-30T19:36:06.098Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "bradley.crawford@example.com",
+      "phone": "+17988040115",
+      "status": "pending",
+      "username": "bradley_crawford",
+      "createdAt": "2022-08-03T04:08:16.169Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "jessie.harmon@example.com",
+      "phone": "+17365578506",
+      "status": "active",
+      "username": "jessie_harmon",
+      "createdAt": "2023-06-24T22:59:39.452Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "elsa.kirby@example.com",
+      "phone": "+19840659796",
+      "status": "active",
+      "username": "elsa_kirby",
+      "createdAt": "2022-04-13T05:50:40.096Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "hines.norman@example.com",
+      "phone": "+12574025939",
+      "status": "pending",
+      "username": "hines_norman",
+      "createdAt": "2024-01-27T01:49:50.544Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lina.ferguson@example.com",
+      "phone": "+16302313172",
+      "status": "pending",
+      "username": "lina_ferguson",
+      "createdAt": "2022-10-29T14:54:23.830Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "deloris.herrera@example.com",
+      "phone": "+17740756144",
+      "status": "pending",
+      "username": "deloris_herrera",
+      "createdAt": "2025-01-27T11:37:42.704Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "julie.mckay@example.com",
+      "phone": "+18347593235",
+      "status": "pending",
+      "username": "julie_mckay",
+      "createdAt": "2023-03-26T10:37:55.604Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "cohen.patterson@example.com",
+      "phone": "+11026854278",
+      "status": "pending",
+      "username": "cohen_patterson",
+      "createdAt": "2024-10-21T18:05:50.598Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "kaitlin.hale@example.com",
+      "phone": "+14861029988",
+      "status": "inactive",
+      "username": "kaitlin_hale",
+      "createdAt": "2024-07-22T23:03:21.139Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "hickman.everett@example.com",
+      "phone": "+12518312697",
+      "status": "active",
+      "username": "hickman_everett",
+      "createdAt": "2022-01-31T15:51:45.219Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "tucker.estrada@example.com",
+      "phone": "+17454022903",
+      "status": "active",
+      "username": "tucker_estrada",
+      "createdAt": "2022-10-17T10:19:04.922Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "michael.espinoza@example.com",
+      "phone": "+15394142588",
+      "status": "inactive",
+      "username": "michael_espinoza",
+      "createdAt": "2022-08-23T10:45:06.990Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "adele.tillman@example.com",
+      "phone": "+16150923857",
+      "status": "pending",
+      "username": "adele_tillman",
+      "createdAt": "2025-01-21T07:30:13.280Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lucille.gomez@example.com",
+      "phone": "+16735320335",
+      "status": "active",
+      "username": "lucille_gomez",
+      "createdAt": "2023-12-17T05:12:00.960Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "terrie.buckley@example.com",
+      "phone": "+17207031736",
+      "status": "pending",
+      "username": "terrie_buckley",
+      "createdAt": "2025-02-10T01:42:57.897Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "susanna.lamb@example.com",
+      "phone": "+11507397138",
+      "status": "inactive",
+      "username": "susanna_lamb",
+      "createdAt": "2023-11-06T10:11:08.776Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "candace.horn@example.com",
+      "phone": "+12827225237",
+      "status": "inactive",
+      "username": "candace_horn",
+      "createdAt": "2024-08-27T08:05:20.942Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "dixon.tran@example.com",
+      "phone": "+18302049160",
+      "status": "pending",
+      "username": "dixon_tran",
+      "createdAt": "2024-10-23T15:49:36.457Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mosley.drake@example.com",
+      "phone": "+15899347021",
+      "status": "active",
+      "username": "mosley_drake",
+      "createdAt": "2022-07-16T17:51:05.111Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "campos.silva@example.com",
+      "phone": "+12400274758",
+      "status": "active",
+      "username": "campos_silva",
+      "createdAt": "2024-08-08T07:15:11.104Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "gardner.ortega@example.com",
+      "phone": "+17458494153",
+      "status": "active",
+      "username": "gardner_ortega",
+      "createdAt": "2022-06-01T07:01:17.234Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "santana.merrill@example.com",
+      "phone": "+18494929277",
+      "status": "pending",
+      "username": "santana_merrill",
+      "createdAt": "2024-02-25T14:44:50.616Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "edna.lewis@example.com",
+      "phone": "+15593191598",
+      "status": "pending",
+      "username": "edna_lewis",
+      "createdAt": "2022-12-07T00:00:35.431Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "isabelle.daniels@example.com",
+      "phone": "+19867100742",
+      "status": "inactive",
+      "username": "isabelle_daniels",
+      "createdAt": "2023-01-04T09:59:37.297Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mccall.nielsen@example.com",
+      "phone": "+17657984486",
+      "status": "inactive",
+      "username": "mccall_nielsen",
+      "createdAt": "2023-10-11T20:24:26.949Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "walker.ellison@example.com",
+      "phone": "+12070984511",
+      "status": "pending",
+      "username": "walker_ellison",
+      "createdAt": "2024-07-30T23:15:13.782Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "dodson.haynes@example.com",
+      "phone": "+15736506581",
+      "status": "pending",
+      "username": "dodson_haynes",
+      "createdAt": "2024-09-20T19:14:50.181Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "hartman.battle@example.com",
+      "phone": "+11383843621",
+      "status": "pending",
+      "username": "hartman_battle",
+      "createdAt": "2023-12-28T22:00:38.381Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "colette.hancock@example.com",
+      "phone": "+16014201004",
+      "status": "active",
+      "username": "colette_hancock",
+      "createdAt": "2022-01-01T14:52:38.323Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "yvette.carter@example.com",
+      "phone": "+16586665208",
+      "status": "active",
+      "username": "yvette_carter",
+      "createdAt": "2023-09-17T05:33:40.673Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "underwood.collier@example.com",
+      "phone": "+13136546324",
+      "status": "active",
+      "username": "underwood_collier",
+      "createdAt": "2023-10-28T22:02:13.877Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "battle.glenn@example.com",
+      "phone": "+13635037137",
+      "status": "pending",
+      "username": "battle_glenn",
+      "createdAt": "2022-12-30T12:11:12.811Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "castillo.wolfe@example.com",
+      "phone": "+19798485274",
+      "status": "active",
+      "username": "castillo_wolfe",
+      "createdAt": "2023-12-21T18:55:09.958Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "matthews.bates@example.com",
+      "phone": "+17299848493",
+      "status": "pending",
+      "username": "matthews_bates",
+      "createdAt": "2022-07-28T08:09:23.386Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "wilcox.mcclure@example.com",
+      "phone": "+18805603893",
+      "status": "active",
+      "username": "wilcox_mcclure",
+      "createdAt": "2024-07-27T12:50:11.322Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "cora.salas@example.com",
+      "phone": "+19087826674",
+      "status": "pending",
+      "username": "cora_salas",
+      "createdAt": "2022-02-14T02:38:30.030Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "william.bray@example.com",
+      "phone": "+19724655114",
+      "status": "pending",
+      "username": "william_bray",
+      "createdAt": "2022-04-03T12:41:28.416Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "linda.hinton@example.com",
+      "phone": "+16541000467",
+      "status": "inactive",
+      "username": "linda_hinton",
+      "createdAt": "2022-11-04T16:37:59.148Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "tiffany.whitney@example.com",
+      "phone": "+19276475309",
+      "status": "active",
+      "username": "tiffany_whitney",
+      "createdAt": "2022-10-02T20:24:14.459Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "kennedy.todd@example.com",
+      "phone": "+18749873468",
+      "status": "active",
+      "username": "kennedy_todd",
+      "createdAt": "2023-11-29T03:52:20.159Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "erma.mullins@example.com",
+      "phone": "+13950515032",
+      "status": "inactive",
+      "username": "erma_mullins",
+      "createdAt": "2022-03-10T14:28:55.142Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "minerva.knight@example.com",
+      "phone": "+18034320548",
+      "status": "active",
+      "username": "minerva_knight",
+      "createdAt": "2025-02-26T15:19:25.201Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "christian.berry@example.com",
+      "phone": "+14453843805",
+      "status": "inactive",
+      "username": "christian_berry",
+      "createdAt": "2023-12-21T01:40:47.044Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "eileen.yang@example.com",
+      "phone": "+11916570815",
+      "status": "pending",
+      "username": "eileen_yang",
+      "createdAt": "2024-11-16T17:12:01.398Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "russo.lopez@example.com",
+      "phone": "+15273656605",
+      "status": "pending",
+      "username": "russo_lopez",
+      "createdAt": "2025-04-05T00:06:51.965Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "janette.knapp@example.com",
+      "phone": "+19873013322",
+      "status": "pending",
+      "username": "janette_knapp",
+      "createdAt": "2023-11-17T20:50:23.541Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "pitts.york@example.com",
+      "phone": "+18962394353",
+      "status": "active",
+      "username": "pitts_york",
+      "createdAt": "2024-10-08T05:33:36.083Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "boyle.doyle@example.com",
+      "phone": "+16697191580",
+      "status": "active",
+      "username": "boyle_doyle",
+      "createdAt": "2023-01-01T15:25:19.719Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "thompson.mann@example.com",
+      "phone": "+13312506918",
+      "status": "active",
+      "username": "thompson_mann",
+      "createdAt": "2023-01-25T16:30:21.694Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "sherrie.watkins@example.com",
+      "phone": "+16669435953",
+      "status": "pending",
+      "username": "sherrie_watkins",
+      "createdAt": "2024-09-07T20:02:27.462Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "tracie.santos@example.com",
+      "phone": "+12727249557",
+      "status": "active",
+      "username": "tracie_santos",
+      "createdAt": "2022-11-11T19:15:36.541Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "cristina.kaufman@example.com",
+      "phone": "+14516302186",
+      "status": "inactive",
+      "username": "cristina_kaufman",
+      "createdAt": "2024-06-07T16:14:37.947Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "david.erickson@example.com",
+      "phone": "+18515758578",
+      "status": "inactive",
+      "username": "david_erickson",
+      "createdAt": "2025-04-05T19:12:21.921Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "fulton.randall@example.com",
+      "phone": "+11155506892",
+      "status": "active",
+      "username": "fulton_randall",
+      "createdAt": "2025-01-27T01:14:15.192Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "turner.page@example.com",
+      "phone": "+15904749956",
+      "status": "inactive",
+      "username": "turner_page",
+      "createdAt": "2023-12-31T17:02:41.836Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "berg.smith@example.com",
+      "phone": "+12001557363",
+      "status": "inactive",
+      "username": "berg_smith",
+      "createdAt": "2024-09-10T00:44:11.558Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mendoza.hutchinson@example.com",
+      "phone": "+16703568051",
+      "status": "active",
+      "username": "mendoza_hutchinson",
+      "createdAt": "2024-03-12T06:57:08.095Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "benson.welch@example.com",
+      "phone": "+13754413091",
+      "status": "active",
+      "username": "benson_welch",
+      "createdAt": "2022-03-11T06:40:38.815Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "amie.morton@example.com",
+      "phone": "+14859270361",
+      "status": "pending",
+      "username": "amie_morton",
+      "createdAt": "2025-02-22T18:39:25.940Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "keller.hamilton@example.com",
+      "phone": "+17711036683",
+      "status": "pending",
+      "username": "keller_hamilton",
+      "createdAt": "2022-02-09T22:45:30.691Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "allie.stewart@example.com",
+      "phone": "+12827319757",
+      "status": "active",
+      "username": "allie_stewart",
+      "createdAt": "2024-03-28T10:38:58.959Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "raquel.merritt@example.com",
+      "phone": "+14150799647",
+      "status": "inactive",
+      "username": "raquel_merritt",
+      "createdAt": "2024-05-30T19:34:13.696Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "brenda.kennedy@example.com",
+      "phone": "+18241562730",
+      "status": "inactive",
+      "username": "brenda_kennedy",
+      "createdAt": "2023-04-18T06:28:34.482Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "celeste.sherman@example.com",
+      "phone": "+17403120919",
+      "status": "inactive",
+      "username": "celeste_sherman",
+      "createdAt": "2023-06-27T17:44:04.114Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "justice.vinson@example.com",
+      "phone": "+17212097613",
+      "status": "inactive",
+      "username": "justice_vinson",
+      "createdAt": "2024-09-18T10:58:08.094Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "woodward.alston@example.com",
+      "phone": "+12838188757",
+      "status": "pending",
+      "username": "woodward_alston",
+      "createdAt": "2024-12-14T18:24:06.844Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "joanne.valencia@example.com",
+      "phone": "+17572057293",
+      "status": "pending",
+      "username": "joanne_valencia",
+      "createdAt": "2022-09-21T17:43:20.653Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "nichole.wong@example.com",
+      "phone": "+17725616890",
+      "status": "inactive",
+      "username": "nichole_wong",
+      "createdAt": "2024-04-07T11:42:33.338Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "jasmine.tate@example.com",
+      "phone": "+17334742334",
+      "status": "active",
+      "username": "jasmine_tate",
+      "createdAt": "2024-10-17T06:31:26.106Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "celia.butler@example.com",
+      "phone": "+13310529336",
+      "status": "active",
+      "username": "celia_butler",
+      "createdAt": "2023-06-19T08:02:48.442Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "byers.fletcher@example.com",
+      "phone": "+18229395141",
+      "status": "active",
+      "username": "byers_fletcher",
+      "createdAt": "2023-08-27T02:54:27.258Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "buckner.raymond@example.com",
+      "phone": "+19151697914",
+      "status": "active",
+      "username": "buckner_raymond",
+      "createdAt": "2024-11-03T08:03:29.344Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "faye.murray@example.com",
+      "phone": "+15695062908",
+      "status": "inactive",
+      "username": "faye_murray",
+      "createdAt": "2025-03-06T08:09:52.643Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "everett.lynn@example.com",
+      "phone": "+11486272419",
+      "status": "inactive",
+      "username": "everett_lynn",
+      "createdAt": "2022-06-22T19:07:35.915Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "frieda.hobbs@example.com",
+      "phone": "+11789647982",
+      "status": "active",
+      "username": "frieda_hobbs",
+      "createdAt": "2022-09-18T20:17:04.077Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "marlene.patton@example.com",
+      "phone": "+13815149526",
+      "status": "inactive",
+      "username": "marlene_patton",
+      "createdAt": "2023-10-30T20:21:04.177Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "porter.vaughn@example.com",
+      "phone": "+15061132800",
+      "status": "inactive",
+      "username": "porter_vaughn",
+      "createdAt": "2024-10-17T16:17:04.866Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "freeman.ray@example.com",
+      "phone": "+18559842804",
+      "status": "active",
+      "username": "freeman_ray",
+      "createdAt": "2022-05-18T08:11:59.185Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "huber.fry@example.com",
+      "phone": "+11074832920",
+      "status": "active",
+      "username": "huber_fry",
+      "createdAt": "2025-02-04T12:40:39.013Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "rena.fischer@example.com",
+      "phone": "+17886735548",
+      "status": "pending",
+      "username": "rena_fischer",
+      "createdAt": "2022-01-13T18:40:14.343Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "flora.elliott@example.com",
+      "phone": "+17741907443",
+      "status": "pending",
+      "username": "flora_elliott",
+      "createdAt": "2023-09-20T08:42:18.545Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "garner.george@example.com",
+      "phone": "+13429244742",
+      "status": "inactive",
+      "username": "garner_george",
+      "createdAt": "2024-02-06T03:57:02.183Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "tabitha.trevino@example.com",
+      "phone": "+11698890907",
+      "status": "active",
+      "username": "tabitha_trevino",
+      "createdAt": "2024-09-18T07:30:02.612Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "sims.durham@example.com",
+      "phone": "+19059272292",
+      "status": "active",
+      "username": "sims_durham",
+      "createdAt": "2025-01-13T08:17:12.660Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "jocelyn.lloyd@example.com",
+      "phone": "+13745383867",
+      "status": "pending",
+      "username": "jocelyn_lloyd",
+      "createdAt": "2022-03-06T10:17:21.412Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "steele.mullen@example.com",
+      "phone": "+18548191070",
+      "status": "pending",
+      "username": "steele_mullen",
+      "createdAt": "2022-09-20T01:03:35.324Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "michele.white@example.com",
+      "phone": "+15338913031",
+      "status": "inactive",
+      "username": "michele_white",
+      "createdAt": "2024-01-16T20:11:08.983Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "tyson.acevedo@example.com",
+      "phone": "+14464975048",
+      "status": "inactive",
+      "username": "tyson_acevedo",
+      "createdAt": "2023-12-10T06:51:09.989Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "jeanne.garza@example.com",
+      "phone": "+15984321260",
+      "status": "inactive",
+      "username": "jeanne_garza",
+      "createdAt": "2022-08-29T14:07:47.983Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "rita.collins@example.com",
+      "phone": "+14000990914",
+      "status": "pending",
+      "username": "rita_collins",
+      "createdAt": "2022-08-27T14:39:35.626Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "lolita.parks@example.com",
+      "phone": "+13934415275",
+      "status": "inactive",
+      "username": "lolita_parks",
+      "createdAt": "2023-11-18T07:08:50.393Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "stein.nieves@example.com",
+      "phone": "+15743680351",
+      "status": "pending",
+      "username": "stein_nieves",
+      "createdAt": "2025-05-05T16:46:58.079Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "sofia.gould@example.com",
+      "phone": "+13342949817",
+      "status": "active",
+      "username": "sofia_gould",
+      "createdAt": "2024-10-17T11:42:22.766Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "hale.sanders@example.com",
+      "phone": "+19913776075",
+      "status": "inactive",
+      "username": "hale_sanders",
+      "createdAt": "2023-05-24T18:29:38.827Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "miranda.moreno@example.com",
+      "phone": "+15853108746",
+      "status": "pending",
+      "username": "miranda_moreno",
+      "createdAt": "2022-05-30T03:51:49.475Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "samantha.wall@example.com",
+      "phone": "+18183800725",
+      "status": "pending",
+      "username": "samantha_wall",
+      "createdAt": "2023-03-27T10:24:38.079Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "yvonne.robertson@example.com",
+      "phone": "+18078915231",
+      "status": "pending",
+      "username": "yvonne_robertson",
+      "createdAt": "2024-03-17T23:57:14.259Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "addie.cotton@example.com",
+      "phone": "+16902589887",
+      "status": "inactive",
+      "username": "addie_cotton",
+      "createdAt": "2023-09-18T08:49:54.761Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "wilson.hester@example.com",
+      "phone": "+17193730924",
+      "status": "inactive",
+      "username": "wilson_hester",
+      "createdAt": "2023-07-31T17:29:51.854Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "julia.morgan@example.com",
+      "phone": "+19466401137",
+      "status": "active",
+      "username": "julia_morgan",
+      "createdAt": "2023-11-28T21:32:52.555Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "laurie.rodgers@example.com",
+      "phone": "+15744910624",
+      "status": "inactive",
+      "username": "laurie_rodgers",
+      "createdAt": "2024-01-18T14:37:56.767Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "maricela.scott@example.com",
+      "phone": "+15872171468",
+      "status": "pending",
+      "username": "maricela_scott",
+      "createdAt": "2023-01-29T07:27:40.150Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "leanna.franklin@example.com",
+      "phone": "+15311006638",
+      "status": "pending",
+      "username": "leanna_franklin",
+      "createdAt": "2023-11-09T15:21:02.949Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "jimmie.taylor@example.com",
+      "phone": "+19813774977",
+      "status": "active",
+      "username": "jimmie_taylor",
+      "createdAt": "2024-06-02T07:27:32.920Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "valencia.morse@example.com",
+      "phone": "+17541219061",
+      "status": "pending",
+      "username": "valencia_morse",
+      "createdAt": "2025-06-14T10:44:42.731Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "browning.harper@example.com",
+      "phone": "+11904446564",
+      "status": "pending",
+      "username": "browning_harper",
+      "createdAt": "2025-03-18T14:33:35.166Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "lane.kerr@example.com",
+      "phone": "+18029731476",
+      "status": "pending",
+      "username": "lane_kerr",
+      "createdAt": "2024-12-22T20:11:05.047Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "stark.griffith@example.com",
+      "phone": "+18043758819",
+      "status": "pending",
+      "username": "stark_griffith",
+      "createdAt": "2025-05-27T12:20:03.673Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "finch.gray@example.com",
+      "phone": "+18630018382",
+      "status": "active",
+      "username": "finch_gray",
+      "createdAt": "2022-03-21T12:15:10.466Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "alma.marquez@example.com",
+      "phone": "+11126302809",
+      "status": "inactive",
+      "username": "alma_marquez",
+      "createdAt": "2022-09-18T10:37:16.763Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "vonda.palmer@example.com",
+      "phone": "+15643521214",
+      "status": "active",
+      "username": "vonda_palmer",
+      "createdAt": "2022-04-16T20:44:08.030Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "tamika.mack@example.com",
+      "phone": "+14816132062",
+      "status": "inactive",
+      "username": "tamika_mack",
+      "createdAt": "2025-04-29T04:48:13.544Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "trujillo.chapman@example.com",
+      "phone": "+17641905197",
+      "status": "inactive",
+      "username": "trujillo_chapman",
+      "createdAt": "2022-11-04T23:43:01.798Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "pacheco.cooley@example.com",
+      "phone": "+19228146425",
+      "status": "active",
+      "username": "pacheco_cooley",
+      "createdAt": "2024-03-25T15:48:38.793Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "emilia.barton@example.com",
+      "phone": "+11442117243",
+      "status": "inactive",
+      "username": "emilia_barton",
+      "createdAt": "2024-07-25T18:54:07.532Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "ericka.cunningham@example.com",
+      "phone": "+17910331995",
+      "status": "inactive",
+      "username": "ericka_cunningham",
+      "createdAt": "2023-03-11T10:08:30.572Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "briggs.cash@example.com",
+      "phone": "+13963519301",
+      "status": "active",
+      "username": "briggs_cash",
+      "createdAt": "2023-12-26T01:44:54.488Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "small.colon@example.com",
+      "phone": "+12445736817",
+      "status": "pending",
+      "username": "small_colon",
+      "createdAt": "2022-08-22T13:04:05.222Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "amalia.sharp@example.com",
+      "phone": "+11180250432",
+      "status": "active",
+      "username": "amalia_sharp",
+      "createdAt": "2022-07-10T13:08:37.859Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "blanchard.beck@example.com",
+      "phone": "+19908170209",
+      "status": "active",
+      "username": "blanchard_beck",
+      "createdAt": "2023-07-11T02:08:50.400Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "goodman.mcdaniel@example.com",
+      "phone": "+11020563500",
+      "status": "active",
+      "username": "goodman_mcdaniel",
+      "createdAt": "2023-03-09T16:03:05.586Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "johnson.dunn@example.com",
+      "phone": "+18913103675",
+      "status": "active",
+      "username": "johnson_dunn",
+      "createdAt": "2022-06-11T16:30:33.894Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "clemons.harrington@example.com",
+      "phone": "+14902961752",
+      "status": "active",
+      "username": "clemons_harrington",
+      "createdAt": "2024-11-25T03:10:29.766Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lila.black@example.com",
+      "phone": "+15042253049",
+      "status": "inactive",
+      "username": "lila_black",
+      "createdAt": "2023-08-09T11:12:33.943Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "bowman.ramsey@example.com",
+      "phone": "+18269003777",
+      "status": "active",
+      "username": "bowman_ramsey",
+      "createdAt": "2022-12-28T18:12:15.014Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "jensen.bauer@example.com",
+      "phone": "+17929290141",
+      "status": "active",
+      "username": "jensen_bauer",
+      "createdAt": "2022-02-10T00:36:16.962Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "estella.howe@example.com",
+      "phone": "+14588758626",
+      "status": "pending",
+      "username": "estella_howe",
+      "createdAt": "2024-03-26T19:19:42.698Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "autumn.joseph@example.com",
+      "phone": "+17163604785",
+      "status": "pending",
+      "username": "autumn_joseph",
+      "createdAt": "2022-06-24T16:25:53.060Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "sallie.bridges@example.com",
+      "phone": "+17829348527",
+      "status": "inactive",
+      "username": "sallie_bridges",
+      "createdAt": "2024-03-29T09:18:25.753Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "callahan.mejia@example.com",
+      "phone": "+11698685024",
+      "status": "pending",
+      "username": "callahan_mejia",
+      "createdAt": "2024-03-06T22:33:59.504Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "james.caldwell@example.com",
+      "phone": "+18299150027",
+      "status": "inactive",
+      "username": "james_caldwell",
+      "createdAt": "2023-06-26T04:54:29.563Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "house.lyons@example.com",
+      "phone": "+17569168046",
+      "status": "inactive",
+      "username": "house_lyons",
+      "createdAt": "2023-02-20T18:53:00.140Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "sophie.moore@example.com",
+      "phone": "+18781456998",
+      "status": "inactive",
+      "username": "sophie_moore",
+      "createdAt": "2023-07-27T20:35:03.835Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "phyllis.mays@example.com",
+      "phone": "+11456457245",
+      "status": "inactive",
+      "username": "phyllis_mays",
+      "createdAt": "2025-05-02T14:40:18.337Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "manning.richard@example.com",
+      "phone": "+18749574463",
+      "status": "pending",
+      "username": "manning_richard",
+      "createdAt": "2025-06-07T21:08:48.131Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "workman.ross@example.com",
+      "phone": "+12706416280",
+      "status": "inactive",
+      "username": "workman_ross",
+      "createdAt": "2022-10-06T19:30:32.145Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "crane.harrell@example.com",
+      "phone": "+19246067319",
+      "status": "pending",
+      "username": "crane_harrell",
+      "createdAt": "2023-09-19T08:25:28.449Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "fernandez.russo@example.com",
+      "phone": "+14996466230",
+      "status": "pending",
+      "username": "fernandez_russo",
+      "createdAt": "2024-03-20T15:21:34.153Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "maynard.downs@example.com",
+      "phone": "+13217157793",
+      "status": "active",
+      "username": "maynard_downs",
+      "createdAt": "2025-05-09T10:41:29.040Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "gordon.schroeder@example.com",
+      "phone": "+15779497945",
+      "status": "active",
+      "username": "gordon_schroeder",
+      "createdAt": "2024-10-24T07:47:42.126Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "angie.albert@example.com",
+      "phone": "+17365589573",
+      "status": "pending",
+      "username": "angie_albert",
+      "createdAt": "2023-02-04T23:46:08.540Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "riley.luna@example.com",
+      "phone": "+16666324650",
+      "status": "pending",
+      "username": "riley_luna",
+      "createdAt": "2022-03-25T19:27:45.560Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "cash.farmer@example.com",
+      "phone": "+13959374969",
+      "status": "active",
+      "username": "cash_farmer",
+      "createdAt": "2023-01-29T20:12:52.489Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "simmons.case@example.com",
+      "phone": "+19267068340",
+      "status": "active",
+      "username": "simmons_case",
+      "createdAt": "2022-12-17T11:25:59.209Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "yang.bradley@example.com",
+      "phone": "+14865465460",
+      "status": "pending",
+      "username": "yang_bradley",
+      "createdAt": "2025-01-04T00:18:20.947Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "hoffman.munoz@example.com",
+      "phone": "+12009500754",
+      "status": "inactive",
+      "username": "hoffman_munoz",
+      "createdAt": "2024-12-16T12:46:30.649Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "gay.jordan@example.com",
+      "phone": "+12637446009",
+      "status": "active",
+      "username": "gay_jordan",
+      "createdAt": "2022-12-02T01:12:36.493Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "ballard.lucas@example.com",
+      "phone": "+18792162189",
+      "status": "active",
+      "username": "ballard_lucas",
+      "createdAt": "2023-02-05T22:32:23.401Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "hamilton.chambers@example.com",
+      "phone": "+13370665562",
+      "status": "pending",
+      "username": "hamilton_chambers",
+      "createdAt": "2023-07-10T00:21:28.805Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "gay.macdonald@example.com",
+      "phone": "+13409187560",
+      "status": "pending",
+      "username": "gay_macdonald",
+      "createdAt": "2024-12-24T08:59:27.302Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lori.harris@example.com",
+      "phone": "+15770041398",
+      "status": "inactive",
+      "username": "lori_harris",
+      "createdAt": "2023-02-25T20:19:28.179Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "angel.huffman@example.com",
+      "phone": "+19886124248",
+      "status": "active",
+      "username": "angel_huffman",
+      "createdAt": "2023-08-28T14:37:21.504Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "tonya.gibbs@example.com",
+      "phone": "+14199019325",
+      "status": "inactive",
+      "username": "tonya_gibbs",
+      "createdAt": "2022-11-28T04:12:38.720Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "nichols.robles@example.com",
+      "phone": "+13318705316",
+      "status": "inactive",
+      "username": "nichols_robles",
+      "createdAt": "2024-01-15T07:13:09.532Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "good.anderson@example.com",
+      "phone": "+12464836044",
+      "status": "active",
+      "username": "good_anderson",
+      "createdAt": "2025-06-01T04:08:14.672Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "mooney.singleton@example.com",
+      "phone": "+18080073620",
+      "status": "pending",
+      "username": "mooney_singleton",
+      "createdAt": "2024-12-28T19:10:51.157Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "therese.webster@example.com",
+      "phone": "+18312885540",
+      "status": "active",
+      "username": "therese_webster",
+      "createdAt": "2022-06-05T07:22:22.910Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "maldonado.mcclain@example.com",
+      "phone": "+14811368782",
+      "status": "active",
+      "username": "maldonado_mcclain",
+      "createdAt": "2022-11-13T19:26:45.769Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "stone.clayton@example.com",
+      "phone": "+14535377560",
+      "status": "active",
+      "username": "stone_clayton",
+      "createdAt": "2024-06-03T11:18:26.143Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "winnie.maldonado@example.com",
+      "phone": "+14972040015",
+      "status": "inactive",
+      "username": "winnie_maldonado",
+      "createdAt": "2025-06-13T15:56:31.741Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "donovan.baxter@example.com",
+      "phone": "+19793102867",
+      "status": "inactive",
+      "username": "donovan_baxter",
+      "createdAt": "2022-05-21T06:11:39.042Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "chelsea.irwin@example.com",
+      "phone": "+19160689097",
+      "status": "inactive",
+      "username": "chelsea_irwin",
+      "createdAt": "2023-05-08T17:53:10.251Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "osborn.hopper@example.com",
+      "phone": "+13778468321",
+      "status": "inactive",
+      "username": "osborn_hopper",
+      "createdAt": "2024-07-19T05:56:49.864Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "marsh.jacobs@example.com",
+      "phone": "+17836335386",
+      "status": "inactive",
+      "username": "marsh_jacobs",
+      "createdAt": "2025-04-17T17:13:11.731Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "ola.skinner@example.com",
+      "phone": "+12380721657",
+      "status": "inactive",
+      "username": "ola_skinner",
+      "createdAt": "2022-02-06T02:59:57.519Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "horton.hill@example.com",
+      "phone": "+14616724120",
+      "status": "inactive",
+      "username": "horton_hill",
+      "createdAt": "2025-01-27T23:35:17.136Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "schmidt.lynch@example.com",
+      "phone": "+18850763044",
+      "status": "pending",
+      "username": "schmidt_lynch",
+      "createdAt": "2025-04-23T16:39:58.364Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "marilyn.thornton@example.com",
+      "phone": "+17461560255",
+      "status": "active",
+      "username": "marilyn_thornton",
+      "createdAt": "2022-05-18T01:42:30.859Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "araceli.sims@example.com",
+      "phone": "+15469517307",
+      "status": "inactive",
+      "username": "araceli_sims",
+      "createdAt": "2025-05-24T05:51:33.525Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "boyer.larson@example.com",
+      "phone": "+15473018500",
+      "status": "inactive",
+      "username": "boyer_larson",
+      "createdAt": "2024-07-07T08:00:55.982Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "audrey.hendrix@example.com",
+      "phone": "+12395062368",
+      "status": "inactive",
+      "username": "audrey_hendrix",
+      "createdAt": "2023-04-09T06:23:16.495Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "bruce.carney@example.com",
+      "phone": "+14134657966",
+      "status": "inactive",
+      "username": "bruce_carney",
+      "createdAt": "2022-07-27T13:04:39.033Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "jerry.evans@example.com",
+      "phone": "+11911950087",
+      "status": "pending",
+      "username": "jerry_evans",
+      "createdAt": "2023-01-12T10:36:16.451Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "cox.decker@example.com",
+      "phone": "+14196464907",
+      "status": "pending",
+      "username": "cox_decker",
+      "createdAt": "2024-02-02T13:50:53.765Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "gallegos.cardenas@example.com",
+      "phone": "+11490803137",
+      "status": "active",
+      "username": "gallegos_cardenas",
+      "createdAt": "2025-02-26T01:22:44.116Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "elliott.bonner@example.com",
+      "phone": "+17986821845",
+      "status": "pending",
+      "username": "elliott_bonner",
+      "createdAt": "2025-01-13T23:17:35.559Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "morton.mcgee@example.com",
+      "phone": "+19570248047",
+      "status": "inactive",
+      "username": "morton_mcgee",
+      "createdAt": "2025-04-19T06:37:52.464Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "rasmussen.barr@example.com",
+      "phone": "+13754953407",
+      "status": "inactive",
+      "username": "rasmussen_barr",
+      "createdAt": "2024-09-06T09:52:57.778Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "martin.clarke@example.com",
+      "phone": "+11229076489",
+      "status": "active",
+      "username": "martin_clarke",
+      "createdAt": "2025-01-25T21:49:07.715Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "wolf.berg@example.com",
+      "phone": "+19640852453",
+      "status": "inactive",
+      "username": "wolf_berg",
+      "createdAt": "2025-02-07T21:42:34.480Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "gonzalez.nicholson@example.com",
+      "phone": "+14871632326",
+      "status": "pending",
+      "username": "gonzalez_nicholson",
+      "createdAt": "2023-02-28T00:47:54.857Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lancaster.rivers@example.com",
+      "phone": "+14776018516",
+      "status": "pending",
+      "username": "lancaster_rivers",
+      "createdAt": "2022-09-14T13:10:36.489Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "waters.mayer@example.com",
+      "phone": "+17448822588",
+      "status": "pending",
+      "username": "waters_mayer",
+      "createdAt": "2023-07-08T05:57:28.254Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "carey.callahan@example.com",
+      "phone": "+13729448438",
+      "status": "active",
+      "username": "carey_callahan",
+      "createdAt": "2025-03-14T10:40:07.284Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "nikki.perez@example.com",
+      "phone": "+18924439565",
+      "status": "pending",
+      "username": "nikki_perez",
+      "createdAt": "2024-01-12T23:28:17.683Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "pace.snider@example.com",
+      "phone": "+13438593477",
+      "status": "inactive",
+      "username": "pace_snider",
+      "createdAt": "2023-10-05T23:45:00.523Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "noel.long@example.com",
+      "phone": "+12356787644",
+      "status": "pending",
+      "username": "noel_long",
+      "createdAt": "2023-03-10T02:52:38.726Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "naomi.foreman@example.com",
+      "phone": "+18789208769",
+      "status": "active",
+      "username": "naomi_foreman",
+      "createdAt": "2024-11-08T08:43:36.422Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "wendy.ryan@example.com",
+      "phone": "+13095394270",
+      "status": "pending",
+      "username": "wendy_ryan",
+      "createdAt": "2024-10-22T08:48:05.908Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "ware.ramirez@example.com",
+      "phone": "+19948434147",
+      "status": "active",
+      "username": "ware_ramirez",
+      "createdAt": "2023-09-10T15:25:54.092Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lilian.livingston@example.com",
+      "phone": "+13149976381",
+      "status": "active",
+      "username": "lilian_livingston",
+      "createdAt": "2024-06-12T19:11:07.577Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "marion.sparks@example.com",
+      "phone": "+16726577578",
+      "status": "active",
+      "username": "marion_sparks",
+      "createdAt": "2023-05-13T12:31:00.063Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "mccray.walters@example.com",
+      "phone": "+15305283693",
+      "status": "inactive",
+      "username": "mccray_walters",
+      "createdAt": "2025-06-24T14:07:50.712Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "leta.flores@example.com",
+      "phone": "+17389722203",
+      "status": "pending",
+      "username": "leta_flores",
+      "createdAt": "2024-09-25T13:35:45.582Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "bonner.moss@example.com",
+      "phone": "+11318240784",
+      "status": "pending",
+      "username": "bonner_moss",
+      "createdAt": "2024-01-04T11:02:22.719Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "marks.hayes@example.com",
+      "phone": "+18293076273",
+      "status": "pending",
+      "username": "marks_hayes",
+      "createdAt": "2023-06-26T18:20:01.208Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "hutchinson.bass@example.com",
+      "phone": "+13771501527",
+      "status": "active",
+      "username": "hutchinson_bass",
+      "createdAt": "2024-07-24T10:21:31.228Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mcclure.ashley@example.com",
+      "phone": "+16417633408",
+      "status": "inactive",
+      "username": "mcclure_ashley",
+      "createdAt": "2024-01-03T03:51:16.549Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "floyd.crosby@example.com",
+      "phone": "+18634297956",
+      "status": "active",
+      "username": "floyd_crosby",
+      "createdAt": "2025-05-31T13:07:01.935Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "vargas.armstrong@example.com",
+      "phone": "+13325917484",
+      "status": "pending",
+      "username": "vargas_armstrong",
+      "createdAt": "2024-08-20T19:26:09.572Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "vincent.buchanan@example.com",
+      "phone": "+13432796239",
+      "status": "pending",
+      "username": "vincent_buchanan",
+      "createdAt": "2022-07-16T19:29:43.034Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "kelsey.herring@example.com",
+      "phone": "+15268282617",
+      "status": "pending",
+      "username": "kelsey_herring",
+      "createdAt": "2022-10-10T21:10:58.123Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "walls.moran@example.com",
+      "phone": "+17441994975",
+      "status": "active",
+      "username": "walls_moran",
+      "createdAt": "2024-02-24T14:44:22.171Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "hensley.keller@example.com",
+      "phone": "+14460413248",
+      "status": "inactive",
+      "username": "hensley_keller",
+      "createdAt": "2023-08-16T09:54:57.370Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "collier.soto@example.com",
+      "phone": "+19644367428",
+      "status": "pending",
+      "username": "collier_soto",
+      "createdAt": "2025-01-23T15:55:52.416Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "buckley.johnson@example.com",
+      "phone": "+13414413654",
+      "status": "active",
+      "username": "buckley_johnson",
+      "createdAt": "2023-08-30T15:17:32.694Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "hendricks.sargent@example.com",
+      "phone": "+19016907383",
+      "status": "inactive",
+      "username": "hendricks_sargent",
+      "createdAt": "2022-02-12T05:09:31.806Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "robbie.bender@example.com",
+      "phone": "+12644319072",
+      "status": "inactive",
+      "username": "robbie_bender",
+      "createdAt": "2023-10-10T17:41:17.528Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "elena.lowery@example.com",
+      "phone": "+14943819060",
+      "status": "inactive",
+      "username": "elena_lowery",
+      "createdAt": "2023-09-16T22:24:10.596Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "laura.lancaster@example.com",
+      "phone": "+13514626823",
+      "status": "inactive",
+      "username": "laura_lancaster",
+      "createdAt": "2024-09-26T13:44:20.021Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "millicent.wade@example.com",
+      "phone": "+16602643920",
+      "status": "pending",
+      "username": "millicent_wade",
+      "createdAt": "2022-09-23T02:16:30.020Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "guerra.brady@example.com",
+      "phone": "+13710575559",
+      "status": "inactive",
+      "username": "guerra_brady",
+      "createdAt": "2024-11-17T06:08:01.261Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "rosie.weiss@example.com",
+      "phone": "+18521853991",
+      "status": "active",
+      "username": "rosie_weiss",
+      "createdAt": "2022-06-20T00:17:04.553Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "matilda.simon@example.com",
+      "phone": "+16652713478",
+      "status": "active",
+      "username": "matilda_simon",
+      "createdAt": "2023-12-08T08:12:59.836Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "april.rutledge@example.com",
+      "phone": "+14448452973",
+      "status": "inactive",
+      "username": "april_rutledge",
+      "createdAt": "2023-11-20T01:38:24.833Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "leann.fowler@example.com",
+      "phone": "+14984229891",
+      "status": "pending",
+      "username": "leann_fowler",
+      "createdAt": "2024-11-23T10:48:10.271Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "holloway.baird@example.com",
+      "phone": "+12365181987",
+      "status": "inactive",
+      "username": "holloway_baird",
+      "createdAt": "2025-01-10T23:02:56.105Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "simon.morrison@example.com",
+      "phone": "+12187470907",
+      "status": "active",
+      "username": "simon_morrison",
+      "createdAt": "2025-06-20T08:24:09.103Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "grimes.parrish@example.com",
+      "phone": "+18265694795",
+      "status": "pending",
+      "username": "grimes_parrish",
+      "createdAt": "2022-08-11T03:33:04.996Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "traci.french@example.com",
+      "phone": "+13350672492",
+      "status": "pending",
+      "username": "traci_french",
+      "createdAt": "2022-08-09T08:11:57.237Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "long.jones@example.com",
+      "phone": "+16980816171",
+      "status": "inactive",
+      "username": "long_jones",
+      "createdAt": "2025-06-09T03:01:07.387Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "stokes.aguirre@example.com",
+      "phone": "+18487357742",
+      "status": "pending",
+      "username": "stokes_aguirre",
+      "createdAt": "2023-04-25T02:22:45.144Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "gladys.murphy@example.com",
+      "phone": "+19646543530",
+      "status": "inactive",
+      "username": "gladys_murphy",
+      "createdAt": "2022-06-19T05:46:58.909Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "hilary.schneider@example.com",
+      "phone": "+18381168630",
+      "status": "inactive",
+      "username": "hilary_schneider",
+      "createdAt": "2024-06-09T15:16:32.017Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "freda.stuart@example.com",
+      "phone": "+15248458225",
+      "status": "inactive",
+      "username": "freda_stuart",
+      "createdAt": "2023-06-27T09:32:38.465Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "larson.love@example.com",
+      "phone": "+19965304700",
+      "status": "active",
+      "username": "larson_love",
+      "createdAt": "2024-12-28T06:17:20.265Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "latoya.hunt@example.com",
+      "phone": "+13178051926",
+      "status": "pending",
+      "username": "latoya_hunt",
+      "createdAt": "2023-11-23T13:07:00.981Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "shelly.martin@example.com",
+      "phone": "+18785168400",
+      "status": "inactive",
+      "username": "shelly_martin",
+      "createdAt": "2024-11-07T00:21:56.362Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "atkinson.hess@example.com",
+      "phone": "+15592165524",
+      "status": "active",
+      "username": "atkinson_hess",
+      "createdAt": "2025-03-29T13:38:30.821Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "eugenia.oneil@example.com",
+      "phone": "+15793006960",
+      "status": "pending",
+      "username": "eugenia_oneil",
+      "createdAt": "2024-05-25T23:08:41.667Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "key.mcmahon@example.com",
+      "phone": "+11331792146",
+      "status": "active",
+      "username": "key_mcmahon",
+      "createdAt": "2022-01-23T06:02:05.947Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "avila.rasmussen@example.com",
+      "phone": "+11813827880",
+      "status": "active",
+      "username": "avila_rasmussen",
+      "createdAt": "2025-05-21T03:19:20.594Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "cain.jenkins@example.com",
+      "phone": "+11978163278",
+      "status": "pending",
+      "username": "cain_jenkins",
+      "createdAt": "2022-01-07T15:14:42.267Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "liliana.wheeler@example.com",
+      "phone": "+12210423925",
+      "status": "inactive",
+      "username": "liliana_wheeler",
+      "createdAt": "2023-06-22T13:44:30.304Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "grant.booker@example.com",
+      "phone": "+18770285579",
+      "status": "inactive",
+      "username": "grant_booker",
+      "createdAt": "2025-04-11T19:40:06.946Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "yates.glover@example.com",
+      "phone": "+12341578090",
+      "status": "active",
+      "username": "yates_glover",
+      "createdAt": "2025-03-26T18:06:12.211Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "rojas.schultz@example.com",
+      "phone": "+15881637833",
+      "status": "inactive",
+      "username": "rojas_schultz",
+      "createdAt": "2025-03-09T21:54:36.704Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "annie.horne@example.com",
+      "phone": "+13835250991",
+      "status": "inactive",
+      "username": "annie_horne",
+      "createdAt": "2024-10-31T06:08:47.834Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "emma.west@example.com",
+      "phone": "+11514989458",
+      "status": "inactive",
+      "username": "emma_west",
+      "createdAt": "2024-07-27T12:09:43.116Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "carolyn.stafford@example.com",
+      "phone": "+11143662264",
+      "status": "pending",
+      "username": "carolyn_stafford",
+      "createdAt": "2022-07-22T12:15:58.005Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "rosalinda.bernard@example.com",
+      "phone": "+13742085402",
+      "status": "inactive",
+      "username": "rosalinda_bernard",
+      "createdAt": "2024-01-23T03:32:37.637Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "nixon.boyd@example.com",
+      "phone": "+18950086068",
+      "status": "inactive",
+      "username": "nixon_boyd",
+      "createdAt": "2023-10-19T12:22:42.850Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "charlene.marshall@example.com",
+      "phone": "+16116621381",
+      "status": "active",
+      "username": "charlene_marshall",
+      "createdAt": "2023-05-09T22:41:02.381Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "madeline.king@example.com",
+      "phone": "+19044123090",
+      "status": "active",
+      "username": "madeline_king",
+      "createdAt": "2023-06-05T16:55:33.828Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "leach.wilcox@example.com",
+      "phone": "+15934506854",
+      "status": "active",
+      "username": "leach_wilcox",
+      "createdAt": "2024-12-15T18:40:13.392Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "ingram.rush@example.com",
+      "phone": "+14103925894",
+      "status": "pending",
+      "username": "ingram_rush",
+      "createdAt": "2022-05-16T15:57:30.192Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "curtis.mcintyre@example.com",
+      "phone": "+11479287424",
+      "status": "active",
+      "username": "curtis_mcintyre",
+      "createdAt": "2023-04-25T07:46:28.483Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "leblanc.rowe@example.com",
+      "phone": "+15552089750",
+      "status": "pending",
+      "username": "leblanc_rowe",
+      "createdAt": "2022-01-18T21:01:56.369Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lula.carlson@example.com",
+      "phone": "+14399116440",
+      "status": "inactive",
+      "username": "lula_carlson",
+      "createdAt": "2024-10-12T18:22:31.969Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "solomon.davenport@example.com",
+      "phone": "+16821798274",
+      "status": "pending",
+      "username": "solomon_davenport",
+      "createdAt": "2025-02-04T06:46:55.542Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "richard.johns@example.com",
+      "phone": "+15622554048",
+      "status": "active",
+      "username": "richard_johns",
+      "createdAt": "2024-03-18T03:41:12.692Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "williams.santana@example.com",
+      "phone": "+15326532973",
+      "status": "inactive",
+      "username": "williams_santana",
+      "createdAt": "2025-01-23T21:06:33.155Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "juanita.monroe@example.com",
+      "phone": "+13557906026",
+      "status": "inactive",
+      "username": "juanita_monroe",
+      "createdAt": "2022-10-27T07:36:00.091Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "schwartz.jarvis@example.com",
+      "phone": "+14537134777",
+      "status": "pending",
+      "username": "schwartz_jarvis",
+      "createdAt": "2022-05-04T13:57:00.809Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "monroe.valenzuela@example.com",
+      "phone": "+14412326398",
+      "status": "inactive",
+      "username": "monroe_valenzuela",
+      "createdAt": "2025-04-04T18:46:04.540Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "nola.strickland@example.com",
+      "phone": "+18542981925",
+      "status": "inactive",
+      "username": "nola_strickland",
+      "createdAt": "2022-06-29T02:17:20.708Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "kramer.kelley@example.com",
+      "phone": "+12811633604",
+      "status": "pending",
+      "username": "kramer_kelley",
+      "createdAt": "2025-06-12T11:52:07.944Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "bradshaw.compton@example.com",
+      "phone": "+17107728089",
+      "status": "active",
+      "username": "bradshaw_compton",
+      "createdAt": "2025-01-19T06:52:19.740Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "gilmore.vazquez@example.com",
+      "phone": "+14221872149",
+      "status": "inactive",
+      "username": "gilmore_vazquez",
+      "createdAt": "2022-06-02T19:56:22.102Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "evangeline.ramos@example.com",
+      "phone": "+13092382231",
+      "status": "active",
+      "username": "evangeline_ramos",
+      "createdAt": "2024-09-11T02:43:10.880Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "melton.cross@example.com",
+      "phone": "+17341201692",
+      "status": "pending",
+      "username": "melton_cross",
+      "createdAt": "2022-09-16T03:50:52.998Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "cantu.grimes@example.com",
+      "phone": "+11414473446",
+      "status": "inactive",
+      "username": "cantu_grimes",
+      "createdAt": "2024-09-06T06:12:53.277Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "henrietta.bright@example.com",
+      "phone": "+18681398816",
+      "status": "pending",
+      "username": "henrietta_bright",
+      "createdAt": "2024-08-09T11:03:34.880Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "lorraine.solis@example.com",
+      "phone": "+13794265104",
+      "status": "pending",
+      "username": "lorraine_solis",
+      "createdAt": "2022-12-03T12:47:03.249Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mcdaniel.beasley@example.com",
+      "phone": "+14548169236",
+      "status": "active",
+      "username": "mcdaniel_beasley",
+      "createdAt": "2023-04-30T13:01:50.473Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "june.austin@example.com",
+      "phone": "+13406785376",
+      "status": "pending",
+      "username": "june_austin",
+      "createdAt": "2023-01-20T06:49:27.660Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "patel.guerra@example.com",
+      "phone": "+18886497109",
+      "status": "inactive",
+      "username": "patel_guerra",
+      "createdAt": "2025-05-29T23:06:18.441Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "carey.reilly@example.com",
+      "phone": "+16672456070",
+      "status": "active",
+      "username": "carey_reilly",
+      "createdAt": "2022-09-06T17:30:23.523Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "rosemarie.house@example.com",
+      "phone": "+17158875563",
+      "status": "inactive",
+      "username": "rosemarie_house",
+      "createdAt": "2022-08-03T18:05:55.009Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "wilda.chang@example.com",
+      "phone": "+11044038897",
+      "status": "inactive",
+      "username": "wilda_chang",
+      "createdAt": "2023-10-14T17:32:46.376Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "keisha.waters@example.com",
+      "phone": "+12264367240",
+      "status": "active",
+      "username": "keisha_waters",
+      "createdAt": "2023-02-22T22:13:55.804Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "stevenson.glass@example.com",
+      "phone": "+14246867296",
+      "status": "pending",
+      "username": "stevenson_glass",
+      "createdAt": "2022-12-07T10:15:21.536Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "wilma.greene@example.com",
+      "phone": "+19450949786",
+      "status": "pending",
+      "username": "wilma_greene",
+      "createdAt": "2023-08-31T10:12:08.501Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "robinson.banks@example.com",
+      "phone": "+19655577479",
+      "status": "pending",
+      "username": "robinson_banks",
+      "createdAt": "2022-10-21T17:58:28.779Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "jeannine.cook@example.com",
+      "phone": "+15989784639",
+      "status": "inactive",
+      "username": "jeannine_cook",
+      "createdAt": "2025-04-21T07:48:50.786Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "harriett.ford@example.com",
+      "phone": "+15043194756",
+      "status": "pending",
+      "username": "harriett_ford",
+      "createdAt": "2024-12-26T07:29:56.967Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "latisha.baldwin@example.com",
+      "phone": "+15502923241",
+      "status": "active",
+      "username": "latisha_baldwin",
+      "createdAt": "2025-06-22T06:06:49.689Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "hays.mccray@example.com",
+      "phone": "+16217222621",
+      "status": "pending",
+      "username": "hays_mccray",
+      "createdAt": "2024-07-26T17:42:24.019Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "kerri.shelton@example.com",
+      "phone": "+19912096091",
+      "status": "active",
+      "username": "kerri_shelton",
+      "createdAt": "2022-10-10T13:37:55.666Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "dina.tucker@example.com",
+      "phone": "+17467161435",
+      "status": "pending",
+      "username": "dina_tucker",
+      "createdAt": "2023-06-15T05:38:05.809Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "kelley.pope@example.com",
+      "phone": "+12240758298",
+      "status": "inactive",
+      "username": "kelley_pope",
+      "createdAt": "2023-01-19T14:08:48.379Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "whitfield.warner@example.com",
+      "phone": "+19972745486",
+      "status": "inactive",
+      "username": "whitfield_warner",
+      "createdAt": "2023-09-10T02:10:55.945Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "carroll.joyner@example.com",
+      "phone": "+13481789405",
+      "status": "active",
+      "username": "carroll_joyner",
+      "createdAt": "2023-05-12T08:41:36.628Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "garza.brown@example.com",
+      "phone": "+11516297202",
+      "status": "inactive",
+      "username": "garza_brown",
+      "createdAt": "2024-10-28T09:10:14.487Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lucy.logan@example.com",
+      "phone": "+18077228500",
+      "status": "inactive",
+      "username": "lucy_logan",
+      "createdAt": "2024-03-31T01:33:38.495Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "orr.hall@example.com",
+      "phone": "+13366426169",
+      "status": "inactive",
+      "username": "orr_hall",
+      "createdAt": "2024-04-28T00:04:18.636Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "george.dyer@example.com",
+      "phone": "+18149106011",
+      "status": "inactive",
+      "username": "george_dyer",
+      "createdAt": "2025-03-17T15:38:45.955Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "austin.mercado@example.com",
+      "phone": "+11426056708",
+      "status": "active",
+      "username": "austin_mercado",
+      "createdAt": "2025-02-09T13:50:37.549Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "carmella.burgess@example.com",
+      "phone": "+11954989715",
+      "status": "active",
+      "username": "carmella_burgess",
+      "createdAt": "2024-04-12T15:07:12.231Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "fuller.thomas@example.com",
+      "phone": "+12102739684",
+      "status": "active",
+      "username": "fuller_thomas",
+      "createdAt": "2024-08-13T16:21:27.197Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "hillary.malone@example.com",
+      "phone": "+12275152232",
+      "status": "inactive",
+      "username": "hillary_malone",
+      "createdAt": "2023-10-28T13:32:30.008Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "maggie.hooper@example.com",
+      "phone": "+13218954366",
+      "status": "pending",
+      "username": "maggie_hooper",
+      "createdAt": "2025-04-04T03:39:27.339Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "maude.carpenter@example.com",
+      "phone": "+17323401007",
+      "status": "active",
+      "username": "maude_carpenter",
+      "createdAt": "2023-08-20T10:30:39.265Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "caroline.reynolds@example.com",
+      "phone": "+16879061367",
+      "status": "inactive",
+      "username": "caroline_reynolds",
+      "createdAt": "2025-04-30T11:08:26.809Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "ernestine.weeks@example.com",
+      "phone": "+17355682132",
+      "status": "active",
+      "username": "ernestine_weeks",
+      "createdAt": "2023-08-05T04:12:59.822Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "teresa.burch@example.com",
+      "phone": "+16925119577",
+      "status": "pending",
+      "username": "teresa_burch",
+      "createdAt": "2023-12-29T18:34:19.244Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "hubbard.hays@example.com",
+      "phone": "+19953843039",
+      "status": "inactive",
+      "username": "hubbard_hays",
+      "createdAt": "2023-11-29T18:37:49.707Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "franks.baker@example.com",
+      "phone": "+18435391871",
+      "status": "pending",
+      "username": "franks_baker",
+      "createdAt": "2024-04-19T11:52:22.009Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "wolfe.james@example.com",
+      "phone": "+13266785410",
+      "status": "inactive",
+      "username": "wolfe_james",
+      "createdAt": "2023-01-20T04:48:55.695Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "jamie.herman@example.com",
+      "phone": "+18287118572",
+      "status": "active",
+      "username": "jamie_herman",
+      "createdAt": "2022-11-22T13:40:27.840Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "corinne.blackburn@example.com",
+      "phone": "+16750978174",
+      "status": "pending",
+      "username": "corinne_blackburn",
+      "createdAt": "2022-10-04T02:29:19.893Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "gutierrez.washington@example.com",
+      "phone": "+15580084870",
+      "status": "active",
+      "username": "gutierrez_washington",
+      "createdAt": "2025-01-25T15:14:05.802Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "kimberly.travis@example.com",
+      "phone": "+18657923121",
+      "status": "inactive",
+      "username": "kimberly_travis",
+      "createdAt": "2023-05-06T19:12:08.950Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "mann.riley@example.com",
+      "phone": "+12707736619",
+      "status": "active",
+      "username": "mann_riley",
+      "createdAt": "2025-01-10T23:05:07.861Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "vaughn.kim@example.com",
+      "phone": "+12399181415",
+      "status": "inactive",
+      "username": "vaughn_kim",
+      "createdAt": "2022-01-24T18:26:12.864Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "reva.weaver@example.com",
+      "phone": "+16891679219",
+      "status": "active",
+      "username": "reva_weaver",
+      "createdAt": "2023-03-30T12:38:44.375Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "knight.hampton@example.com",
+      "phone": "+13027231248",
+      "status": "active",
+      "username": "knight_hampton",
+      "createdAt": "2024-05-08T01:50:33.949Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "jones.mcintosh@example.com",
+      "phone": "+12389837773",
+      "status": "pending",
+      "username": "jones_mcintosh",
+      "createdAt": "2023-07-10T14:10:14.217Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "shanna.daugherty@example.com",
+      "phone": "+14170898738",
+      "status": "active",
+      "username": "shanna_daugherty",
+      "createdAt": "2024-04-13T15:20:08.083Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "kim.duffy@example.com",
+      "phone": "+15624872041",
+      "status": "inactive",
+      "username": "kim_duffy",
+      "createdAt": "2024-03-28T01:25:50.757Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "soto.williamson@example.com",
+      "phone": "+17335290252",
+      "status": "pending",
+      "username": "soto_williamson",
+      "createdAt": "2023-06-25T15:50:38.202Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "beth.jacobson@example.com",
+      "phone": "+15115001105",
+      "status": "inactive",
+      "username": "beth_jacobson",
+      "createdAt": "2024-08-27T21:35:39.141Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "odom.mcleod@example.com",
+      "phone": "+13218394902",
+      "status": "inactive",
+      "username": "odom_mcleod",
+      "createdAt": "2024-07-07T00:22:34.116Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "carly.woodward@example.com",
+      "phone": "+12348169043",
+      "status": "active",
+      "username": "carly_woodward",
+      "createdAt": "2024-08-25T01:58:10.160Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "barnes.huff@example.com",
+      "phone": "+16283901504",
+      "status": "active",
+      "username": "barnes_huff",
+      "createdAt": "2022-10-08T23:28:39.431Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "brady.curtis@example.com",
+      "phone": "+12444014976",
+      "status": "active",
+      "username": "brady_curtis",
+      "createdAt": "2022-03-20T17:53:24.545Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "dena.pacheco@example.com",
+      "phone": "+13453761241",
+      "status": "active",
+      "username": "dena_pacheco",
+      "createdAt": "2024-09-07T10:36:46.265Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "robyn.blevins@example.com",
+      "phone": "+18705391854",
+      "status": "active",
+      "username": "robyn_blevins",
+      "createdAt": "2024-07-12T00:50:02.408Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "eva.fox@example.com",
+      "phone": "+14678653837",
+      "status": "inactive",
+      "username": "eva_fox",
+      "createdAt": "2025-03-19T18:01:37.657Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lawrence.higgins@example.com",
+      "phone": "+19904875443",
+      "status": "pending",
+      "username": "lawrence_higgins",
+      "createdAt": "2023-12-09T07:06:35.185Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "vaughan.preston@example.com",
+      "phone": "+15651223987",
+      "status": "active",
+      "username": "vaughan_preston",
+      "createdAt": "2022-12-04T21:24:47.849Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "garrison.jefferson@example.com",
+      "phone": "+19605276018",
+      "status": "active",
+      "username": "garrison_jefferson",
+      "createdAt": "2023-02-26T20:51:44.641Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "daphne.navarro@example.com",
+      "phone": "+11495440378",
+      "status": "inactive",
+      "username": "daphne_navarro",
+      "createdAt": "2024-09-29T16:27:39.993Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "rutledge.sampson@example.com",
+      "phone": "+14388698781",
+      "status": "inactive",
+      "username": "rutledge_sampson",
+      "createdAt": "2024-08-01T11:57:36.128Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "antoinette.madden@example.com",
+      "phone": "+16065436220",
+      "status": "pending",
+      "username": "antoinette_madden",
+      "createdAt": "2022-02-16T01:42:46.434Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "rivera.delacruz@example.com",
+      "phone": "+16957954588",
+      "status": "inactive",
+      "username": "rivera_delacruz",
+      "createdAt": "2022-09-11T14:28:32.042Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "kelly.witt@example.com",
+      "phone": "+16171653399",
+      "status": "inactive",
+      "username": "kelly_witt",
+      "createdAt": "2024-07-03T01:38:35.703Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "carter.brennan@example.com",
+      "phone": "+17417171641",
+      "status": "active",
+      "username": "carter_brennan",
+      "createdAt": "2024-02-25T14:19:19.271Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "jennifer.wiley@example.com",
+      "phone": "+13652115456",
+      "status": "active",
+      "username": "jennifer_wiley",
+      "createdAt": "2024-04-07T14:03:22.444Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "della.osborne@example.com",
+      "phone": "+12929052925",
+      "status": "active",
+      "username": "della_osborne",
+      "createdAt": "2024-03-25T12:57:40.268Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "luisa.golden@example.com",
+      "phone": "+14904580545",
+      "status": "inactive",
+      "username": "luisa_golden",
+      "createdAt": "2022-04-14T21:53:03.456Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lee.campos@example.com",
+      "phone": "+19613242082",
+      "status": "pending",
+      "username": "lee_campos",
+      "createdAt": "2024-10-08T19:34:39.605Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mary.kane@example.com",
+      "phone": "+16660953219",
+      "status": "active",
+      "username": "mary_kane",
+      "createdAt": "2023-08-02T10:16:56.489Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "albert.russell@example.com",
+      "phone": "+12708212628",
+      "status": "inactive",
+      "username": "albert_russell",
+      "createdAt": "2022-02-13T20:03:09.115Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "roman.stephens@example.com",
+      "phone": "+18231963354",
+      "status": "active",
+      "username": "roman_stephens",
+      "createdAt": "2023-02-04T10:43:59.735Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "effie.spencer@example.com",
+      "phone": "+11015254251",
+      "status": "pending",
+      "username": "effie_spencer",
+      "createdAt": "2023-07-30T12:11:28.927Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "jerri.blake@example.com",
+      "phone": "+19003078197",
+      "status": "pending",
+      "username": "jerri_blake",
+      "createdAt": "2025-01-11T16:02:23.683Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "potts.stanton@example.com",
+      "phone": "+19522953805",
+      "status": "pending",
+      "username": "potts_stanton",
+      "createdAt": "2022-01-16T13:07:44.695Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "miranda.dennis@example.com",
+      "phone": "+17760000343",
+      "status": "pending",
+      "username": "miranda_dennis",
+      "createdAt": "2025-02-15T18:49:07.430Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "abigail.cummings@example.com",
+      "phone": "+12328977207",
+      "status": "pending",
+      "username": "abigail_cummings",
+      "createdAt": "2022-12-26T16:04:29.525Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "navarro.green@example.com",
+      "phone": "+11846863468",
+      "status": "inactive",
+      "username": "navarro_green",
+      "createdAt": "2023-02-05T23:30:37.481Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "greene.foster@example.com",
+      "phone": "+14358478009",
+      "status": "pending",
+      "username": "greene_foster",
+      "createdAt": "2025-04-13T20:10:30.301Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "ramos.mcdowell@example.com",
+      "phone": "+12984532659",
+      "status": "inactive",
+      "username": "ramos_mcdowell",
+      "createdAt": "2022-03-24T07:30:05.608Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "shepherd.hansen@example.com",
+      "phone": "+14314803689",
+      "status": "inactive",
+      "username": "shepherd_hansen",
+      "createdAt": "2025-05-30T07:24:32.836Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "leanne.franco@example.com",
+      "phone": "+15208001644",
+      "status": "inactive",
+      "username": "leanne_franco",
+      "createdAt": "2024-12-29T20:27:37.531Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "dejesus.pugh@example.com",
+      "phone": "+11520748500",
+      "status": "inactive",
+      "username": "dejesus_pugh",
+      "createdAt": "2024-02-22T16:45:31.527Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "james.sheppard@example.com",
+      "phone": "+19947098896",
+      "status": "inactive",
+      "username": "james_sheppard",
+      "createdAt": "2025-05-04T21:17:44.291Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lenore.trujillo@example.com",
+      "phone": "+15436050495",
+      "status": "inactive",
+      "username": "lenore_trujillo",
+      "createdAt": "2023-10-11T22:45:17.999Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "ford.roach@example.com",
+      "phone": "+19317002319",
+      "status": "pending",
+      "username": "ford_roach",
+      "createdAt": "2023-03-02T03:59:50.298Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "fay.vasquez@example.com",
+      "phone": "+19801153771",
+      "status": "pending",
+      "username": "fay_vasquez",
+      "createdAt": "2022-04-12T04:43:11.723Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "graham.mercer@example.com",
+      "phone": "+17992374123",
+      "status": "pending",
+      "username": "graham_mercer",
+      "createdAt": "2023-07-04T15:29:51.772Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "reyes.norris@example.com",
+      "phone": "+11053408037",
+      "status": "pending",
+      "username": "reyes_norris",
+      "createdAt": "2023-01-12T22:50:59.030Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "ellis.sharpe@example.com",
+      "phone": "+16356087957",
+      "status": "inactive",
+      "username": "ellis_sharpe",
+      "createdAt": "2025-05-14T19:29:01.962Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "megan.potter@example.com",
+      "phone": "+11674283567",
+      "status": "pending",
+      "username": "megan_potter",
+      "createdAt": "2023-01-10T09:41:54.841Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "tillman.kramer@example.com",
+      "phone": "+18626862694",
+      "status": "pending",
+      "username": "tillman_kramer",
+      "createdAt": "2025-03-08T06:47:03.707Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "wagner.phelps@example.com",
+      "phone": "+17614953204",
+      "status": "active",
+      "username": "wagner_phelps",
+      "createdAt": "2023-06-27T10:35:17.268Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "millie.rosales@example.com",
+      "phone": "+15244717243",
+      "status": "inactive",
+      "username": "millie_rosales",
+      "createdAt": "2022-04-23T01:59:04.176Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "noble.holt@example.com",
+      "phone": "+16673992413",
+      "status": "active",
+      "username": "noble_holt",
+      "createdAt": "2023-05-09T03:47:48.953Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "riggs.justice@example.com",
+      "phone": "+15853507707",
+      "status": "pending",
+      "username": "riggs_justice",
+      "createdAt": "2023-06-13T10:55:39.028Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "holmes.leach@example.com",
+      "phone": "+16614926864",
+      "status": "inactive",
+      "username": "holmes_leach",
+      "createdAt": "2022-08-03T06:28:55.907Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "haley.stevenson@example.com",
+      "phone": "+17979376625",
+      "status": "inactive",
+      "username": "haley_stevenson",
+      "createdAt": "2025-01-30T01:26:27.225Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "roach.holder@example.com",
+      "phone": "+19887928390",
+      "status": "active",
+      "username": "roach_holder",
+      "createdAt": "2023-05-04T13:34:52.321Z",
+      "organizations": ["Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "combs.gallagher@example.com",
+      "phone": "+17127210534",
+      "status": "inactive",
+      "username": "combs_gallagher",
+      "createdAt": "2022-07-15T06:14:43.838Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "wilkins.bolton@example.com",
+      "phone": "+18978996819",
+      "status": "inactive",
+      "username": "wilkins_bolton",
+      "createdAt": "2023-04-21T18:22:14.670Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "dee.vang@example.com",
+      "phone": "+19242395971",
+      "status": "inactive",
+      "username": "dee_vang",
+      "createdAt": "2022-01-21T01:59:51.941Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lynn.dudley@example.com",
+      "phone": "+17961068866",
+      "status": "pending",
+      "username": "lynn_dudley",
+      "createdAt": "2025-01-18T16:37:31.162Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "delacruz.carrillo@example.com",
+      "phone": "+12931783407",
+      "status": "inactive",
+      "username": "delacruz_carrillo",
+      "createdAt": "2025-02-01T22:39:20.801Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "deanna.allison@example.com",
+      "phone": "+14790416221",
+      "status": "pending",
+      "username": "deanna_allison",
+      "createdAt": "2023-01-08T15:34:55.268Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "priscilla.owens@example.com",
+      "phone": "+17662431831",
+      "status": "pending",
+      "username": "priscilla_owens",
+      "createdAt": "2025-02-15T16:59:04.458Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lang.calderon@example.com",
+      "phone": "+13939511447",
+      "status": "inactive",
+      "username": "lang_calderon",
+      "createdAt": "2022-12-22T14:41:07.167Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "kristen.prince@example.com",
+      "phone": "+11000345539",
+      "status": "pending",
+      "username": "kristen_prince",
+      "createdAt": "2024-08-11T04:25:04.682Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "deidre.rivera@example.com",
+      "phone": "+18873611231",
+      "status": "active",
+      "username": "deidre_rivera",
+      "createdAt": "2024-04-09T03:37:09.990Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "taylor.zamora@example.com",
+      "phone": "+15991381110",
+      "status": "inactive",
+      "username": "taylor_zamora",
+      "createdAt": "2022-05-23T08:11:43.302Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "sawyer.reeves@example.com",
+      "phone": "+13924381595",
+      "status": "pending",
+      "username": "sawyer_reeves",
+      "createdAt": "2025-05-18T20:45:48.257Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "pamela.randolph@example.com",
+      "phone": "+16034130767",
+      "status": "inactive",
+      "username": "pamela_randolph",
+      "createdAt": "2023-04-29T03:19:35.469Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "aurelia.boyle@example.com",
+      "phone": "+15604328900",
+      "status": "inactive",
+      "username": "aurelia_boyle",
+      "createdAt": "2023-07-25T23:52:48.985Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "nolan.dotson@example.com",
+      "phone": "+13294171662",
+      "status": "active",
+      "username": "nolan_dotson",
+      "createdAt": "2023-11-12T17:37:14.644Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "carissa.avila@example.com",
+      "phone": "+13702267129",
+      "status": "active",
+      "username": "carissa_avila",
+      "createdAt": "2023-08-03T15:54:40.337Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "dorsey.conway@example.com",
+      "phone": "+13999212554",
+      "status": "pending",
+      "username": "dorsey_conway",
+      "createdAt": "2022-06-05T12:02:35.258Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "alexis.gentry@example.com",
+      "phone": "+13707633146",
+      "status": "inactive",
+      "username": "alexis_gentry",
+      "createdAt": "2025-01-25T02:50:06.702Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "dale.hoover@example.com",
+      "phone": "+18699609234",
+      "status": "active",
+      "username": "dale_hoover",
+      "createdAt": "2024-12-04T07:20:44.209Z",
+      "organizations": ["Bank C", "Bank D"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "danielle.pratt@example.com",
+      "phone": "+13060869515",
+      "status": "inactive",
+      "username": "danielle_pratt",
+      "createdAt": "2023-09-29T05:16:50.226Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "suzette.brock@example.com",
+      "phone": "+18580392536",
+      "status": "active",
+      "username": "suzette_brock",
+      "createdAt": "2024-05-05T17:44:02.247Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "josefina.koch@example.com",
+      "phone": "+17964129106",
+      "status": "pending",
+      "username": "josefina_koch",
+      "createdAt": "2025-02-26T15:10:46.792Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "anna.ochoa@example.com",
+      "phone": "+14657698216",
+      "status": "active",
+      "username": "anna_ochoa",
+      "createdAt": "2022-10-02T04:00:43.783Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "tran.donaldson@example.com",
+      "phone": "+12132152341",
+      "status": "active",
+      "username": "tran_donaldson",
+      "createdAt": "2023-08-11T14:45:17.742Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "pena.bowman@example.com",
+      "phone": "+11638623812",
+      "status": "inactive",
+      "username": "pena_bowman",
+      "createdAt": "2023-08-01T14:42:00.219Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "lois.whitehead@example.com",
+      "phone": "+15790413366",
+      "status": "inactive",
+      "username": "lois_whitehead",
+      "createdAt": "2023-11-10T03:19:59.795Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "murray.weber@example.com",
+      "phone": "+15442891178",
+      "status": "active",
+      "username": "murray_weber",
+      "createdAt": "2024-06-27T21:31:57.241Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "nell.holden@example.com",
+      "phone": "+15711978342",
+      "status": "active",
+      "username": "nell_holden",
+      "createdAt": "2023-01-01T17:24:10.033Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "donna.gregory@example.com",
+      "phone": "+16021833273",
+      "status": "active",
+      "username": "donna_gregory",
+      "createdAt": "2023-01-26T16:04:44.046Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lucas.ware@example.com",
+      "phone": "+13058558240",
+      "status": "inactive",
+      "username": "lucas_ware",
+      "createdAt": "2024-12-24T01:20:15.776Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "richardson.torres@example.com",
+      "phone": "+16331850573",
+      "status": "inactive",
+      "username": "richardson_torres",
+      "createdAt": "2022-02-05T20:15:16.085Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "socorro.cooper@example.com",
+      "phone": "+14009010215",
+      "status": "inactive",
+      "username": "socorro_cooper",
+      "createdAt": "2022-09-27T11:03:09.136Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "jacqueline.gamble@example.com",
+      "phone": "+12026418726",
+      "status": "active",
+      "username": "jacqueline_gamble",
+      "createdAt": "2024-07-10T08:05:55.981Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "caitlin.sandoval@example.com",
+      "phone": "+17097195760",
+      "status": "inactive",
+      "username": "caitlin_sandoval",
+      "createdAt": "2022-03-10T17:35:16.892Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "gwen.stone@example.com",
+      "phone": "+12405092414",
+      "status": "pending",
+      "username": "gwen_stone",
+      "createdAt": "2023-02-09T15:38:35.611Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "acosta.goodwin@example.com",
+      "phone": "+12102549592",
+      "status": "pending",
+      "username": "acosta_goodwin",
+      "createdAt": "2023-12-15T11:07:56.994Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "kristine.pruitt@example.com",
+      "phone": "+19266669646",
+      "status": "active",
+      "username": "kristine_pruitt",
+      "createdAt": "2024-08-31T09:54:48.827Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "lucia.tanner@example.com",
+      "phone": "+14087617531",
+      "status": "inactive",
+      "username": "lucia_tanner",
+      "createdAt": "2024-10-20T11:00:42.904Z",
+      "organizations": ["Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "mendez.roy@example.com",
+      "phone": "+11607689059",
+      "status": "pending",
+      "username": "mendez_roy",
+      "createdAt": "2023-06-01T19:32:39.757Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "wilkerson.gillespie@example.com",
+      "phone": "+12954799551",
+      "status": "active",
+      "username": "wilkerson_gillespie",
+      "createdAt": "2023-09-28T22:59:47.408Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "wendi.salinas@example.com",
+      "phone": "+16689862989",
+      "status": "inactive",
+      "username": "wendi_salinas",
+      "createdAt": "2023-07-20T11:10:08.387Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "jenkins.carr@example.com",
+      "phone": "+12832634442",
+      "status": "active",
+      "username": "jenkins_carr",
+      "createdAt": "2022-03-15T04:54:20.880Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "sophia.walter@example.com",
+      "phone": "+14248977656",
+      "status": "pending",
+      "username": "sophia_walter",
+      "createdAt": "2023-11-24T14:43:40.227Z",
+      "organizations": ["Bank C", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "stacey.craft@example.com",
+      "phone": "+12559100934",
+      "status": "inactive",
+      "username": "stacey_craft",
+      "createdAt": "2025-02-14T07:40:17.373Z",
+      "organizations": ["Bank B", "Bank D"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lorene.david@example.com",
+      "phone": "+18271614972",
+      "status": "pending",
+      "username": "lorene_david",
+      "createdAt": "2023-12-09T18:43:56.850Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "roberson.mclean@example.com",
+      "phone": "+13959187065",
+      "status": "active",
+      "username": "roberson_mclean",
+      "createdAt": "2023-04-13T19:18:58.637Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "morales.estes@example.com",
+      "phone": "+14249907511",
+      "status": "active",
+      "username": "morales_estes",
+      "createdAt": "2022-07-23T12:43:25.372Z",
+      "organizations": ["Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "sonya.porter@example.com",
+      "phone": "+15651297453",
+      "status": "active",
+      "username": "sonya_porter",
+      "createdAt": "2025-01-11T01:17:31.608Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "colon.peters@example.com",
+      "phone": "+14037634576",
+      "status": "active",
+      "username": "colon_peters",
+      "createdAt": "2024-06-19T16:08:50.767Z",
+      "organizations": ["Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "fannie.holmes@example.com",
+      "phone": "+11032794688",
+      "status": "inactive",
+      "username": "fannie_holmes",
+      "createdAt": "2022-07-22T06:28:14.516Z",
+      "organizations": ["Bank D", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "mollie.mcknight@example.com",
+      "phone": "+11486851358",
+      "status": "pending",
+      "username": "mollie_mcknight",
+      "createdAt": "2024-06-19T18:35:20.557Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "francis.becker@example.com",
+      "phone": "+16668733108",
+      "status": "active",
+      "username": "francis_becker",
+      "createdAt": "2023-05-29T00:59:55.692Z",
+      "organizations": ["Bank B", "Bank A"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "reyna.winters@example.com",
+      "phone": "+17491843645",
+      "status": "inactive",
+      "username": "reyna_winters",
+      "createdAt": "2025-06-15T23:20:10.333Z",
+      "organizations": ["Bank D", "Bank A"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "schneider.barnes@example.com",
+      "phone": "+15550155169",
+      "status": "inactive",
+      "username": "schneider_barnes",
+      "createdAt": "2023-06-22T06:19:46.933Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "janine.burris@example.com",
+      "phone": "+19244743788",
+      "status": "active",
+      "username": "janine_burris",
+      "createdAt": "2023-11-03T02:44:42.482Z",
+      "organizations": ["Bank A", "Bank B"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "lidia.knox@example.com",
+      "phone": "+13102413995",
+      "status": "pending",
+      "username": "lidia_knox",
+      "createdAt": "2024-11-07T23:31:38.618Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "franco.rollins@example.com",
+      "phone": "+11454592217",
+      "status": "active",
+      "username": "franco_rollins",
+      "createdAt": "2025-03-02T01:25:18.642Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank B"
+    },
+    {
+      "email": "mayra.henderson@example.com",
+      "phone": "+15732155301",
+      "status": "pending",
+      "username": "mayra_henderson",
+      "createdAt": "2023-10-16T21:56:53.521Z",
+      "organizations": ["Bank B", "Bank C"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "mejia.sawyer@example.com",
+      "phone": "+19508057306",
+      "status": "active",
+      "username": "mejia_sawyer",
+      "createdAt": "2022-05-23T23:33:01.443Z",
+      "organizations": ["Bank A", "Bank C"],
+      "activeOrganization": "Bank A"
+    },
+    {
+      "email": "ryan.gill@example.com",
+      "phone": "+17568813284",
+      "status": "active",
+      "username": "ryan_gill",
+      "createdAt": "2022-02-15T03:51:20.034Z",
+      "organizations": ["Bank A", "Bank D"],
+      "activeOrganization": "Bank D"
+    },
+    {
+      "email": "tessa.davidson@example.com",
+      "phone": "+17453270959",
+      "status": "pending",
+      "username": "tessa_davidson",
+      "createdAt": "2023-04-14T01:35:34.163Z",
+      "organizations": ["Bank C", "Bank B"],
+      "activeOrganization": "Bank C"
+    },
+    {
+      "email": "rose.cameron@example.com",
+      "phone": "+16079200436",
+      "status": "pending",
+      "username": "rose_cameron",
+      "createdAt": "2025-04-15T13:38:02.258Z",
+      "organizations": ["Bank D", "Bank C"],
+      "activeOrganization": "Bank C"
+    }
+  ]
+}
