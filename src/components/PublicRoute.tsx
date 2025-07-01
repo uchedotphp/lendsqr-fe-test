@@ -1,9 +1,9 @@
-import React from "react";
+import type { ReactNode } from "react";
 import { Navigate, useLocation } from "react-router";
-import { isAuthenticated } from "../services/auth";
+import { isAuthenticated } from "@services/auth";
 
 interface PublicRouteProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 const PublicRoute: React.FC<PublicRouteProps> = ({ children }) => {
@@ -18,4 +18,4 @@ const PublicRoute: React.FC<PublicRouteProps> = ({ children }) => {
   return <>{children}</>;
 };
 
-export default PublicRoute; 
+export default PublicRoute;
