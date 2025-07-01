@@ -12,8 +12,11 @@ import {
 } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import InputGroup from "@components/ui/inputs/InputGroup";
+import { useLogin } from "@hooks/useLogin";
 
 const Login = () => {
+  const { login } = useLogin();
+
   const { control, formState, handleSubmit } = useForm<LoginSchemaType>({
     resolver: zodResolver(LoginSchema),
     mode: "onChange",
@@ -28,34 +31,20 @@ const Login = () => {
     return "password";
   };
 
-  // validate login data against these values:
-  const envEmail =
-    import.meta.env && import.meta.env.VITE_LOGIN_EMAIL
-      ? import.meta.env.VITE_LOGIN_EMAIL
-      : "";
-  const envPassword =
-    import.meta.env && import.meta.env.VITE_LOGIN_PASSWORD
-      ? import.meta.env.VITE_LOGIN_PASSWORD
-      : "";
-
   const onSubmit: SubmitHandler<LoginSchemaType> = async (loginData) => {
     const result = LoginSchema.safeParse(loginData);
+    
     if (!result.success) {
       setLoginError("Invalid email or password");
+      return;
+    }
+    const { data } = result;
+    const response = await login(data);
+
+    if (response.success) {
+      navigate("/dashboard", { replace: true });
     } else {
-      const { data } = result;
-      if (data.email === envEmail && data.password === envPassword) {
-        try {
-          // TODO: add api call to login
-          navigate("/dashboard", { replace: true });
-        } catch {
-          setLoginError(
-            "Failed to fetch profile data. Please try again later."
-          );
-        }
-      } else {
-        setLoginError("Invalid email or password");
-      }
+      setLoginError(response.error || "Login failed");
     }
   };
 
@@ -87,6 +76,7 @@ const Login = () => {
                 name="email"
                 disabled={false}
                 className={authStyles.auth__input}
+                placeholder="Email"
               />
             </div>
             <div className={authStyles.form__element}>
@@ -96,6 +86,7 @@ const Login = () => {
                 type={displayPassword()}
                 disabled={false}
                 className={authStyles.auth__input}
+                placeholder="Password"
               >
                 <Button
                   type="button"
@@ -109,7 +100,7 @@ const Login = () => {
           </fieldset>
 
           <Link
-            to="#"
+            to="/forgot-password"
             className={["text-xs", authStyles["login__forgot-password"]].join(
               " "
             )}
