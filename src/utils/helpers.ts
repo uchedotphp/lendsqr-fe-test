@@ -16,5 +16,14 @@ export const localStorage = {
             console.error(`Error getting item from localStorage for key "${key}":`, error);
             throw new Error(`Failed to get localStorage item: ${error}`);
         }
+    },
+
+    removeItem(key: string) {
+        try {
+            window.localStorage.removeItem(key);
+        } catch (error) {
+            console.error(`Error removing item from localStorage for key "${key}":`, error);
+            throw new Error(`Failed to remove localStorage item: ${error}`);
+        }
     }
 };
