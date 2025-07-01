@@ -1,6 +1,7 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter, Navigate } from "react-router";
 import { lazy, Suspense } from "react";
 import ProtectedRoute from "@components/ProtectedRoute";
+import PublicRoute from "@components/PublicRoute";
 import Loader from "@components/loader";
 import MainLayout from "@layouts/MainLayout";
 
@@ -21,7 +22,14 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "/dashboard",
+        element: (
+          <Suspense fallback={<Loader />}>
+            <Dashboard />
+          </Suspense>
+        ),
+      },
+      {
+        path: "dashboard",
         element: (
           <Suspense fallback={<Loader />}>
             <Dashboard />
@@ -36,11 +44,17 @@ export const router = createBrowserRouter([
       {
         path: "/login",
         element: (
-          <Suspense fallback={<Loader />}>
-            <LoginPage />
-          </Suspense>
+          <PublicRoute>
+            <Suspense fallback={<Loader />}>
+              <LoginPage />
+            </Suspense>
+          </PublicRoute>
         ),
       },
     ],
+  },
+  {
+    path: "*",
+    element: <Navigate to="/" replace />,
   },
 ]);
