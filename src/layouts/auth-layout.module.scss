@@ -1,0 +1,27 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+@use "../styles/typography" as *;
+
+.auth__layout {
+  height: 100%;
+  // font-family: $font-family-avenir;
+  font-family: $font-family-work-sans;
+
+  .auth__container {
+    display: flex;
+    height: 100%;
+  }
+
+  .auth__container > * {
+    flex: 1;
+  }
+
+  .auth__ads-area {
+    background-color: $color-white;
+    padding: 106px 0 0 97px;
+  }
+
+  .auth__ads-area__logo {
+    margin-bottom: 139px;
+  }
+}

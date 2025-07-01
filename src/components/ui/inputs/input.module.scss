@@ -1,0 +1,96 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/typography" as *;
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input__textfield {
+  border: 2px solid rgb(84, 95, 125, 0.15);
+  padding: 17.5px 16px 12.5px 16px;
+  outline: none;
+  width: 100%;
+  font-size: $font-sm;
+  color: $color-primary;
+  transition: all 0.3s ease;
+  font-weight: $font-weight-regular;
+
+  &::placeholder {
+    color: $color-primary;
+    font-weight: $font-weight-regular;
+  }
+
+  &--hover {
+    border-color: $color-primary;
+  }
+
+  &--focus {
+    border-color: $color-secondary;
+  }
+
+  &--disabled {
+    background-color: $color-background;
+    cursor: not-allowed;
+  }
+
+  &--error-state {
+    border-color: $color-red;
+    &-text {
+      color: $color-red;
+    }
+  }
+}
+
+.input__group {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(84, 95, 125, 0.15);
+  overflow: hidden;
+
+  &--hover {
+    border-color: $color-primary;
+  }
+
+  &--focus {
+    border-color: $color-secondary;
+  }
+
+  &--disabled {
+    background-color: $color-background;
+    cursor: not-allowed;
+  }
+
+  &--error-state {
+    border-color: $color-red;
+    &-text {
+      color: $color-red;
+    }
+  }
+
+  &__children {
+    background: $color-white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+    padding: 17.5px 16px 12.5px 16px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: $font-sm;
+    color: $color-primary;
+    background-color: $color-white;
+    transition: all 0.3s ease;
+    font-weight: $font-weight-regular;
+
+    &::placeholder {
+      color: $color-primary;
+      font-weight: $font-weight-regular;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/typography" as *;
+@use "../../styles/variables" as *;
+
+.auth__form-layout {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-inline: 20px;
+}
+
+.logo-area {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 30px 20px 20px;
+}
+
+.auth__form-content {
+  max-width: none;
+  width: 100%;
+
+  @include respond-to(mobile) {
+    margin-inline: auto;
+    max-width: 447px;
+  }
+
+  &__header {
+    font-size: $font-xl;
+    line-height: 1;
+    font-weight: $font-weight-medium;
+    color: $color-primary;
+    padding-bottom: 17px;
+  }
+
+  &__sub-header {
+    font-size: $font-md2;
+    line-height: 28px;
+    font-weight: $font-weight-light;
+    color: $color-primary;
+  }
+
+  &__form {
+    margin-top: 60px;
+
+    fieldset > .form__element {
+      padding-bottom: 24px;
+    }
+  }
+}
+
+.auth__input {
+  height: 50px;
+  border-radius: 5px;
+}
+
+.auth__submit-btn {
+  margin-top: 30px;
+  font-weight: 600;
+  background-color: $color-secondary;
+  width: 100%;
+  height: 48px;
+  color: $color-white;
+  text-transform: uppercase;
+}
+
+.auth__toggle-pwd-btn {
+  margin-right: 17.64px;
+  width: fit-content;
+  color: $color-secondary;
+  background-color: $color-white;
+  font-size: $font-xs;
+  font-weight: $font-weight-regular;
+  text-transform: uppercase;
+}
+
+// login page styles
+.login {
+  margin-top: 60px;
+
+  fieldset > .form__element {
+    padding-bottom: 24px;
+  }
+
+  &__forgot-password {
+    text-transform: uppercase;
+    line-height: 17px;
+    font-weight: $font-weight-semibold;
+  }
+}
+
+.auth__login-error {
+  color: $color-red;
+  text-align: end;
+  margin-bottom: 10px;
+}
