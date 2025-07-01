@@ -1,0 +1,16 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+
+.goback {
+  display: flex;
+  align-items: center;
+  column-gap: 13px;
+  margin-bottom: 31px;
+
+  &__label {
+    font-size: $font-base;
+    font-weight: $font-weight-regular;
+    line-height: 19px;
+    color: $color-primary;
+  }
+}

@@ -1,0 +1,43 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+
+  &__content {
+    text-align: center;
+    max-width: 500px;
+
+    h1 {
+      font-size: 6rem;
+      font-weight: $font-weight-bold;
+      color: $color-primary;
+      margin: 0 0 20px 0;
+      line-height: 1;
+    }
+
+    h2 {
+      font-size: $font-xl;
+      font-weight: $font-weight-medium;
+      color: $color-primary;
+      margin: 0 0 16px 0;
+    }
+
+    p {
+      font-size: $font-md;
+      color: $color-secondary;
+      margin: 0 0 32px 0;
+      line-height: 1.5;
+    }
+
+    &__goback {
+      display: flex;
+      width: fit-content;
+      margin-inline: auto;
+    }
+  }
+}
