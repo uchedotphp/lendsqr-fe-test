@@ -1,13 +1,15 @@
-@import "variables";
-@import "typography";
+@use "variables" as *;
+@use "typography" as *;
 
 // Base element styles
 a {
   color: $color-secondary;
   transition: color $transition-fast;
-  
+  text-decoration: inherit;
+  transition: 0.3s;
   &:hover {
-    // color: darken($primary-color, 10%);
+    color: $color-secondary;
+    opacity: 0.8;
   }
 }
 
@@ -17,8 +19,10 @@ button {
 }
 
 // Form elements
-input, textarea, select {
+input,
+textarea,
+select {
   font-family: inherit;
   font-size: $font-base;
   line-height: $line-height-tight;
-} 
+}

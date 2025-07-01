@@ -15,7 +15,7 @@
       "@styles/*": ["./styles/*"],
       "@pages/*": ["./pages/*"],
       "@services/*": ["./services/*"],
-      "@schemas/*": ["./src/schemas/*"],
+      "@schemas/*": ["./schemas/*"],
       "@utils/*": ["./utils/*"]
     },
 
