@@ -1,0 +1,42 @@
+$breakpoint-mobile: 40rem;
+$breakpoint-tablet: 48rem;
+$breakpoint-desktop: 64rem;
+$breakpoint-large: 80rem;
+$breakpoint-extra-large: 96rem;
+
+/* Mixins for media queries */
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (min-width: $breakpoint-mobile) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media (min-width: $breakpoint-tablet) {
+      @content;
+    }
+  } @else if $breakpoint == desktop {
+    @media (min-width: $breakpoint-desktop) {
+      @content;
+    }
+  } @else if $breakpoint == large {
+    @media (min-width: $breakpoint-large) {
+      @content;
+    }
+  } @else if $breakpoint == xlarge {
+    @media (min-width: $breakpoint-extra-large) {
+      @content;
+    }
+  }
+}
+
+@mixin hide-on($breakpoint) {
+  @include respond-to($breakpoint) {
+    display: none !important;
+  }
+}
+
+@mixin show-on($breakpoint) {
+  @include respond-to($breakpoint) {
+    display: block !important;
+  }
+} 

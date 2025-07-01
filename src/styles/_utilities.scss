@@ -1,0 +1,35 @@
+// Utility classes
+// Layout utilities
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+//   padding: 0 $spacing-md;
+  
+//   @include respond-to(desktop) {
+//     padding: 0 $spacing-lg;
+//   }
+// }
+
+// Accessibility utilities
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// State utilities
+.error {
+  color: $color-red;
+  font-size: $font-sm;
+}
+
+.success {
+  color: $color-green;
+  font-size: $font-sm;
+} 
