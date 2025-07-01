@@ -1,0 +1,70 @@
+@use "./variables" as *;
+@use "./typography" as *;
+
+// buttons
+.btn {
+  &--flat {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  &--outline {
+    border: 1px solid !important;
+    background-color: transparent;
+    border-radius: 8px;
+  }
+}
+
+// table styles
+table {
+  min-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+
+  thead {
+    tr {
+      th {
+        padding-bottom: 14px;
+        text-align: left;
+        
+        &:not(:last-child) {
+          width: calc((100% - 60px) / 6);
+        }
+        
+        &:last-child {
+          width: 60px;
+        }
+      }
+    }
+  }
+
+  tbody {
+    border-block-width: 20px;
+    font-size: $font-sm;
+    line-height: 17px;
+    color: $color-primary;
+    font-weight: $font-weight-regular;
+    tr {
+      td {
+        padding-block: 23px;
+        border-bottom: 1px solid rgb($color-primary, 0.1);
+        
+        &:not(:last-child) {
+          width: calc((100% - 60px) / 6);
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+        
+        &:last-child {
+          width: 60px;
+          text-align: center;
+        }
+        
+        dl {
+        }
+      }
+    }
+  }
+}
