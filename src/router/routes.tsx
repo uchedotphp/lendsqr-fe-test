@@ -5,6 +5,7 @@ import PublicRoute from "@components/PublicRoute";
 import Loader from "@components/loader";
 import MainLayout from "@layouts/MainLayout";
 import NotFound from "@pages/notFound/NotFound";
+import Users from "@pages/users";
 
 const Dashboard = lazy(() => import("@pages/Dashboard"));
 const LoginPage = lazy(() => import("@pages/auth/Login"));
@@ -34,6 +35,14 @@ export const router = createBrowserRouter([
         element: (
           <Suspense fallback={<Loader />}>
             <Dashboard />
+          </Suspense>
+        ),
+      },
+      {
+        path: "users",
+        element: (
+          <Suspense fallback={<Loader />}>
+            <Users />
           </Suspense>
         ),
       },

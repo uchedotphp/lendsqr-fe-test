@@ -7,6 +7,14 @@
   gap: 5px;
 }
 
+.input__label {
+  display: block;
+  font-size: $font-sm;
+  line-height: 1.5;
+  font-weight: $font-weight-medium;
+  color: $color-primary;
+}
+
 .input__textfield {
   border: 2px solid rgb(84, 95, 125, 0.15);
   padding: 17.5px 16px 12.5px 16px;
@@ -48,6 +56,7 @@
   align-items: center;
   border: 2px solid rgb(84, 95, 125, 0.15);
   overflow: hidden;
+  margin-top: 8px;
 
   &--hover {
     border-color: $color-primary;
@@ -74,6 +83,40 @@
     height: 100%;
     display: flex;
     align-items: center;
+  }
+
+  &__prefix {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    background-color: $color-white;
+    padding: 12px 12px 8px 12px;
+    font-size: $font-base;
+    color: rgb(107, 114, 128);
+    border-right: 1px solid rgb(209, 213, 219);
+    font-weight: $font-weight-regular;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 12px 12px 8px 12px;
+    border: none;
+    outline: none;
+    font-size: $font-base;
+    color: $color-primary;
+    background-color: $color-white;
+    transition: all 0.3s ease;
+    font-weight: $font-weight-regular;
+
+    &::placeholder {
+      color: rgb(156, 163, 175);
+      font-weight: $font-weight-regular;
+    }
+
+    &:focus {
+      outline: 2px solid rgb(79, 70, 229);
+      outline-offset: 2px;
+    }
   }
 
   input {

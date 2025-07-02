@@ -1,6 +1,8 @@
 import { http, HttpResponse } from 'msw'
 
-import { profile as profileData } from '../services/db.json';
+import dbData from '../services/db.json';
+
+const { profile: profileData, 'users-kpis': usersKpis, 'users-records': usersRecords } = dbData;
 
 export const handlers = [
     // post request to login
@@ -36,24 +38,79 @@ export const handlers = [
         return HttpResponse.json(profileData)
     }),
 
-    http.get('/users', () => {
-        return HttpResponse.json([
-            {
-                id: 'abc-123',
-                firstName: 'John',
-                lastName: 'Maverick',
-            },
-            {
-                id: 'abc-124',
-                firstName: 'Jane',
-                lastName: 'Doe',
-            },
-            {
-                id: 'abc-125',
-                firstName: 'John',
-                lastName: 'Smith',
-            },
-        ]
-        )
+    http.get('/users', ({ request }) => {
+        const url = new URL(request.url);
+        const page = parseInt(url.searchParams.get('page') || '1');
+        const per_page = parseInt(url.searchParams.get('per_page') || '10');
+        
+        // Filter parameters
+        const organization = url.searchParams.get('organization');
+        const username = url.searchParams.get('username');
+        const email = url.searchParams.get('email');
+        const phone = url.searchParams.get('phone');
+        const date = url.searchParams.get('date');
+        const status = url.searchParams.get('status');
+
+        // Apply filters
+        let filteredRecords = [...usersRecords];
+        
+        if (organization) {
+            filteredRecords = filteredRecords.filter(user => 
+                user.organizations?.some(org => 
+                    org.toLowerCase().includes(organization.toLowerCase())
+                ) || 
+                user.activeOrganization?.toLowerCase().includes(organization.toLowerCase())
+            );
+        }
+        
+        if (username) {
+            filteredRecords = filteredRecords.filter(user => 
+                user.username?.toLowerCase().includes(username.toLowerCase())
+            );
+        }
+        
+        if (email) {
+            filteredRecords = filteredRecords.filter(user => 
+                user.email?.toLowerCase().includes(email.toLowerCase())
+            );
+        }
+        
+        if (phone) {
+            filteredRecords = filteredRecords.filter(user => 
+                (user.phoneNumber || user.phone)?.includes(phone)
+            );
+        }
+        
+        if (date) {
+            filteredRecords = filteredRecords.filter(user => 
+                user.createdAt?.includes(date)
+            );
+        }
+        
+        if (status) {
+            filteredRecords = filteredRecords.filter(user => 
+                user.status?.toLowerCase() === status.toLowerCase()
+            );
+        }
+
+        // Calculate pagination
+        const totalRecords = filteredRecords.length;
+        const totalPages = Math.ceil(totalRecords / per_page);
+        const startIndex = (page - 1) * per_page;
+        const endIndex = startIndex + per_page;
+        const paginatedRecords = filteredRecords.slice(startIndex, endIndex);
+
+        return HttpResponse.json({
+            kpis: usersKpis,
+            records: paginatedRecords,
+            pagination: {
+                first: 1,
+                prev: page > 1 ? page - 1 : null,
+                next: page < totalPages ? page + 1 : null,
+                last: totalPages,
+                pages: totalPages,
+                items: totalRecords
+            }
+        });
     })
 ]

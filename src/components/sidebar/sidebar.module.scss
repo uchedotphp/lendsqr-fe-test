@@ -1,0 +1,66 @@
+@use '../../styles/variables' as *;
+@use '../../styles/typography' as *;
+
+.sidebar {
+  padding-block: 39px 10px;
+  width: 100%;
+  background-color: $color-white;
+  height: 100%;
+  overflow: hidden;
+
+  &__switch {
+    display: flex;
+    column-gap: 10px;
+    padding-left: 30px;
+    margin-bottom: 31px;
+
+    &__label {
+      font-size: $font-base;
+      text-wrap: nowrap;
+      line-height: 19px;
+      color: $text-secondary;
+      font-weight: $font-weight-regular;
+    }
+  }
+
+  &__menu {
+    height: calc(100% - 51px);
+    // height: calc(100% - 96px);
+    overflow-y: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    &-item {
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+
+      &__label {
+        font-size: $font-xs;
+        color: $color-primary;
+        font-weight: $font-weight-medium;
+        line-height: 14px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__menu-link,
+  &__submenu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1.4rem;
+
+    &:hover,
+    &--active {
+      background-color: #00c4b4;
+      color: $color-white;
+    }
+  }
+}

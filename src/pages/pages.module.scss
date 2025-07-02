@@ -1,0 +1,238 @@
+@use "../styles/variables" as *;
+@use "../styles/mixins" as *;
+
+.pages {
+  &__container {
+  }
+
+  &__section {
+    margin-top: 40px;
+
+    &__title {
+      color: $color-primary;
+      font-size: $font-md;
+      line-height: 24px;
+      font-weight: $font-weight-medium;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__title {
+    color: $color-primary;
+    font-size: $font-lg;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: $font-weight-medium;
+  }
+
+  &__kpis {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+
+    @include respond-to(mobile) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include respond-to(desktop) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    &__item {
+      grid-column: span 1 / span 1;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    @include respond-to(mobile) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @include respond-to(desktop) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  &__action {
+    &__card {
+      padding: 20px;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__title {
+      font-size: $font-md;
+      font-weight: $font-weight-medium;
+      color: $color-primary;
+      margin: 0;
+    }
+
+    &__description {
+      font-size: $font-sm;
+      color: $text-secondary;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    &__button {
+      align-self: flex-start;
+      margin-top: auto;
+    }
+  }
+
+  &__activities {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__activity {
+    &__item {
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    &__user {
+      font-size: $font-sm;
+      font-weight: $font-weight-medium;
+      color: $color-primary;
+      margin: 0;
+    }
+
+    &__action {
+      font-size: $font-sm;
+      color: $text-secondary;
+      margin: 0;
+    }
+
+    &__amount {
+      font-weight: $font-weight-medium;
+      color: $color-primary;
+    }
+
+    &__time {
+      font-size: $font-xs;
+      color: $text-secondary;
+    }
+  }
+
+  // user page
+  &__user {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    &__details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__tabs {
+      margin-top: 26px;
+      padding-bottom: 0 !important;
+      overflow-x: auto;
+      // position: relative;
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+
+      &::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */
+      }
+
+      &__header {
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__user {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          & > * {
+            padding-right: 30px;
+            border-right: 1px solid $color-red;
+            height: 100%;
+          }
+
+          &__name {
+            font-size: $font-md;
+            line-height: 24px;
+            font-weight: $font-weight-medium;
+          }
+
+          &__id {
+            font-size: $font-sm;
+            line-height: 17px;
+            font-weight: $font-weight-regular;
+          }
+        }
+
+        &__tier {
+          font-size: $font-sm;
+          line-height: 17px;
+          font-weight: $font-weight-regular;
+        }
+
+        &__tier__stars {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+
+        &__balance {
+          font-size: $font-md;
+          line-height: 24px;
+          font-weight: $font-weight-medium;
+        }
+
+        &__account {
+          font-size: $font-sm;
+          line-height: 17px;
+          font-weight: $font-weight-regular;
+        }
+      }
+
+      &__content {
+        padding-top: 0 !important;
+      }
+    }
+  }
+}

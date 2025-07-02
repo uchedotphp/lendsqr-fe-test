@@ -1,0 +1,123 @@
+@use "../../../styles/variables" as *;
+
+.users-table {
+  &__header {
+    button {
+      text-transform: uppercase;
+      font-size: $font-xs;
+      line-height: 15px;
+      font-weight: $font-weight-semibold;
+      color: $text-primary;
+    }
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 30px;
+    border-radius: 0;
+    &:hover {
+      background-color: $color-secondary;
+    }
+
+    &__label {
+      font-size: $font-sm;
+      color: $text-primary;
+      font-weight: $font-weight-medium;
+      text-wrap: nowrap;
+      text-transform: capitalize;
+    }
+  }
+
+  // Table styles
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+  thead tr th,
+  tbody tr td {
+    padding-block: 23px;
+    padding-inline: 8px;
+    border-bottom: 1px solid rgb($color-primary, 0.1);
+    vertical-align: middle;
+  }
+
+  thead tr th {
+    padding-bottom: 14px;
+    text-align: left;
+  }
+
+  tbody {
+    font-size: $font-sm;
+    line-height: 17px;
+    color: $text-primary;
+    font-weight: $font-weight-regular;
+  }
+
+  tbody tr td:nth-child(1) {
+    width: 17%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  tbody tr td:nth-child(2) {
+    width: 17%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  tbody tr td:nth-child(3) {
+    width: 17%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  tbody tr td:nth-child(4) {
+    width: 17%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  tbody tr td:nth-child(5) {
+    width: 17%;
+    overflow: visible;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  tbody tr td:nth-child(6) {
+    width: 8%;
+    text-align: center;
+    overflow: visible;
+    white-space: nowrap;
+  }
+
+  tbody tr td:nth-child(7) {
+    width: 7%;
+    text-align: center;
+    overflow: visible;
+  }
+
+  thead tr th:nth-child(1),
+  thead tr th:nth-child(2),
+  thead tr th:nth-child(3),
+  thead tr th:nth-child(4) {
+    width: 17%;
+  }
+
+  thead tr th:nth-child(5) {
+    width: 17%;
+  }
+
+  thead tr th:nth-child(6) {
+    width: 8%;
+  }
+
+  thead tr th:nth-child(7) {
+    width: 7%;
+  }
+}

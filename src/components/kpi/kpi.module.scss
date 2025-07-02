@@ -1,0 +1,22 @@
+@use "../../styles/variables" as *;
+
+.kpi {
+  &__icon {
+    margin-bottom: 14px;
+  }
+  &__label {
+    font-size: $font-sm;
+    line-height: 16px;
+    color: $text-primary;
+    font-weight: $font-weight-medium;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  &__value {
+    font-size: $font-lg;
+    line-height: 28px;
+    color: $color-primary;
+    font-weight: $font-weight-semibold;
+  }
+}

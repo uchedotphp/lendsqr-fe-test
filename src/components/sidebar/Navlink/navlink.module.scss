@@ -1,0 +1,41 @@
+@use "../../../styles/typography" as *;
+@use "../../../styles/variables" as *;
+
+.navlink {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  padding: 10px 0 11px 30px;
+  position: relative;
+  font-size: $font-base;
+  line-height: 19px;
+  color: $text-secondary;
+  font-weight: $font-weight-regular;
+  text-transform: capitalize;
+
+  &__icon {
+    flex-shrink: 0;
+  }
+
+//   &__label {
+//   }
+
+  &:hover {
+    background-color: $color-secondary;
+    color: $color-white;
+  }
+
+  &--active {
+    background-color: rgb(57, 205, 204, 0.2);
+    color: $color-primary;
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: $color-secondary;
+      opacity: 0.8;
+      left: 0;
+      width: 3px;
+      height: 100%;
+    }
+  }
+}

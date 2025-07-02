@@ -1,0 +1,54 @@
+@use "../../styles/variables" as *;
+@use "../../styles/typography" as *;
+@use "../../styles/mixins" as *;
+
+.header {
+  display: flex;
+  align-items: center;
+
+  & > * {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+
+  &__left {
+    @include respond-to(desktop) {
+      justify-content: space-between;
+      column-gap: 20px;
+    }
+  }
+
+  &__right {
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+
+  &__mobile__menu {
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+  }
+
+  &__logo {
+    height: 30px;
+  }
+
+  &__search {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  &__docs {
+    margin-right: 50px;
+    color: $color-primary;
+    font-size: $font-base;
+    line-height: 19px;
+    font-weight: $font-weight-regular;
+    text-decoration: underline;
+  }
+
+  &__notifications {
+    margin-right: 30px;
+  }
+}

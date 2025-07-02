@@ -27,3 +27,34 @@ export const localStorage = {
         }
     }
 };
+
+export function formatNumber(num: number): string {
+    if (num >= 1000000) {
+        return (num / 1000000).toFixed(num % 1000000 === 0 ? 0 : 1) + 'M'; // Represent in millions
+    } else {
+        return num.toLocaleString(); // Add comma delimiter for thousands
+    }
+}
+
+export function formatDateTime(date: string | Date): string {
+    const dateObj = typeof date === 'string' ? new Date(date) : date;
+
+    // Check if the date is valid
+    if (isNaN(dateObj.getTime())) {
+        return 'Invalid Date';
+    }
+
+    const datePart = dateObj.toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    });
+
+    const timePart = dateObj.toLocaleTimeString('en-US', {
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+    });
+
+    return `${datePart} ${timePart}`;
+}

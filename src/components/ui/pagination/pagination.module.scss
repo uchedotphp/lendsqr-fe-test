@@ -1,0 +1,110 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  row-gap: 20px;
+  @include respond-to(mobile) {
+    flex-direction: row;
+  }
+}
+
+.count-display {
+  display: flex;
+  align-items: center;
+  font-size: $font-sm;
+  color: $text-primary;
+  font-weight: $font-weight-regular;
+  align-self: flex-start;
+  order: 2;
+  width: 100%;
+  justify-content: center;
+
+  & > *:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  @include respond-to(mobile) {
+    order: 1;
+    width: auto;
+  }
+
+  &__switch {
+    font-size: $font-sm;
+    color: $color-primary;
+    background-color: rgb($color-primary, 0.1);
+    padding: 7px 12px;
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+    // position: relative;
+  }
+
+  &__menu {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    background-color: $color-white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 10;
+
+    &__item {
+      text-align: center;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-size: $font-sm;
+      color: $text-primary;
+
+      &:hover {
+        background-color: rgb($color-primary, 0.1);
+      }
+    }
+  }
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  order: 1;
+  width: 100%;
+
+  @include respond-to(mobile) {
+    order: 2;
+    width: auto;
+    & > *:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+
+  &__icon {
+    background-color: rgb($color-primary, 0.1);
+    padding: 6.4px 8.7px;
+    border-radius: 4px;
+
+    svg {
+      path {
+        fill: rgb($color-primary, 0.6);
+      }
+    }
+  }
+  &__number {
+    color: rgb($text-primary, 0.7);
+    font-size: $font-base;
+    line-height: 19px;
+    font-weight: $font-weight-regular;
+
+    &--active {
+      color: $text-primary;
+      font-size: $font-base;
+      line-height: 19px;
+      font-weight: $font-weight-medium;
+    }
+  }
+}
