@@ -15,10 +15,6 @@
     "organizations": ["Lendsqr", "Lendstar", "Ironun", "FinanceCo"],
     "password": "adminpassword"
   },
-  "dashboard": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
   "dashboard-kpis": [
     {
       "label": "total loans",

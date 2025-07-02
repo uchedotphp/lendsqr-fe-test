@@ -2,7 +2,7 @@ import { http, HttpResponse } from 'msw'
 
 import dbData from '../services/db.json';
 
-const { profile: profileData, 'users-kpis': usersKpis, 'users-records': usersRecords } = dbData;
+const { profile: profileData, 'users-kpis': usersKpis, 'users-records': usersRecords, 'dashboard-kpis': dashboardKpis, 'dashboard-activities': dashboardActivities, 'dashboard-quick-stats': dashboardQuickStats } = dbData;
 
 export const handlers = [
     // post request to login
@@ -42,7 +42,7 @@ export const handlers = [
         const url = new URL(request.url);
         const page = parseInt(url.searchParams.get('page') || '1');
         const per_page = parseInt(url.searchParams.get('per_page') || '10');
-        
+
         // Filter parameters
         const organization = url.searchParams.get('organization');
         const username = url.searchParams.get('username');
@@ -53,42 +53,42 @@ export const handlers = [
 
         // Apply filters
         let filteredRecords = [...usersRecords];
-        
+
         if (organization) {
-            filteredRecords = filteredRecords.filter(user => 
-                user.organizations?.some(org => 
+            filteredRecords = filteredRecords.filter(user =>
+                user.organizations?.some(org =>
                     org.toLowerCase().includes(organization.toLowerCase())
-                ) || 
+                ) ||
                 user.activeOrganization?.toLowerCase().includes(organization.toLowerCase())
             );
         }
-        
+
         if (username) {
-            filteredRecords = filteredRecords.filter(user => 
+            filteredRecords = filteredRecords.filter(user =>
                 user.username?.toLowerCase().includes(username.toLowerCase())
             );
         }
-        
+
         if (email) {
-            filteredRecords = filteredRecords.filter(user => 
+            filteredRecords = filteredRecords.filter(user =>
                 user.email?.toLowerCase().includes(email.toLowerCase())
             );
         }
-        
+
         if (phone) {
-            filteredRecords = filteredRecords.filter(user => 
+            filteredRecords = filteredRecords.filter(user =>
                 (user.phoneNumber || user.phone)?.includes(phone)
             );
         }
-        
+
         if (date) {
-            filteredRecords = filteredRecords.filter(user => 
+            filteredRecords = filteredRecords.filter(user =>
                 user.createdAt?.includes(date)
             );
         }
-        
+
         if (status) {
-            filteredRecords = filteredRecords.filter(user => 
+            filteredRecords = filteredRecords.filter(user =>
                 user.status?.toLowerCase() === status.toLowerCase()
             );
         }
@@ -112,5 +112,14 @@ export const handlers = [
                 items: totalRecords
             }
         });
+    }),
+
+    // get request to fetch dashboard data
+    http.get('/dashboard', () => {
+        return HttpResponse.json({
+            kpis: dashboardKpis,
+            activities: dashboardActivities,
+            quickStats: dashboardQuickStats
+        });
     })
-]
+];
