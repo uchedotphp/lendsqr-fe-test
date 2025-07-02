@@ -71,7 +71,7 @@ const UsersTable = ({ tableHeaders, paginationData }: TableProps) => {
                 </td>
                 <td>{person.username}</td>
                 <td>{person.email}</td>
-                <td>{person.phone}</td>
+                <td>{person.phoneNumber}</td>
                 <td>{formatDateTime(person.createdAt)}</td>
                 <td>
                   <Badge status={person.status} />
