@@ -1,21 +1,14 @@
-import { describe, it, expect, vi } from 'vitest'
+import { describe, it, expect } from 'vitest'
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { z } from 'zod'
 import BaseInput from '../../components/ui/inputs/BaseInput'
-
-// Test schema
-const TestSchema = z.object({
-  testField: z.string().min(1, 'This field is required')
-})
-
-type TestFormData = z.infer<typeof TestSchema>
+import { LoginSchema, type LoginSchemaType } from '../../schemas/Schema'
 
 // Test component wrapper
-const TestComponent = ({ name = 'testField', ...props }: any) => {
-  const { control } = useForm<TestFormData>({
-    resolver: zodResolver(TestSchema),
+const TestComponent = ({ name = 'email', ...props }: { name?: 'email' | 'password'; [key: string]: unknown }) => {
+  const { control } = useForm<LoginSchemaType>({
+    resolver: zodResolver(LoginSchema),
     mode: 'onChange'
   })
 
@@ -64,7 +57,7 @@ describe('BaseInput Component - Form Integration & Visual States', () => {
       fireEvent.blur(input)
       
       await waitFor(() => {
-        expect(screen.getByText('This field is required')).toBeInTheDocument()
+        expect(screen.getByText('Email must be a valid email address')).toBeInTheDocument()
       })
     })
 
@@ -74,11 +67,11 @@ describe('BaseInput Component - Form Integration & Visual States', () => {
       const input = screen.getByRole('textbox')
       
       // Enter valid value
-      fireEvent.change(input, { target: { value: 'valid input' } })
+      fireEvent.change(input, { target: { value: 'test@example.com' } })
       fireEvent.blur(input)
       
       await waitFor(() => {
-        expect(screen.queryByText('This field is required')).not.toBeInTheDocument()
+        expect(screen.queryByText('Email must be a valid email address')).not.toBeInTheDocument()
       })
     })
 
@@ -92,12 +85,12 @@ describe('BaseInput Component - Form Integration & Visual States', () => {
       fireEvent.blur(input)
       
       await waitFor(() => {
-        expect(screen.getByText('This field is required')).toBeInTheDocument()
+        expect(screen.getByText('Email must be a valid email address')).toBeInTheDocument()
       })
       
       // Focus again - error should be hidden
       fireEvent.focus(input)
-      expect(screen.queryByText('This field is required')).not.toBeInTheDocument()
+      expect(screen.queryByText('Email must be a valid email address')).not.toBeInTheDocument()
     })
   })
 

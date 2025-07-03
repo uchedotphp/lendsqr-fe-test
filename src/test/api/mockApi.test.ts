@@ -1,7 +1,5 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { handlers } from '../../mocks/handlers'
-import { http, HttpResponse } from 'msw'
-import { setupServer } from 'msw/node'
 
 // Mock the db.json data
 const mockDbData = {
@@ -74,10 +72,10 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
         })
       })
       
-      const response = await loginHandler!.run(request)
-      const data = await response.json()
+      const response = await loginHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
-      expect(response.status).toBe(200)
+      expect(response.response.status).toBe(200)
       expect(data.token).toBe('abc-123')
       expect(data.user.email).toBe('test@lendsqr.com')
     })
@@ -96,10 +94,10 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
         })
       })
       
-      const response = await loginHandler!.run(request)
-      const data = await response.json()
+      const response = await loginHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
-      expect(response.status).toBe(401)
+      expect(response.response.status).toBe(401)
       expect(data.error).toBe('Invalid credentials')
     })
   })
@@ -113,10 +111,10 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       expect(usersHandler).toBeDefined()
       
       const request = new Request('http://localhost/users')
-      const response = await usersHandler!.run(request)
-      const data = await response.json()
+      const response = await usersHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
-      expect(response.status).toBe(200)
+      expect(response.response.status).toBe(200)
       expect(data.records).toHaveLength(500)
       expect(data.kpis).toBeDefined()
       expect(data.pagination).toBeDefined()
@@ -128,8 +126,8 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       )
       
       const request = new Request('http://localhost/users?page=2&per_page=10')
-      const response = await usersHandler!.run(request)
-      const data = await response.json()
+      const response = await usersHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
       expect(data.pagination.page).toBe(2)
       expect(data.pagination.per_page).toBe(10)
@@ -142,8 +140,8 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       )
       
       const request = new Request('http://localhost/users?organization=Organization%201')
-      const response = await usersHandler!.run(request)
-      const data = await response.json()
+      const response = await usersHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
       expect(data.records.length).toBeGreaterThan(0)
       expect(data.records[0].activeOrganization).toContain('Organization 1')
@@ -155,8 +153,8 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       )
       
       const request = new Request('http://localhost/users?status=active')
-      const response = await usersHandler!.run(request)
-      const data = await response.json()
+      const response = await usersHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
       expect(data.records.length).toBeGreaterThan(0)
       expect(data.records.every((user: any) => user.status === 'active')).toBe(true)
@@ -168,8 +166,8 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       )
       
       const request = new Request('http://localhost/users?email=user1')
-      const response = await usersHandler!.run(request)
-      const data = await response.json()
+      const response = await usersHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
       expect(data.records.length).toBeGreaterThan(0)
       expect(data.records[0].email).toContain('user1')
@@ -185,10 +183,10 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       expect(dashboardHandler).toBeDefined()
       
       const request = new Request('http://localhost/dashboard')
-      const response = await dashboardHandler!.run(request)
-      const data = await response.json()
+      const response = await dashboardHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
-      expect(response.status).toBe(200)
+      expect(response.response.status).toBe(200)
       expect(data.kpis).toBeDefined()
       expect(data.activities).toBeDefined()
       expect(data.quickStats).toBeDefined()
@@ -204,10 +202,10 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       expect(profileHandler).toBeDefined()
       
       const request = new Request('http://localhost/profile')
-      const response = await profileHandler!.run(request)
-      const data = await response.json()
+      const response = await profileHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
-      expect(response.status).toBe(200)
+      expect(response.response.status).toBe(200)
       expect(data.email).toBe('test@lendsqr.com')
       expect(data.firstName).toBe('Test')
       expect(data.lastName).toBe('User')
@@ -215,7 +213,7 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
   })
 
   describe('Error Handling Tests', () => {
-    it('should handle malformed request bodies', async () => {
+    it('should handle login with missing credentials', async () => {
       const loginHandler = handlers.find(h => 
         h.info.method === 'POST' && h.info.path === '/login'
       )
@@ -223,26 +221,24 @@ describe('Mock API Handlers - Data Integration & Error Handling', () => {
       const request = new Request('http://localhost/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: 'invalid json'
+        body: JSON.stringify({})
       })
       
-      // Should not throw error
-      expect(async () => {
-        await loginHandler!.run(request)
-      }).not.toThrow()
+      await expect(loginHandler!.run({ request, requestId: 'test' })).rejects.toThrow()
     })
 
-    it('should handle missing query parameters gracefully', async () => {
+    it('should handle users API with invalid parameters', async () => {
       const usersHandler = handlers.find(h => 
         h.info.method === 'GET' && h.info.path === '/users'
       )
       
-      const request = new Request('http://localhost/users')
-      const response = await usersHandler!.run(request)
-      const data = await response.json()
+      const request = new Request('http://localhost/users?page=invalid&per_page=invalid')
+      const response = await usersHandler!.run({ request, requestId: 'test' })
+      const data = await response.response.json()
       
-      expect(response.status).toBe(200)
-      expect(data.records).toBeDefined()
+      expect(response.response.status).toBe(200)
+      expect(data.pagination.page).toBe(1)
+      expect(data.pagination.per_page).toBe(10)
     })
   })
 }) 
