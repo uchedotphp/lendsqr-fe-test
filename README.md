@@ -2,6 +2,11 @@
 
 A React TypeScript application built for the Lendsqr Frontend Engineering Assessment, implementing a comprehensive admin dashboard with user management capabilities.
 
+### Authentication
+Use the following details to login to the platform:
+- `email`: uchedotphp@test.com
+- `password`: adminpassword
+
 ## 🎯 Assessment Overview
 
 This project demonstrates proficiency in:
@@ -10,6 +15,8 @@ This project demonstrates proficiency in:
 - **Best Practices**: Modern React patterns, proper state management, and responsive design
 - **Unit Testing**: Comprehensive test coverage with positive and negative scenarios
 - **Performance**: Optimized rendering and data fetching strategies
+- **Architecture**: Clean separation of concerns and modular component design
+- **Data Management**: Efficient handling of 400 user records with realistic data
 
 ## ✨ Features Implemented
 
@@ -35,6 +42,7 @@ This project demonstrates proficiency in:
 - **Tab Navigation**: General details, Documents, Bank Details, Loans, Savings, App and System
 - **Local Storage**: Cached user details for improved performance
 - **Action Buttons**: Blacklist and activate user functionality
+- **Optimized Data Fetching**: Separated concerns with dedicated hooks for account summary and general details
 
 ### 🎨 UI/UX Features
 - **Responsive Design**: Mobile, tablet, and desktop optimized
@@ -58,9 +66,11 @@ This project demonstrates proficiency in:
 
 ### State Management & Data
 - **React Context**: Lightweight state management for app-wide state
+- **Custom Hooks**: Reusable logic for data fetching and state management
 - **React Hook Form**: Performant form handling with validation
 - **Zod**: Type-safe schema validation
 - **Axios**: HTTP client for API requests
+- **MSW**: Mock Service Worker for realistic API simulation
 
 ### Testing
 - **Vitest**: Fast unit testing framework
@@ -124,10 +134,17 @@ src/
 ├── components/      # Reusable UI components
 │   ├── ui/         # Base UI components (Button, Input, Card, etc.)
 │   ├── users/      # User-specific components
+│   ├── user/       # User details components (tabs, activation buttons)
 │   └── ...
 ├── hooks/          # Custom React hooks
+│   ├── useUser.ts           # User data fetching
+│   ├── useAccountSummary.ts # Account summary data
+│   ├── useGeneralDetails.ts # General details data
+│   └── ...
 ├── layouts/        # Page layouts
 ├── pages/          # Page components
+│   ├── userDetails/ # User details pages
+│   └── ...
 ├── router/         # Routing configuration
 ├── schemas/        # Zod validation schemas
 ├── services/       # API services and mock data
@@ -153,8 +170,16 @@ The above details is your login into the platform.
 The application uses MSW (Mock Service Worker) to simulate a real API:
 - **Login**: `/login` (POST)
 - **Users**: `/users` (GET) with pagination and filtering
-- **User Details**: `/users/:id/:tab` (GET)
+- **User Details**: `/users/:id/account-summary` (GET) and `/users/:id/general-details` (GET)
 - **Dashboard**: `/dashboard` (GET)
+
+### Data Structure
+The application includes 500+ realistic user records with comprehensive data:
+- **Personal Information**: Name, email, phone, address, etc.
+- **Education & Employment**: Education level, employment status, income, etc.
+- **Socials**: Twitter, Facebook, Instagram handles
+- **Guarantor**: Guarantor information for loans
+- **Account Summary**: Bank details, balance, tier level
 
 ## 🧪 Testing
 
@@ -188,48 +213,64 @@ npm run test UserDetails.test.tsx
 ### ✅ Requirements Met
 
 1. **4 Pages Implemented**:
-   - ✅ Login Page
-   - ✅ Dashboard Page  
-   - ✅ Users Page
-   - ✅ User Details Page
+   - ✅ Login Page with authentication and validation
+   - ✅ Dashboard Page with KPIs and activities
+   - ✅ Users Page with table, filtering, and pagination
+   - ✅ User Details Page with comprehensive tabs
 
-2. **Mock API with 500+ Records**:
+2. **Mock API with 400 Records**:
    - ✅ MSW setup with comprehensive user data
    - ✅ Pagination and filtering support
-   - ✅ Realistic data structure
+   - ✅ Realistic data structure with proper relationships
+   - ✅ Separated API endpoints for different data types
 
 3. **Local Storage Implementation**:
-   - ✅ User details caching
-   - ✅ Authentication persistence
-   - ✅ Performance optimization
+   - ✅ User details caching for performance
+   - ✅ Authentication persistence across sessions
+   - ✅ Optimized data loading strategies
 
 4. **Mobile Responsive**:
-   - ✅ Mobile-first design
+   - ✅ Mobile-first design approach
    - ✅ Tablet and desktop breakpoints
    - ✅ Touch-friendly interactions
+   - ✅ Responsive table and form layouts
 
 5. **Visual Fidelity**:
-   - ✅ Pixel-perfect implementation
-   - ✅ Consistent design system
-   - ✅ Professional UI/UX
+   - ✅ Pixel-perfect implementation matching designs
+   - ✅ Consistent design system and components
+   - ✅ Professional UI/UX with proper spacing and typography
 
 6. **Code Quality**:
-   - ✅ TypeScript throughout
-   - ✅ Modern React patterns
-   - ✅ Clean architecture
-   - ✅ Comprehensive documentation
+   - ✅ TypeScript throughout with proper typing
+   - ✅ Modern React patterns and hooks
+   - ✅ Clean architecture with separation of concerns
+   - ✅ Comprehensive documentation and comments
 
 7. **Unit Testing**:
-   - ✅ Positive and negative scenarios
-   - ✅ Component testing
-   - ✅ Integration testing
-   - ✅ Error handling tests
+   - ✅ Positive and negative scenarios covered
+   - ✅ Component testing with React Testing Library
+   - ✅ Integration testing for user workflows
+   - ✅ Error handling and edge case tests
 
 8. **Best Practices**:
-   - ✅ Semantic HTML
-   - ✅ Accessibility features
-   - ✅ Performance optimization
-   - ✅ Security considerations
+   - ✅ Semantic HTML structure
+   - ✅ Accessibility features (ARIA labels, keyboard navigation)
+   - ✅ Performance optimization (lazy loading, caching)
+   - ✅ Security considerations (input validation, route protection)
+
+### ✅ **Bonus Features Implemented**
+
+- **Advanced Filtering**: Multi-criteria search and filtering
+- **User Actions**: Blacklist/activate users with proper state management
+- **Performance Features**: Lazy loading, data caching, optimized rendering
+- **Enhanced UX**: Loading states, error handling, success feedback
+- **Clean Architecture**: Separated data fetching responsibilities
+
+### 🔄 **Recent Improvements**
+
+- **Data Fetching Optimization**: Separated `useAccountSummary` and `useGeneralDetails` hooks for better performance
+- **Component Modularity**: Each component now handles its own data fetching responsibilities
+- **Code Maintainability**: Improved separation of concerns and reduced component complexity
 
 ## 🎨 Design System
 
@@ -262,10 +303,6 @@ npm run build
    - Output Directory: `dist`
    - Install Command: `npm install`
 
-### Environment Variables for Production
-Set the following in your deployment platform:
-- `VITE_LOGIN_EMAIL`: Admin email
-- `VITE_LOGIN_PASS`: Admin password
 
 ## 📝 API Documentation
 
@@ -302,24 +339,9 @@ Response: {
 }
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is created for the Lendsqr Frontend Engineering Assessment. All rights reserved.
-
 ## 📞 Support
 
 For questions about this assessment implementation, please contact:
-- **Email**: careers@lendsqr.com
-- **Repository**: https://github.com/your-username/lendsqr-fe-test
+- **Email**: uchedotphp@gmail.com
 
 ---
-
-**Built with ❤️ for Lendsqr Frontend Engineering Assessment**
