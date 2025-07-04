@@ -33,61 +33,65 @@ const UsersTable = ({ tableHeaders, paginationData }: TableProps) => {
   return (
     <>
       <Card>
-        <table className={styles["users-table"]}>
-          <thead>
-            <tr>
-              {tableHeaders &&
-                tableHeaders.map((header) => (
-                  <th
-                    key={header}
-                    scope="col"
-                    className={`${styles["users-table__header"]}`}
-                  >
-                    <Button
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        columnGap: "10px",
-                      }}
-                      className="btn--flat"
+        <div className={styles["users-table__container"]}>
+          <table className={styles["users-table"]}>
+            <thead>
+              <tr>
+                {tableHeaders &&
+                  tableHeaders.map((header) => (
+                    <th
+                      key={header}
+                      scope="col"
+                      className={`${styles["users-table__header"]}`}
                     >
-                      {header}
-                      <img src={FilterIcon} alt="" />
-                    </Button>
-                  </th>
-                ))}
-            </tr>
-          </thead>
-          <tbody>
-            {paginationData.data?.map((person, index) => (
-              <tr key={index}>
-                <td>
-                  {person.activeOrganization}
-                  <dl className="hide">
-                    <dd>{person.activeOrganization}</dd>
-                    <dt style={{ display: "none" }}>Email</dt>
-                    <dd>{person.email}</dd>
-                  </dl>
-                </td>
-                <td>{person.username}</td>
-                <td>{person.email}</td>
-                <td>{person.phoneNumber}</td>
-                <td>{formatDateTime(person.createdAt)}</td>
-                <td>
-                  <Badge status={person.status} />
-                </td>
-                <td>
-                  <FlyoutMenu
-                    buttonChildren={
-                      <img src={EllipsisIcon} alt="ellipsis icon" />
-                    }
-                    menuChildren={<Menu id={person.id} />}
-                  />
-                </td>
+                      <Button
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          columnGap: "10px",
+                        }}
+                        className="btn--flat"
+                      >
+                        {header}
+                        <img src={FilterIcon} alt="" />
+                      </Button>
+                    </th>
+                  ))}
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {paginationData.data?.map((person, index) => (
+                <tr key={index}>
+                  <td>
+                    {person.activeOrganization}
+                    <dl className="hide">
+                      <dd>{person.activeOrganization}</dd>
+                      <dt style={{ display: "none" }}>Email</dt>
+                      <dd>{person.email}</dd>
+                    </dl>
+                  </td>
+                  <td>{person.username}</td>
+                  <td>{person.email}</td>
+                  <td>{person.phoneNumber}</td>
+                  <td>{formatDateTime(person.createdAt)}</td>
+                  <td>
+                    <Badge status={person.status} />
+                  </td>
+                  <td>
+                    <FlyoutMenu
+                      buttonChildren={
+                        <img src={EllipsisIcon} alt="ellipsis icon" />
+                      }
+                      menuChildren={
+                        <Menu status={person.status} id={person.id} />
+                      }
+                    />
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </Card>
       <Pagination
         recordsCount={paginationData.pagination.items || 0}

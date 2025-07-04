@@ -17,20 +17,18 @@ const InputWithPrefix = ({
   name,
   type = "text",
   id,
-  className
+  className,
 }: InputWithPrefixProps) => {
   return (
-    <div className={`${styles.input__wrapper} ${className}`}>
-      <div className={styles.input__group}>
-        <input
-          id={id}
-          name={name}
-          type={type}
-          placeholder={placeholder}
-          className={styles.input__group__input}
-        />
-        <div className={styles.input__group__prefix}>{children}</div>
-      </div>
+    <div className={`${styles.input__group} ${className}`}>
+      <input
+        id={id}
+        name={name}
+        type={type}
+        placeholder={placeholder}
+        className={styles.input__group__input}
+      />
+      <div className={styles.input__group__prefix}>{children}</div>
     </div>
   );
 };

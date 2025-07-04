@@ -14,25 +14,14 @@ export type UserRoleSchemaType = z.infer<typeof UserRoleSchema>;
 
 export const UserProfileSchema = z.object({
     id: z.string(),
-    firstName: z.string(),
-    lastName: z.string(),
     username: z.string(),
-    email: z.email(),
+    email: z.string(),
     phoneNumber: z.string(),
-    createdAt: z.string(),
-    updatedAt: z.string(),
     status: StatusSchema,
-    imgUrl: z.string().optional(),
-    role: UserRoleSchema.optional(),
+    createdAt: z.string(),
+    organizations: z.array(z.string()).optional(),
     activeOrganization: z.string().optional(),
-    organizations: z.array(
-        z.object({
-            id: z.string(),
-            name: z.string(),
-            createdAt: z.string(),
-            updatedAt: z.string(),
-            status: StatusSchema,
-        })
-    ),
+    firstName: z.string().optional(),
+    lastName: z.string().optional(),
 });
 export type UserProfileSchemaType = z.infer<typeof UserProfileSchema>;

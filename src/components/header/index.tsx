@@ -1,17 +1,17 @@
 import Logo from "@components/Logo";
 import styles from "./header.module.scss";
 import { Link } from "react-router";
-import InputWithPrefix from "@components/ui/inputs/InputWithPrefix";
-import SearchIcon from "@assets/icons/search.svg";
+// import InputWithPrefix from "@components/ui/inputs/InputWithPrefix";
+// import SearchIcon from "@assets/icons/search.svg";
 import Avatar from "@components/ui/avatar/Avatar";
-// import { useContext } from "react";
-// import ProfileContext from "state-management/contexts/profileContext";
+import { useContext } from "react";
+import ProfileContext from "../../state-management/context/profileContext";
 import MobileMenu from "./MobileMenu";
 import Notifications from "./Notifications";
 
 const Header = () => {
-  // const context = useContext(ProfileContext);
-  const firstName = "Guest"; // Fallback value for firstName
+  const { profile } = useContext(ProfileContext);
+  const firstName = profile?.firstName || "Guest";
 
   return (
     <div className={styles.header}>
@@ -23,7 +23,8 @@ const Header = () => {
           <Logo />
         </div>
         <div className={`${styles.header__search} hide show-desktop`}>
-          <InputWithPrefix
+          {/* TODO: Add search input */}
+          {/* <InputWithPrefix
             placeholder="Search for anything"
             name="search"
             type="text"
@@ -32,7 +33,7 @@ const Header = () => {
             <span style={{ backgroundColor: "red" }}>
               <img src={SearchIcon} alt="search" />
             </span>
-          </InputWithPrefix>
+          </InputWithPrefix> */}
         </div>
       </section>
 

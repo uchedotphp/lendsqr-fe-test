@@ -2,6 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import { BrowserRouter } from 'react-router'
 import Login from '../pages/auth/Login'
+import React from 'react'
 
 // Mock environment variables
 vi.mock('import.meta.env', () => ({

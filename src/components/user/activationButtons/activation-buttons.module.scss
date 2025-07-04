@@ -1,0 +1,28 @@
+@use "../../../styles/variables" as *;
+
+.activation-buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+
+  & > button {
+    height: 40px;
+    width: 170px;
+    padding-block: 12px 11px;
+    font-weight: $font-weight-medium;
+    font-size: $font-sm;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+  }
+
+  &__blacklist {
+    border-color: $color-red !important;
+    color: $color-red;
+  }
+
+  &__activate {
+    border-color: $color-green !important;
+    color: $color-green;
+  }
+}

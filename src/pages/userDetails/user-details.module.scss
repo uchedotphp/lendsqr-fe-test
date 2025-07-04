@@ -1,0 +1,57 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.userDetails {
+  &__container {
+    & > *:not(:first-child) {
+      margin-top: 30px;
+    }
+
+    & > *:not(:last-child) {
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba($color-gray-50, 0.2);
+    }
+  }
+
+  &__header {
+    margin-bottom: 30px;
+
+    h3 {
+      font-size: $font-base;
+      line-height: 19px;
+      font-weight: $font-weight-medium;
+      color: $color-primary;
+    }
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+
+    @include respond-to(mobile) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      row-gap: 30px;
+      column-gap: 10px;
+    }
+
+    @include respond-to(desktop) {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+
+    .title {
+      font-size: $font-xs;
+      line-height: 14px;
+      font-weight: $font-weight-regular;
+      color: $text-primary;
+      padding-bottom: 8px;
+    }
+
+    .value {
+      font-size: $font-base;
+      line-height: 19px;
+      font-weight: $font-weight-medium;
+      color: $text-primary;
+    }
+  }
+}

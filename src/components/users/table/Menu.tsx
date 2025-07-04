@@ -6,34 +6,43 @@ import { Link } from "react-router";
 
 interface MenuProps {
   id: string;
+  status: string;
 }
 
-const Menu = ({ id }: MenuProps) => {
+const Menu = ({ id, status }: MenuProps) => {
   const navs = [
     {
       icon: EyeIcon,
       label: "view details",
-      link: "",
+      link: `/users/${id}/details`,
     },
-    {
-      icon: DeleteUser,
-      label: "blacklist user",
-      link: "",
-    },
-    {
-      icon: ActivateUser,
-      label: "activate user",
-      link: "",
-    },
+    ...(status !== "blacklisted"
+      ? [
+          {
+            icon: DeleteUser,
+            label: "blacklist user",
+            link: "#",
+          },
+        ]
+      : []),
+    ...(status !== "active"
+      ? [
+          {
+            icon: ActivateUser,
+            label: "activate user",
+            link: "#",
+          },
+        ]
+      : []),
   ];
+
   return (
     <ul>
-      {navs.map(({ icon, label }) => (
-        <li key={label}>
+      {navs.map(({ icon, label, link }) => (
+        <li key={id + label}>
           <Link
-            to={`/users/${id}/details`}
+            to={link}
             onClick={() => console.log("clicked")}
-            key={label}
             className={styles["users-table__menu"]}
           >
             <img src={icon} alt={`${label} icon`} />

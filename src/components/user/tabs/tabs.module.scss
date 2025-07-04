@@ -1,0 +1,39 @@
+@use "../../../styles/variables" as *;
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+
+  &__item {
+    padding: 10px 25px;
+    text-wrap: nowrap;
+    font-size: $font-base;
+    line-height: 19px;
+    font-weight: $font-weight-regular;
+    color: $color-black;
+    position: relative;
+  }
+
+  &__item__active {
+    text-wrap: nowrap;
+    padding: 10px 25px;
+    font-size: $font-base;
+    line-height: 19px;
+    font-weight: $font-weight-regular;
+    color: $color-secondary;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: $color-secondary;
+      opacity: 0.8;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+    }
+  }
+}

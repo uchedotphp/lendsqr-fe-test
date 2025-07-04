@@ -56,7 +56,8 @@
   align-items: center;
   border: 2px solid rgb(84, 95, 125, 0.15);
   overflow: hidden;
-  margin-top: 8px;
+  background-color: white;
+  height: 100%;
 
   &--hover {
     border-color: $color-primary;
@@ -90,16 +91,15 @@
     flex-shrink: 0;
     align-items: center;
     background-color: $color-white;
-    padding: 12px 12px 8px 12px;
+    height: 100%;
+    // padding: 12px 12px 8px 12px;
     font-size: $font-base;
-    color: rgb(107, 114, 128);
-    border-right: 1px solid rgb(209, 213, 219);
+    // color: rgb(107, 114, 128);
     font-weight: $font-weight-regular;
   }
 
   &__input {
     width: 100%;
-    padding: 12px 12px 8px 12px;
     border: none;
     outline: none;
     font-size: $font-base;
@@ -121,7 +121,7 @@
 
   input {
     width: 100%;
-    padding: 17.5px 16px 12.5px 16px;
+    // padding: 17.5px 16px 12.5px 16px;
     border: none;
     outline: none;
     width: 100%;

@@ -6,10 +6,13 @@ import Loader from "@components/loader";
 import MainLayout from "@layouts/MainLayout";
 import NotFound from "@pages/notFound/NotFound";
 import Users from "@pages/users";
+import { UserProvider } from "../state-management/context/userContext";
 
 const Dashboard = lazy(() => import("@pages/Dashboard"));
 const LoginPage = lazy(() => import("@pages/auth/Login"));
 const AuthLayout = lazy(() => import("@layouts/AuthLayout"));
+const User = lazy(() => import("@pages/User"));
+const UserGeneralDetails = lazy(() => import("@pages/userDetails/UserGeneralDetails"));
 
 export const router = createBrowserRouter([
   {
@@ -39,12 +42,32 @@ export const router = createBrowserRouter([
         ),
       },
       {
-        path: "users",
+        path: "/users",
         element: (
           <Suspense fallback={<Loader />}>
             <Users />
           </Suspense>
         ),
+      },
+      {
+        path: "/users/:userId/:tab",
+        element: (
+          <UserProvider>
+            <Suspense fallback={<Loader />}>
+              <User />
+            </Suspense>
+          </UserProvider>
+        ),
+        children: [
+          {
+            index: true,
+            element: (
+              <Suspense fallback={<Loader />}>
+                <UserGeneralDetails />
+              </Suspense>
+            ),
+          },
+        ],
       },
     ],
   },

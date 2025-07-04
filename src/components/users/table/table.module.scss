@@ -1,6 +1,31 @@
 @use "../../../styles/variables" as *;
 
 .users-table {
+  &__container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+    // Custom scrollbar styling for webkit browsers
+    &::-webkit-scrollbar {
+      height: 8px;
+    }
+    
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 4px;
+    }
+    
+    &::-webkit-scrollbar-thumb {
+      background: #c1c1c1;
+      border-radius: 4px;
+      
+      &:hover {
+        background: #a8a8a8;
+      }
+    }
+  }
+
   &__header {
     button {
       text-transform: uppercase;
@@ -30,6 +55,7 @@
   }
 
   // Table styles
+  min-width: 800px; // Ensure minimum width for content
   width: 100%;
   table-layout: fixed;
   border-collapse: collapse;
@@ -55,69 +81,71 @@
   }
 
   tbody tr td:nth-child(1) {
-    width: 17%;
+    width: 16%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
   tbody tr td:nth-child(2) {
-    width: 17%;
+    width: 16%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
   tbody tr td:nth-child(3) {
-    width: 17%;
+    width: 16%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
   tbody tr td:nth-child(4) {
-    width: 17%;
+    width: 16%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
   tbody tr td:nth-child(5) {
-    width: 17%;
+    width: 16%;
     overflow: visible;
     white-space: normal;
     word-wrap: break-word;
   }
 
   tbody tr td:nth-child(6) {
-    width: 8%;
-    text-align: center;
+    width: 12%;
+    text-align: left;
     overflow: visible;
     white-space: nowrap;
+    padding-right: 16px; // Add extra padding to prevent overlap
   }
 
   tbody tr td:nth-child(7) {
-    width: 7%;
+    width: 8%;
     text-align: center;
     overflow: visible;
+    padding-left: 8px; // Add some padding for better spacing
   }
 
   thead tr th:nth-child(1),
   thead tr th:nth-child(2),
   thead tr th:nth-child(3),
   thead tr th:nth-child(4) {
-    width: 17%;
+    width: 16%;
   }
 
   thead tr th:nth-child(5) {
-    width: 17%;
+    width: 16%;
   }
 
   thead tr th:nth-child(6) {
-    width: 8%;
+    width: 12%;
   }
 
   thead tr th:nth-child(7) {
-    width: 7%;
+    width: 8%;
   }
 }
