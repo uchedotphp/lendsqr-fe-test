@@ -3,6 +3,7 @@
 A React TypeScript application built for the Lendsqr Frontend Engineering Assessment, implementing a comprehensive admin dashboard with user management capabilities.
 
 ### Authentication
+
 Use the following details to login to the platform:
 - `email`: uchedotphp@test.com
 - `password`: adminpassword
