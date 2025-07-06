@@ -5,6 +5,7 @@ A React TypeScript application built for the Lendsqr Frontend Engineering Assess
 ### Authentication
 
 Use the following details to login to the platform:
+- Live url: [https://uchechukwu-prince-nwulu-lendsqr-fe-test.vercel.app/](https://uchechukwu-prince-nwulu-lendsqr-fe-test.vercel.app/)
 - `email`: uchedotphp@test.com
 - `password`: adminpassword
 
