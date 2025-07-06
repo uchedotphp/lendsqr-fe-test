@@ -44,7 +44,7 @@ const UsersContent = () => {
 
       <section className={pageStyles.pages__section}>
         <ul className={pageStyles.pages__kpis}>
-          {kpis.map(({ label, value }, index) => (
+          {kpis?.map(({ label, value }, index) => (
             <li key={index} className={pageStyles.pages__kpis__item}>
               <Kpi
                 label={label}
