@@ -1,6 +1,6 @@
 import InputGroup from "@components/ui/inputs/InputGroup";
 import { useForm } from "react-hook-form";
-import ChevronDown from '@assets/icons/chevronDown.svg'
+import ChevronDown from "@assets/icons/chevronDown.svg";
 import BaseInput from "@components/ui/inputs/BaseInput";
 import styles from "./table.module.scss";
 import Button from "@components/ui/buttons/Button";
@@ -85,7 +85,7 @@ const SortMenu = () => {
 
       <div className={styles.sortmenu__buttons}>
         <Button className="btn--outline">Reset</Button>
-        <Button className="btn--outline">Filter</Button>
+        <Button className={styles["sortmenu__buttons--filter"]}>Filter</Button>
       </div>
     </section>
   );

@@ -1,5 +1,4 @@
 import Card from "@components/ui/card/Card";
-import Button from "@components/ui/buttons/Button";
 import FilterIcon from "@assets/icons/filter-icon.svg";
 import Pagination from "@components/ui/pagination";
 import EllipsisIcon from "@assets/icons/ellipsis.svg";

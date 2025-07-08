@@ -162,10 +162,6 @@
     margin-bottom: 20px;
   }
 
-  & > *:last-child {
-    margin-bottom: 30px;
-  }
-
   &__input {
     border-radius: $border-radius-md;
     padding: 12px 20px;
@@ -183,5 +179,17 @@
     display: flex;
     gap: 14px;
     margin-top: 30px;
+
+    button {
+      height: 40px;
+      padding-inline: 30px;
+    }
+    &--reset {
+      background-color: $color-white;
+    }
+    &--filter {
+      color: $color-white;
+      background-color: $color-secondary;
+    }
   }
 }
