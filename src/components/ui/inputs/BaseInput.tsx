@@ -1,15 +1,14 @@
 import styles from "./input.module.scss";
 import { useController, type UseControllerProps } from "react-hook-form";
 import { useState, type InputHTMLAttributes } from "react";
-import type { LoginSchemaType } from "../../../schemas/Schema";
 
-const BaseInput = ({
+const BaseInput = <T extends Record<string, string>>({
   control,
   name,
   disabled,
   className,
   ...rest
-}: UseControllerProps<LoginSchemaType> &
+}: UseControllerProps<T> &
   InputHTMLAttributes<HTMLInputElement>) => {
   const { field, fieldState } = useController({ control, name });
   const [isFocused, setIsFocused] = useState(false);

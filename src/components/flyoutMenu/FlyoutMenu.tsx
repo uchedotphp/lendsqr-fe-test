@@ -7,6 +7,9 @@ interface FlyoutMenuProps {
   menuChildren: ReactNode;
   buttonClass?: string;
   menuClass?: string;
+  menuPosition?: "left" | "right" | "center";
+  isOpen?: boolean;
+  onOpenChange?: (isOpen: boolean) => void;
 }
 
 const FlyoutMenu = ({
@@ -14,13 +17,25 @@ const FlyoutMenu = ({
   menuChildren,
   menuClass,
   buttonClass,
+  menuPosition = "center",
+  isOpen,
+  onOpenChange,
 }: FlyoutMenuProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   const toggleMenu = () => {
-    setMenuOpen((prev) => !prev);
+    const newState = !menuOpen;
+    setMenuOpen(newState);
+    onOpenChange?.(newState);
   };
+
+  // Update internal state when controlled from outside
+  useEffect(() => {
+    if (isOpen !== undefined) {
+      setMenuOpen(isOpen);
+    }
+  }, [isOpen]);
 
   useEffect(() => {
     const handleClick = (event: MouseEvent) => {
@@ -31,15 +46,7 @@ const FlyoutMenu = ({
       // Click outside the component
       if (!menuRef.current.contains(target)) {
         setMenuOpen(false);
-        return;
-      }
-
-      // Click inside the flyout menu on a button
-      const isInsideMenu = target.closest(`.${styles.menu__flyoutmenu}`);
-      if (isInsideMenu) {
-        setTimeout(() => {
-          setMenuOpen(false);
-        }, 100);
+        onOpenChange?.(false);
       }
     };
 
@@ -47,10 +54,13 @@ const FlyoutMenu = ({
     return () => {
       document.removeEventListener("mousedown", handleClick);
     };
-  }, [menuOpen]);
+  }, [onOpenChange]);
 
   return (
-    <div className={styles.menu} ref={menuRef}>
+    <div
+      className={`${styles.menu}`}
+      ref={menuRef}
+    >
       <Button
         onClick={toggleMenu}
         className={`${styles.menu__button} ${buttonClass} btn--flat`}
@@ -61,6 +71,14 @@ const FlyoutMenu = ({
       <section
         className={`${styles.menu__flyoutmenu} ${menuClass} ${
           menuOpen ? "show" : "hide"
+        } ${
+          menuPosition === "left"
+            ? styles.menu__left
+            : menuPosition === "right"
+            ? styles.menu__right
+            : menuPosition === "center"
+            ? styles.menu__center
+            : ""
         }`}
       >
         {menuChildren}

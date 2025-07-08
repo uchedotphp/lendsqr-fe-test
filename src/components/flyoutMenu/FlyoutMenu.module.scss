@@ -4,12 +4,11 @@
   // background-color: red;
   position: relative;
   &__button {
-
   }
   &__flyoutmenu {
     position: absolute;
     top: 100%;
-    right: 5%;
+    // right: 5%;
     z-index: 2;
     border-radius: 4px;
     background-color: $color-white;
@@ -17,5 +16,14 @@
     overflow: hidden;
     border: 1px solid rgb($text-primary, 0.05);
   }
-
+  &__left {
+    left: 0;
+  }
+  &__center {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__right {
+    right: 0;
+  }
 }

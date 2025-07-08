@@ -11,6 +11,7 @@ import { formatDateTime } from "@utils/helpers";
 import { useContext } from "react";
 import UsersTableContext from "../../../state-management/context/usersTableContext";
 import type { UserProfileSchemaType } from "@schemas/Schema";
+import SortMenu from "./SortMenu";
 
 interface TableProps {
   tableHeaders: string[];
@@ -44,17 +45,24 @@ const UsersTable = ({ tableHeaders, paginationData }: TableProps) => {
                       scope="col"
                       className={`${styles["users-table__header"]}`}
                     >
-                      <Button
-                        style={{
-                          display: "flex",
-                          alignItems: "center",
-                          columnGap: "10px",
-                        }}
-                        className="btn--flat"
-                      >
-                        {header}
-                        <img src={FilterIcon} alt="" />
-                      </Button>
+                      <FlyoutMenu
+                        menuPosition="left"
+                        buttonChildren={
+                          <div
+                            role="button"
+                            style={{
+                              display: "flex",
+                              alignItems: "center",
+                              columnGap: "10px",
+                            }}
+                            className="btn--flat"
+                          >
+                            {header}
+                            <img src={FilterIcon} alt="" />
+                          </div>
+                        }
+                        menuChildren={<SortMenu />}
+                      />
                     </th>
                   ))}
               </tr>
@@ -79,6 +87,7 @@ const UsersTable = ({ tableHeaders, paginationData }: TableProps) => {
                   </td>
                   <td>
                     <FlyoutMenu
+                      menuPosition="right"
                       buttonChildren={
                         <img src={EllipsisIcon} alt="ellipsis icon" />
                       }
