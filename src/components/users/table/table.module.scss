@@ -56,12 +56,6 @@
     }
   }
 
-  // Table styles
-  // min-width: 800px;
-  // width: 100%;
-  // table-layout: fixed;
-  // border-collapse: collapse;
-
   thead tr th,
   tbody tr td {
     padding-block: 23px;
@@ -133,10 +127,16 @@
   }
 
   thead tr th:nth-child(1),
-  thead tr th:nth-child(2),
-  thead tr th:nth-child(3),
-  thead tr th:nth-child(4) {
+  thead tr th:nth-child(2){
     width: 16%;
+  }
+
+  thead tr th:nth-child(3) {
+    width: 14%;
+  }
+
+  thead tr th:nth-child(4) {
+    width: 19%;
   }
 
   thead tr th:nth-child(5) {

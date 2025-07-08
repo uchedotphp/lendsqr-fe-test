@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Logo = () => {
   return (
-    <Link to="/" className="h-full w-full">
+    <Link to="/">
       <img src={LendsqrLogo} alt="Lendsqr logo" />
     </Link>
   );
