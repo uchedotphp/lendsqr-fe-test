@@ -178,4 +178,10 @@
     font-weight: $font-weight-medium;
     padding-bottom: 6px;
   }
+
+  &__buttons {
+    display: flex;
+    gap: 14px;
+    margin-top: 30px;
+  }
 }
