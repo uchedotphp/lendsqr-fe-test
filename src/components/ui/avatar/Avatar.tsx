@@ -1,5 +1,4 @@
 import Avatar from "@assets/icons/avatar.svg";
-import Button from "@components/ui/buttons/Button";
 import CaretDown from "@assets/icons/carret-down.svg";
 import styles from "./avatar.module.scss";
 
@@ -9,7 +8,7 @@ interface AvatarProps {
 
 const index = ({ firstName }: AvatarProps) => {
   return (
-    <Button className={styles.avatar}>
+    <section role="button" className={styles.avatar}>
       <img src={Avatar} className={styles.avatar__image} alt="User Avatar" />
       {firstName && (
         <span className={`${styles.avatar__name} hide show-tablet`}>
@@ -17,7 +16,7 @@ const index = ({ firstName }: AvatarProps) => {
         </span>
       )}
       <img src={CaretDown} alt="caret down" />
-    </Button>
+    </section>
   );
 };
 

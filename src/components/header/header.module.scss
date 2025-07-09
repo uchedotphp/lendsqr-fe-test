@@ -36,11 +36,18 @@
   &__search {
     max-width: 400px;
     width: 100%;
-    height: 40px;
+    height: 60px;
+    background-color: red;
     border-radius: $border-radius-lg;
     overflow: hidden;
     // background-color: green;
-    padding: 17.5px 16px 12.5px 16px;
+    
+    &__input {
+      // padding: 17.5px 16px 12.5px 16px;
+      background-color: blue;
+      height: 100%;
+      width: 100%;
+    }
   }
 
   &__docs {
@@ -54,5 +61,17 @@
 
   &__notifications {
     margin-right: 30px;
+  }
+
+  &__logout {
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: $color-red;
+    text-transform: uppercase;
+    font-size: $font-sm;
+    font-weight: $font-weight-semibold;
+    line-height: 19px;
+    box-shadow: $shadow-md;
   }
 }
