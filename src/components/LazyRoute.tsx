@@ -1,14 +1,12 @@
-import { Suspense } from "react";
+import { Suspense, type ReactNode } from "react";
 import Loader from "@components/loader";
 
 interface LazyRouteProps {
-  children: React.ReactNode;
+  children: ReactNode;
 }
 
 const LazyRoute = ({ children }: LazyRouteProps) => (
-  <Suspense fallback={<Loader />}>
-    {children}
-  </Suspense>
+  <Suspense fallback={<Loader />}>{children}</Suspense>
 );
 
-export default LazyRoute; 
+export default LazyRoute;

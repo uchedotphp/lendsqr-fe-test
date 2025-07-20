@@ -27,45 +27,27 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: (
-          <LazyRoute>
-            <Dashboard />
-          </LazyRoute>
-        ),
+        element: <Dashboard />,
       },
       {
         path: "dashboard",
-        element: (
-          <LazyRoute>
-            <Dashboard />
-          </LazyRoute>
-        ),
+        element: <Dashboard />,
       },
       {
         path: "/users",
-        element: (
-          <LazyRoute>
-            <Users />
-          </LazyRoute>
-        ),
+        element: <Users />,
       },
       {
         path: "/users/:userId/:tab",
         element: (
           <UserProvider>
-            <LazyRoute>
-              <User />
-            </LazyRoute>
+            <User />
           </UserProvider>
         ),
         children: [
           {
             index: true,
-            element: (
-              <LazyRoute>
-                <UserGeneralDetails />
-              </LazyRoute>
-            ),
+            element: <UserGeneralDetails />,
           },
         ],
       },
