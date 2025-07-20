@@ -34,7 +34,7 @@ This project demonstrates proficiency in:
 - **Responsive Layout**: Mobile-first design approach
 
 ### 👥 Users Management
-- **Users Table**: Paginated data table with 500+ mock records
+- **Users Table**: Paginated data table with 400 mock records
 - **Advanced Filtering**: Search and filter by organization, username, email, phone, date, status
 - **Pagination**: Configurable page sizes (10, 20, 50, 100)
 - **Status Management**: User status badges and actions
