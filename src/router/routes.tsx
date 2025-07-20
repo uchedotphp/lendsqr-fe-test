@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router";
-import { lazy, Suspense } from "react";
+import { lazy } from "react";
 import ProtectedRoute from "@components/ProtectedRoute";
 import PublicRoute from "@components/PublicRoute";
-import Loader from "@components/loader";
+import LazyRoute from "@components/LazyRoute";
 import MainLayout from "@layouts/MainLayout";
 import NotFound from "@pages/notFound/NotFound";
 import Users from "@pages/users";
@@ -19,52 +19,52 @@ export const router = createBrowserRouter([
     path: "/",
     element: (
       <ProtectedRoute>
-        <Suspense fallback={<Loader />}>
+        <LazyRoute>
           <MainLayout />
-        </Suspense>
+        </LazyRoute>
       </ProtectedRoute>
     ),
     children: [
       {
         index: true,
         element: (
-          <Suspense fallback={<Loader />}>
+          <LazyRoute>
             <Dashboard />
-          </Suspense>
+          </LazyRoute>
         ),
       },
       {
         path: "dashboard",
         element: (
-          <Suspense fallback={<Loader />}>
+          <LazyRoute>
             <Dashboard />
-          </Suspense>
+          </LazyRoute>
         ),
       },
       {
         path: "/users",
         element: (
-          <Suspense fallback={<Loader />}>
+          <LazyRoute>
             <Users />
-          </Suspense>
+          </LazyRoute>
         ),
       },
       {
         path: "/users/:userId/:tab",
         element: (
           <UserProvider>
-            <Suspense fallback={<Loader />}>
+            <LazyRoute>
               <User />
-            </Suspense>
+            </LazyRoute>
           </UserProvider>
         ),
         children: [
           {
             index: true,
             element: (
-              <Suspense fallback={<Loader />}>
+              <LazyRoute>
                 <UserGeneralDetails />
-              </Suspense>
+              </LazyRoute>
             ),
           },
         ],
@@ -78,9 +78,9 @@ export const router = createBrowserRouter([
         path: "/login",
         element: (
           <PublicRoute>
-            <Suspense fallback={<Loader />}>
+            <LazyRoute>
               <LoginPage />
-            </Suspense>
+            </LazyRoute>
           </PublicRoute>
         ),
       },
@@ -89,9 +89,9 @@ export const router = createBrowserRouter([
   {
     path: "*",
     element: (
-      <Suspense fallback={<Loader />}>
+      <LazyRoute>
         <NotFound />
-      </Suspense>
+      </LazyRoute>
     ),
   },
 ]);
