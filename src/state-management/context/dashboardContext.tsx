@@ -8,7 +8,7 @@ interface DashboardContextProps {
 const DashboardContext = createContext<DashboardContextProps>({
   refreshData: () => {},
   lastUpdated: new Date(),
-} as DashboardContextProps);
+});
 
 export const DashboardProvider = ({ children }: { children: ReactNode }) => {
   const [lastUpdated, setLastUpdated] = useState(new Date());

@@ -7,6 +7,7 @@ import type { StatusSchemaType } from '../schemas/Schema';
 export interface DashboardKPI {
   label: string;
   value: number;
+  currency?: boolean;
 }
 
 export interface DashboardActivity {

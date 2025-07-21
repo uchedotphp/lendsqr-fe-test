@@ -28,9 +28,16 @@ export const localStorage = {
     }
 };
 
-export function formatNumber(num: number): string {
+export function formatNumber(num: number, currency?: boolean): string {
     if (num >= 1000000) {
         return (num / 1000000).toFixed(num % 1000000 === 0 ? 0 : 1) + 'M'; // Represent in millions
+    } else if (currency) {
+        const formatter = new Intl.NumberFormat('en-US', {
+            style: 'currency',
+            currency: 'NGN',
+            minimumFractionDigits: 2,
+        });
+        return formatter.format(num); // Add comma delimiter for thousands
     } else {
         return num.toLocaleString(); // Add comma delimiter for thousands
     }

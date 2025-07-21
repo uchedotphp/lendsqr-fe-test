@@ -23,15 +23,18 @@
   "dashboard-kpis": [
     {
       "label": "total loans",
-      "value": 2456789000
+      "value": 2456789000,
+      "currency": true
     },
     {
       "label": "active loans",
-      "value": 1234
+      "value": 1234,
+      "currency": true
     },
     {
       "label": "total revenue",
-      "value": 456789000
+      "value": 456789000,
+      "currency": true
     },
     {
       "label": "pending applications",

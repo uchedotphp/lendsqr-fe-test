@@ -54,9 +54,9 @@ const DashboardContent = () => {
           Key Performance Indicators
         </h3>
         <ul className={pageStyles.pages__kpis}>
-          {kpis.map(({ label, value }: DashboardKPI, index: number) => (
+          {kpis.map(({ label, value, currency }: DashboardKPI, index: number) => (
             <li key={index} className={pageStyles.pages__kpis__item}>
-              <Kpi label={label} value={value} icon={iconMap[label]} />
+              <Kpi label={label} value={value} currency={currency} icon={iconMap[label]} />
             </li>
           ))}
         </ul>
