@@ -1,0 +1,70 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  &__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  &__label-sr {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+
+  &__input {
+    width: 100%;
+    border: 2px solid var(--color-border-strong);
+    border-radius: 0.3125rem;
+    background: var(--color-surface);
+    padding: 1.0625rem 1rem;
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+
+    &::placeholder {
+      color: var(--color-placeholder);
+    }
+  }
+
+  &__password-wrap {
+    position: relative;
+  }
+
+  &__password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+  }
+
+  &__forgot-password {
+    align-self: flex-start;
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 0.375rem;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  &__error {
+    color: var(--color-error);
+    font-size: 0.75rem;
+  }
+
+}
