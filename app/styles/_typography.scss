@@ -1,0 +1,69 @@
+.typography-heading {
+  font-weight: 600;
+  color: var(--color-text-main);
+  line-height: 1.25;
+}
+
+.typography-heading--xs {
+  font-size: 1rem;
+}
+
+.typography-heading--sm {
+  font-size: 1.125rem;
+}
+
+.typography-heading--md {
+  font-size: 1.25rem;
+}
+
+.typography-heading--lg {
+  font-size: 1.5rem;
+}
+
+.typography-heading--xl {
+  font-size: 1.75rem;
+}
+
+.typography-heading--2xl {
+  font-size: 2.5rem;
+}
+
+.typography-heading--3xl {
+  font-size: 2.5rem;
+}
+
+.typography-heading--4xl {
+  font-size: 3rem;
+}
+
+.typography-text {
+  line-height: 1.5;
+}
+
+.typography-text--xs {
+  font-size: 0.75rem;
+}
+
+.typography-text--sm {
+  font-size: 0.875rem;
+}
+
+.typography-text--md {
+  font-size: 1rem;
+}
+
+.typography-text--lg {
+  font-size: 1.125rem;
+}
+
+.typography-text--default {
+  color: var(--color-text-main);
+}
+
+.typography-text--muted {
+  color: var(--color-text-muted);
+}
+
+.typography-text--error {
+  color: var(--color-error);
+}

@@ -1,0 +1,56 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: opacity 0.2s ease;
+  height: 3rem;
+
+  &:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+  }
+}
+
+.button--size-default {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 1.0625rem 1.5rem;
+}
+
+.button--size-sm {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+}
+
+.button--primary {
+  background: var(--color-primary);
+  color: var(--color-surface);
+}
+
+.button--ghost {
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0;
+}
+
+.button--link {
+  border-radius: 0;
+  background: transparent;
+  color: var(--color-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0;
+}
+
+.button--full-width {
+  width: 100%;
+}
