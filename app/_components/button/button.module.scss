@@ -16,6 +16,15 @@
   }
 }
 
+.button__spinner {
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 999px;
+  border: 2px solid currentcolor;
+  border-right-color: transparent;
+  animation: button-spin 0.6s linear infinite;
+}
+
 .button--size-default {
   font-size: 0.875rem;
   font-weight: 600;
@@ -53,4 +62,14 @@
 
 .button--full-width {
   width: 100%;
+}
+
+.button--loading {
+  gap: 0.5rem;
+}
+
+@keyframes button-spin {
+  to {
+    transform: rotate(360deg);
+  }
 }

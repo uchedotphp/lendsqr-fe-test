@@ -94,8 +94,14 @@ export function LoginForm() {
         FORGOT PASSWORD?
       </Link>
 
-      <Button variant="primary" fullWidth type="submit" disabled={isSubmitting}>
-        {isSubmitting ? "SIGNING IN..." : "LOG IN"}
+      <Button
+        variant="primary"
+        fullWidth
+        type="submit"
+        loading={isSubmitting}
+        loadingText="SIGNING IN..."
+      >
+        LOG IN
       </Button>
     </form>
   );

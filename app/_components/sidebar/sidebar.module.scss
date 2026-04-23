@@ -22,6 +22,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+    min-height: 100%;
     padding: 0 0 2rem;
   }
 
@@ -115,6 +116,38 @@
   &__sectionItems {
     display: flex;
     flex-direction: column;
+  }
+
+  &__footer {
+    margin-top: auto;
+    border-top: 1px solid var(--color-border);
+    padding: 1.75rem 1.7rem 0;
+  }
+
+  &__logoutButton {
+    justify-content: flex-start;
+    width: 100%;
+    gap: 0.75rem;
+    color: var(--color-text-main);
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    text-transform: none;
+    padding: 0;
+
+    svg {
+      width: 1.65rem;
+      height: 1.65rem;
+      opacity: 0.8;
+    }
+  }
+
+  &__version {
+    display: block;
+    color: var(--color-text-main);
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.25rem;
   }
 
   &__backdrop {

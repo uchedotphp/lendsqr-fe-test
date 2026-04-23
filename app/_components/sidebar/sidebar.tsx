@@ -1,14 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   HiArrowsRightLeft,
   HiBars3BottomLeft,
   HiClipboardDocumentList,
+  HiCog6Tooth,
   HiCog8Tooth,
   HiHome,
   HiOutlineArrowPathRoundedSquare,
+  HiOutlineArrowRightOnRectangle,
   HiOutlineBanknotes,
   HiOutlineBuildingLibrary,
   HiOutlineBuildingOffice2,
@@ -25,7 +27,9 @@ import {
 } from "react-icons/hi2";
 import { Button } from "@/app/_components/button/button";
 import styles from "@/app/_components/sidebar/sidebar.module.scss";
+import { apiClient } from "@/app/_lib/api/client";
 import { routes } from "@/app/_lib/constants/routes";
+import { useAuthStore } from "@/app/(auth)/_services/auth-store";
 
 const sidebarSections = [
   {
@@ -61,6 +65,7 @@ const sidebarSections = [
       { label: "Preferences", href: "#", icon: HiBars3BottomLeft },
       { label: "Fees and Pricing", href: "#", icon: HiCog8Tooth },
       { label: "Audit Logs", href: "#", icon: HiClipboardDocumentList },
+      { label: "Systems Messages", href: "#", icon: HiCog6Tooth },
     ],
   },
 ];
@@ -72,6 +77,18 @@ type SidebarProps = {
 
 export function Sidebar({ isOpen, onClose }: SidebarProps) {
   const pathname = usePathname();
+  const router = useRouter();
+  const logout = useAuthStore((state) => state.logout);
+
+  const handleLogout = async () => {
+    try {
+      await apiClient.post("/auth/logout");
+    } finally {
+      logout();
+      onClose();
+      router.replace(routes.login);
+    }
+  };
 
   return (
     <>
@@ -147,6 +164,19 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
               </div>
             </section>
           ))}
+
+          <section className={styles.sidebar__footer}>
+            <Button
+              variant="ghost"
+              size="sm"
+              className={styles.sidebar__logoutButton}
+              onClick={handleLogout}
+            >
+              <HiOutlineArrowRightOnRectangle />
+              <span>Logout</span>
+            </Button>
+            <small className={styles.sidebar__version}>v1.2.0</small>
+          </section>
         </nav>
       </aside>
     </>

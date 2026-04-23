@@ -2,6 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import { apiClient } from "@/app/_lib/api/client";
 import {
   fetchUserById,
+  fetchUserDetailsById,
   fetchUsers,
   fetchUsersKpis,
   updateUserActivationStatus,
@@ -115,6 +116,34 @@ describe("fetchUserById", () => {
 
     expect(user).toMatchObject({ id: "usr-001", username: "ade.bakare" });
     expect(apiClient.get).toHaveBeenCalledWith("/users/usr-001");
+  });
+});
+
+describe("fetchUserDetailsById", () => {
+  it("returns a user details payload for upper details view", async () => {
+    vi.mocked(apiClient.get).mockResolvedValueOnce({
+      data: {
+        userDetails: {
+          id: "usr-001",
+          status: "active",
+          fullName: "Grace Effiom",
+          userCode: "LSQF12345690",
+          tier: 2,
+          accountBalance: "N200,000.00",
+          accountNumber: "9912345678",
+          bankName: "Providus Bank",
+        },
+      },
+    });
+
+    const userDetails = await fetchUserDetailsById("usr-001");
+
+    expect(userDetails).toMatchObject({
+      id: "usr-001",
+      fullName: "Grace Effiom",
+      tier: 2,
+    });
+    expect(apiClient.get).toHaveBeenCalledWith("/users/usr-001/details");
   });
 });
 
