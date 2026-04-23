@@ -1,4 +1,3 @@
-import { forwardRef } from "react";
 import { cn } from "@/app/_lib/utils/cn";
 
 const textSizeClasses = {
@@ -18,34 +17,52 @@ type TextSize = keyof typeof textSizeClasses;
 type TextTone = keyof typeof textToneClasses;
 type TextElement = "p" | "span" | "label" | "small";
 
-type BodyTextProps = React.HTMLAttributes<HTMLElement> & {
-  as?: TextElement;
+type BodyTextBaseProps = {
   size?: TextSize;
   tone?: TextTone;
+  className?: string;
+  children?: React.ReactNode;
 };
 
-export const BodyText = forwardRef<HTMLElement, BodyTextProps>(
-  (
-    { className, as = "p", size = "md", tone = "default", children, ...props },
-    ref,
-  ) => {
-    const Comp = as;
+type BodyTextProps =
+  | (BodyTextBaseProps &
+      React.HTMLAttributes<HTMLParagraphElement> & {
+        as?: "p";
+      })
+  | (BodyTextBaseProps &
+      React.HTMLAttributes<HTMLSpanElement> & {
+        as: "span";
+      })
+  | (BodyTextBaseProps &
+      React.LabelHTMLAttributes<HTMLLabelElement> & {
+        as: "label";
+      })
+  | (BodyTextBaseProps &
+      React.HTMLAttributes<HTMLElement> & {
+        as: "small";
+      });
 
-    return (
-      <Comp
-        ref={ref}
-        className={cn(
-          "typography-text",
-          textSizeClasses[size],
-          textToneClasses[tone],
-          className,
-        )}
-        {...props}
-      >
-        {children}
-      </Comp>
-    );
-  },
-);
+export function BodyText({
+  className,
+  as = "p",
+  size = "md",
+  tone = "default",
+  children,
+  ...props
+}: BodyTextProps) {
+  const Comp = as as TextElement;
 
-BodyText.displayName = "BodyText";
+  return (
+    <Comp
+      className={cn(
+        "typography-text",
+        textSizeClasses[size],
+        textToneClasses[tone],
+        className,
+      )}
+      {...(props as Record<string, unknown>)}
+    >
+      {children}
+    </Comp>
+  );
+}
