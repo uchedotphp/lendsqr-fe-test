@@ -4,6 +4,11 @@ This repository contains my implementation of the [Lendsqr Frontend Engineer Ass
 
 The app is built with a fullstack Next.js setup using TypeScript and SCSS, with local JSON-backed API routes for predictable mock data.
 
+## Demo Login
+
+- Email: `admin@lendsqr.com`
+- Password: `Lendsqr123`
+
 ## Tech Stack
 
 - Next.js 16 (App Router) + React 19 + TypeScript
@@ -109,4 +114,4 @@ Update these before final submission:
 
 - Live URL: https://uchechukwu-prince-nwulu-lendsqr-fe-test.vercel.app
 - Public repository URL: https://github.com/uchedotphp/lendsqr-fe-test
-- Loom video URL: `<add loom URL>`
+- Loom video URL: https://www.loom.com/share/bfdab297bcad41949336c31ea7baf3b7

@@ -1593,7 +1593,7 @@
     {
       "id": "686757e859dcc7ecd155486a",
       "email": "barber_mcmahon@example.com",
-      "status": "blacklisted",
+      "status": "active",
       "lastName": "Mcmahon",
       "username": "barber_mcmahon",
       "createdAt": "2023-09-04T20:25:12.213Z",
