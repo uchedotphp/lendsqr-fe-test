@@ -4,6 +4,11 @@ This repository contains my implementation of the [Lendsqr Frontend Engineer Ass
 
 The app is built with a fullstack Next.js setup using TypeScript and SCSS, with local JSON-backed API routes for predictable mock data.
 
+## Demo Login
+
+- Email: `admin@lendsqr.com`
+- Password: `Lendsqr123`
+
 ## Tech Stack
 
 - Next.js 16 (App Router) + React 19 + TypeScript
