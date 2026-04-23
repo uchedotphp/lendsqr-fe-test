@@ -1,0 +1,263 @@
+.header {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  background: var(--color-surface);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  padding: 1rem;
+
+  &__left {
+    display: flex;
+    min-width: 0;
+    flex: 1;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  &__menuToggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background: transparent;
+    color: var(--color-text-main);
+    letter-spacing: normal;
+    text-transform: none;
+    height: auto;
+    padding: 0.25rem;
+    cursor: pointer;
+
+    svg {
+      width: 1.35rem;
+      height: 1.35rem;
+    }
+  }
+
+  &__logoLink {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 6.5rem;
+    height: auto;
+  }
+
+  &__search {
+    display: none;
+    max-width: 25rem;
+    min-width: 13rem;
+    flex: 1;
+    overflow: hidden;
+    border: 1px solid rgba(33, 63, 125, 0.2);
+    border-radius: 0.625rem;
+    background: var(--color-surface);
+    height: 2.5rem;
+
+    &:focus-within {
+      border-color: rgba(57, 205, 204, 0.55);
+      box-shadow: 0 0 0 2px rgba(57, 205, 204, 0.12);
+    }
+
+    input {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      padding: 0.7rem 1.1rem;
+      font-size: 0.95rem;
+      line-height: 1;
+      color: var(--color-text-muted);
+      outline: none;
+    }
+
+    input::placeholder {
+      color: rgba(84, 95, 125, 0.68);
+    }
+
+    button {
+      display: inline-flex;
+      height: 100%;
+      width: 3.5rem;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      background: var(--color-primary);
+      color: var(--color-surface);
+      letter-spacing: normal;
+      text-transform: none;
+      padding: 0;
+      cursor: pointer;
+
+      svg {
+        width: 1.1rem;
+        height: 1.1rem;
+      }
+    }
+  }
+
+  &__srOnly {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.5rem;
+  }
+
+  &__docs {
+    display: none;
+    font-size: 1rem;
+    color: #213f7d;
+    text-decoration: underline;
+  }
+
+  &__iconButton {
+    display: none;
+    border: 0;
+    background: transparent;
+    color: #213f7d;
+    letter-spacing: normal;
+    text-transform: none;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  &__notificationsIconButton {
+    width: 1.55rem;
+    height: 1.55rem;
+    color: currentcolor;
+  }
+
+  &__profile {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    border: 0;
+    background: transparent;
+    color: #213f7d;
+    letter-spacing: normal;
+    text-transform: none;
+    height: auto;
+    padding: 0;
+    cursor: pointer;
+
+    span {
+      display: none;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+
+  &__profileMenu {
+    position: relative;
+  }
+
+  &__avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 999px;
+    object-fit: cover;
+  }
+
+  &__arrowDropdown {
+    font-size: 1rem;
+  }
+
+  &__dropdown {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    right: 0;
+    min-width: 9rem;
+    border: 1px solid rgba(84, 95, 125, 0.15);
+    border-radius: 0.5rem;
+    background: var(--color-surface);
+    box-shadow: 0 10px 30px rgba(33, 63, 125, 0.12);
+    padding: 0.4rem;
+  }
+
+  &__dropdownItem {
+    width: 100%;
+    border: 0;
+    border-radius: 0.4rem;
+    background: transparent;
+    text-align: left;
+    color: var(--color-text-main);
+    letter-spacing: normal;
+    text-transform: none;
+    height: auto;
+    padding: 0.55rem 0.65rem;
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      background: var(--color-primary-soft);
+      outline: none;
+    }
+  }
+
+  @media (min-width: 640px) {
+    padding: 1rem 1.5rem;
+
+    &__logo {
+      width: 7.8rem;
+    }
+
+    &__search {
+      display: flex;
+      width: 100%;
+    }
+
+    &__profile {
+      span {
+        display: inline;
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    padding: 1rem 3.75rem 1rem 1.875rem;
+
+    &__left {
+      gap: 10vw;
+    }
+
+    &__menuToggle {
+      display: none;
+    }
+
+    &__logo {
+      width: 9rem;
+    }
+
+    &__right {
+      gap: 1.875rem;
+    }
+
+    &__docs,
+    &__iconButton {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

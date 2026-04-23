@@ -1,0 +1,11 @@
+.users-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.users-page__title {
+  font-size: 1.5rem;
+  color: var(--color-text-main);
+  font-weight: 500;
+}

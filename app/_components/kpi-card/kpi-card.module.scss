@@ -1,0 +1,82 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border-radius: 0.25rem;
+  background: var(--color-surface);
+  box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, 0.04);
+  padding: 1.25rem 1.875rem;
+  min-width: 0;
+}
+
+.iconWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.label {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-text-main);
+}
+
+/* Icon well + glyph colors per Figma-style dashboard */
+.root--users {
+  .iconWrap {
+    background: #f6e7ff;
+  }
+
+  .icon {
+    color: #DF18FF;
+  }
+}
+
+.root--activeUsers {
+  .iconWrap {
+    background: #e6edff;
+  }
+
+  .icon {
+    color: #5718FF;
+  }
+}
+
+.root--loans {
+  .iconWrap {
+    background: #ffe9dc;
+  }
+
+  .icon {
+    color: #F55F44;
+  }
+}
+
+.root--savings {
+  .iconWrap {
+    background: #fce7f3;
+  }
+
+  .icon {
+    color: #FF3366;
+  }
+}
