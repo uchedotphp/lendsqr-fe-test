@@ -21,7 +21,7 @@
     {
       "id": "686757e84d0adb53a27229e5",
       "email": "pearson_dotson@example.com",
-      "status": "blacklisted",
+      "status": "inactive",
       "lastName": "Dotson",
       "username": "pearson_dotson",
       "createdAt": "2020-02-18T12:39:11.870Z",
@@ -153,7 +153,6 @@
       "organizations": [
         "Bank A",
         "Bank B",
-        "Bank C",
         "Bank C"
       ],
       "accountSummary": {
@@ -216,7 +215,6 @@
       "phoneNumber": "+13802660110",
       "organizations": [
         "Bank A",
-        "Bank D",
         "Bank D",
         "Bank B",
         "Bank A"
@@ -391,7 +389,7 @@
     {
       "id": "686757e896e163c1f135d9e3",
       "email": "ida_frazier@example.com",
-      "status": "blacklisted",
+      "status": "active",
       "lastName": "Frazier",
       "username": "ida_frazier",
       "createdAt": "2021-03-20T20:59:45.408Z",
@@ -1221,7 +1219,7 @@
     {
       "id": "686757e8b47039bd1e92e75a",
       "email": "stanton_vega@example.com",
-      "status": "active",
+      "status": "blacklisted",
       "lastName": "Vega",
       "username": "stanton_vega",
       "createdAt": "2023-04-29T18:53:01.643Z",
@@ -1408,7 +1406,7 @@
     {
       "id": "686757e802540af0abc313b8",
       "email": "daisy_oconnor@example.com",
-      "status": "blacklisted",
+      "status": "inactive",
       "lastName": "Oconnor",
       "username": "daisy_oconnor",
       "createdAt": "2020-08-27T09:43:21.495Z",
@@ -1472,7 +1470,7 @@
     {
       "id": "686757e85ff4107d19ba5ceb",
       "email": "lisa_espinoza@example.com",
-      "status": "blacklisted",
+      "status": "active",
       "lastName": "Espinoza",
       "username": "lisa_espinoza",
       "createdAt": "2022-03-15T08:41:33.295Z",
@@ -1533,7 +1531,7 @@
     {
       "id": "686757e888851fc9a1550ef3",
       "email": "erna_clarke@example.com",
-      "status": "blacklisted",
+      "status": "inactive",
       "lastName": "Clarke",
       "username": "erna_clarke",
       "createdAt": "2021-09-07T08:22:19.082Z",
