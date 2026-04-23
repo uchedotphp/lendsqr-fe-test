@@ -109,5 +109,4 @@ Update these before final submission:
 
 - Live URL: https://uchechukwu-prince-nwulu-lendsqr-fe-test.vercel.app
 - Public repository URL: https://github.com/uchedotphp/lendsqr-fe-test
-- Public write-up URL: `<add document URL>`
 - Loom video URL: `<add loom URL>`

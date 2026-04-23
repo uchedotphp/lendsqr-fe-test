@@ -17,11 +17,15 @@ export type UserDetailsTab = (typeof USER_DETAILS_TABS)[number];
 
 type UsersStore = {
   users: User[];
+  usersTotal: number;
+  organizations: string[];
   usersKpis: UsersKpi[];
   selectedUser: User | null;
   userDetails: UserDetails | null;
   activeUserDetailsTab: UserDetailsTab;
   setUsers: (users: User[]) => void;
+  setUsersTotal: (usersTotal: number) => void;
+  setOrganizations: (organizations: string[]) => void;
   setUsersKpis: (usersKpis: UsersKpi[]) => void;
   setSelectedUser: (selectedUser: User | null) => void;
   setUserDetails: (userDetails: UserDetails | null) => void;
@@ -31,12 +35,20 @@ type UsersStore = {
 
 export const useUsersStore = create<UsersStore>((set) => ({
   users: [],
+  usersTotal: 0,
+  organizations: [],
   usersKpis: [],
   selectedUser: null,
   userDetails: null,
   activeUserDetailsTab: "General Details",
   setUsers: (users) => {
     set({ users });
+  },
+  setUsersTotal: (usersTotal) => {
+    set({ usersTotal });
+  },
+  setOrganizations: (organizations) => {
+    set({ organizations });
   },
   setUsersKpis: (usersKpis) => {
     set({ usersKpis });

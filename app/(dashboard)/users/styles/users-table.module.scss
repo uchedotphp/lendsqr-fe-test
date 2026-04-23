@@ -5,10 +5,15 @@
 }
 
 .tableScroll {
-  overflow-x: auto;
+  overflow: visible;
   border-radius: 0.25rem;
   background: var(--color-surface);
   box-shadow: 3px 5px 20px 0 rgba(0, 0, 0, 0.04);
+
+  &__inner {
+    overflow-x: auto;
+    border-radius: 0.25rem;
+  }
 }
 
 .table {
@@ -99,14 +104,21 @@
     position: relative;
     width: 2.5rem;
   }
+
+  &__empty {
+    text-align: center;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    padding: 2.5rem 1rem;
+  }
 }
 
 .filterPanel {
-  position: absolute;
-  z-index: 10;
-  top: calc(100% + 0.85rem);
-  left: -1.15rem;
+  position: fixed;
+  z-index: 100;
   width: 16.9rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
   border: 1px solid rgba(84, 95, 125, 0.14);
   border-radius: 0.25rem;
   background: var(--color-surface);
@@ -130,15 +142,34 @@
   &__field input,
   &__select {
     height: 2.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     border: 1px solid rgba(33, 63, 125, 0.2);
     border-radius: 0.5rem;
     background: var(--color-surface);
     color: rgba(84, 95, 125, 0.7);
     font-size: 0.875rem;
     padding: 0 0.95rem;
+  }
+
+  &__selectWrap {
+    position: relative;
+  }
+
+  &__select {
+    width: 100%;
+    appearance: none;
+    cursor: pointer;
+    padding-right: 2rem;
+  }
+
+  &__selectWrap svg {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    color: rgba(84, 95, 125, 0.75);
+    pointer-events: none;
   }
 
   &__field input::placeholder {
@@ -152,6 +183,10 @@
   &__date input {
     width: 100%;
     padding-right: 2.25rem;
+  }
+
+  &__date input::-webkit-calendar-picker-indicator {
+    opacity: 0;
   }
 
   &__date svg {

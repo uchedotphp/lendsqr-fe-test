@@ -1,8 +1,28 @@
 import { apiClient } from "@/app/_lib/api/client";
 import type { User, UserDetails } from "@/app/_lib/types/user";
 
+export type UsersFilters = {
+  organization?: string;
+  username?: string;
+  email?: string;
+  date?: string;
+  phoneNumber?: string;
+  status?: User["status"];
+};
+
+export type UsersPagination = {
+  page?: number;
+  rows?: number;
+};
+
 type UsersListResponse = {
   users: User[];
+  organizations: string[];
+  pagination: {
+    page: number;
+    rows: number;
+    total: number;
+  };
 };
 
 type UserDetailResponse = {
@@ -26,9 +46,28 @@ type UpdateUserStatusResponse = {
   user: User;
 };
 
-export async function fetchUsers(): Promise<User[]> {
-  const response = await apiClient.get<UsersListResponse>("/users");
-  return response.data.users;
+export type UsersListResult = {
+  users: User[];
+  organizations: string[];
+  pagination: {
+    page: number;
+    rows: number;
+    total: number;
+  };
+};
+
+export async function fetchUsers(
+  filters: UsersFilters = {},
+  pagination: UsersPagination = {},
+): Promise<UsersListResult> {
+  const response = await apiClient.get<UsersListResponse>("/users", {
+    params: {
+      ...filters,
+      ...pagination,
+    },
+  });
+
+  return response.data;
 }
 
 export async function fetchUserById(id: string): Promise<User> {

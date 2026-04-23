@@ -8,6 +8,26 @@ export type UsersKpi = {
   value: number;
 };
 
+export type UsersFilters = {
+  organization?: string;
+  username?: string;
+  email?: string;
+  date?: string;
+  phoneNumber?: string;
+  status?: User["status"];
+};
+
+export type UsersPagination = {
+  page: number;
+  rows: number;
+};
+
+export type UsersListResult = {
+  users: User[];
+  total: number;
+  organizations: string[];
+};
+
 type RawUsersDb = {
   usersKpis: Array<{
     label?: unknown;
@@ -181,12 +201,113 @@ function mapRecordToUser(record: RawUserRecord): User {
   };
 }
 
-export function getUsers(): User[] {
-  return db.usersRecords.map(mapRecordToUser);
+function normalizeForSearch(value: string): string {
+  return value.trim().toLowerCase();
+}
+
+function getAllOrganizations(): string[] {
+  const organizationSet = new Set<string>();
+
+  for (const record of db.usersRecords) {
+    const activeOrganization = toSafeString(record.activeOrganization).trim();
+    if (activeOrganization.length > 0) {
+      organizationSet.add(activeOrganization);
+    }
+
+    const organizations = Array.isArray(record.organizations)
+      ? record.organizations
+      : [];
+
+    for (const organization of organizations) {
+      if (typeof organization !== "string") {
+        continue;
+      }
+      const value = organization.trim();
+      if (value.length > 0) {
+        organizationSet.add(value);
+      }
+    }
+  }
+
+  return [...organizationSet].sort((a, b) => a.localeCompare(b));
+}
+
+function filterUsers(users: User[], filters: UsersFilters): User[] {
+  const organization = normalizeForSearch(filters.organization ?? "");
+  const username = normalizeForSearch(filters.username ?? "");
+  const email = normalizeForSearch(filters.email ?? "");
+  const date = filters.date?.trim() ?? "";
+  const phoneNumber = normalizeForSearch(filters.phoneNumber ?? "");
+  const status = filters.status;
+
+  return users.filter((user) => {
+    if (
+      organization.length > 0 &&
+      normalizeForSearch(user.organization) !== organization
+    ) {
+      return false;
+    }
+
+    if (
+      username.length > 0 &&
+      !normalizeForSearch(user.username).includes(username)
+    ) {
+      return false;
+    }
+
+    if (email.length > 0 && !normalizeForSearch(user.email).includes(email)) {
+      return false;
+    }
+
+    if (date.length > 0 && !user.dateJoined.startsWith(date)) {
+      return false;
+    }
+
+    if (
+      phoneNumber.length > 0 &&
+      !normalizeForSearch(user.phoneNumber).includes(phoneNumber)
+    ) {
+      return false;
+    }
+
+    if (status && user.status !== status) {
+      return false;
+    }
+
+    return true;
+  });
+}
+
+export function getUsers(
+  filters: UsersFilters = {},
+  pagination?: UsersPagination,
+): UsersListResult {
+  const mappedUsers = db.usersRecords.map(mapRecordToUser);
+  const filteredUsers = filterUsers(mappedUsers, filters);
+  const total = filteredUsers.length;
+
+  if (!pagination) {
+    return {
+      users: filteredUsers,
+      total,
+      organizations: getAllOrganizations(),
+    };
+  }
+
+  const safePage = Math.max(1, pagination.page);
+  const safeRows = Math.max(1, pagination.rows);
+  const start = (safePage - 1) * safeRows;
+  const users = filteredUsers.slice(start, start + safeRows);
+
+  return {
+    users,
+    total,
+    organizations: getAllOrganizations(),
+  };
 }
 
 export function getUserById(id: string): User | undefined {
-  return getUsers().find((user) => user.id === id);
+  return getUsers().users.find((user) => user.id === id);
 }
 
 export function getUserDetailsById(id: string): UserDetails | undefined {
