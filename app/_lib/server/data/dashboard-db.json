@@ -1,0 +1,83 @@
+{
+  "dashboardKpis": [
+    {
+      "label": "total loans",
+      "value": 2456789000,
+      "currency": true
+    },
+    {
+      "label": "active loans",
+      "value": 1234,
+      "currency": true
+    },
+    {
+      "label": "total revenue",
+      "value": 456789000,
+      "currency": true
+    },
+    {
+      "label": "pending applications",
+      "value": 89
+    }
+  ],
+  "dashboardActivities": [
+    {
+      "id": 1,
+      "type": "loan_application",
+      "user": "John Doe",
+      "action": "submitted loan application",
+      "amount": "N500,000",
+      "time": "2 hours ago",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "type": "user_registration",
+      "user": "Sarah Wilson",
+      "action": "registered new account",
+      "time": "4 hours ago",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "type": "payment",
+      "user": "Mike Johnson",
+      "action": "made loan payment",
+      "amount": "N75,000",
+      "time": "6 hours ago",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "type": "status_change",
+      "user": "Lisa Brown",
+      "action": "account activated",
+      "time": "1 day ago",
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "type": "loan_approval",
+      "user": "David Smith",
+      "action": "loan approved",
+      "amount": "N250,000",
+      "time": "1 day ago",
+      "status": "active"
+    },
+    {
+      "id": 6,
+      "type": "payment",
+      "user": "Emma Davis",
+      "action": "made loan payment",
+      "amount": "N120,000",
+      "time": "2 days ago",
+      "status": "active"
+    }
+  ],
+  "dashboardQuickStats": {
+    "pendingApplications": 12,
+    "usersToActivate": 5,
+    "overduePayments": 3,
+    "newRegistrations": 8
+  }
+}
