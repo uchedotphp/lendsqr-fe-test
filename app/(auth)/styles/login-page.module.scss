@@ -22,6 +22,12 @@
     max-width: 27.9375rem;
   }
 
+  &__mobile-brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5rem;
+  }
+
   &__intro {
     margin-bottom: 3.75rem;
   }
@@ -52,6 +58,10 @@
       display: flex;
       align-items: center;
       margin-bottom: 8.625rem;
+    }
+
+    &__mobile-brand {
+      display: none;
     }
 
     &__brand-logo {

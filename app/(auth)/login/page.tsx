@@ -37,6 +37,16 @@ export default function LoginPage() {
 
       <section className={styles["auth-page__panel"]}>
         <div className={styles["auth-page__content"]}>
+          <div className={styles["auth-page__mobile-brand"]}>
+            <Image
+              src="/lendsqr-logo.svg"
+              alt="Lendsqr logo"
+              width={174}
+              height={36}
+              priority
+              className={styles["auth-page__brand-logo"]}
+            />
+          </div>
           <div className={styles["auth-page__intro"]}>
             <HeadingText
               level="h1"

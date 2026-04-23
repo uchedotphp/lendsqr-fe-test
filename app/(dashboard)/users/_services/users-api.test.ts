@@ -53,17 +53,57 @@ describe("fetchUsers", () => {
             },
           },
         ],
+        organizations: ["Bank A", "Bank B"],
+        pagination: {
+          page: 1,
+          rows: 10,
+          total: 2,
+        },
       },
     });
 
     const users = await fetchUsers();
 
-    expect(users).toHaveLength(1);
-    expect(users[0]).toMatchObject({
+    expect(users.users).toHaveLength(1);
+    expect(users.users[0]).toMatchObject({
       id: "123",
       username: "jane",
       email: "jane@example.com",
       guarantor: { fullName: "Jane Doe" },
+    });
+  });
+
+  it("passes filters and pagination params", async () => {
+    vi.mocked(apiClient.get).mockResolvedValueOnce({
+      data: {
+        users: [],
+        organizations: ["Bank A", "Bank B"],
+        pagination: {
+          page: 2,
+          rows: 25,
+          total: 0,
+        },
+      },
+    });
+
+    await fetchUsers(
+      {
+        organization: "Bank A",
+        status: "active",
+      },
+      {
+        page: 2,
+        rows: 25,
+      },
+    );
+
+    expect(apiClient.get).toHaveBeenCalledWith("/users", {
+      params: {
+        organization: "Bank A",
+        status: "active",
+        page: 2,
+        rows: 25,
+      },
     });
   });
 
