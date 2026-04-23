@@ -1,7 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
 import usersDb from "@/app/_lib/server/data/users-db.json";
-import type { User } from "@/app/_lib/types/user";
+import type { User, UserDetails } from "@/app/_lib/types/user";
 
 export type UsersKpi = {
   label: string;
@@ -26,6 +26,9 @@ type RawUserRecord = {
   organizations?: unknown;
   accountSummary?: {
     accountNumber?: unknown;
+    accountName?: unknown;
+    bankName?: unknown;
+    balance?: unknown;
   };
   generalDetails?: {
     personalInformation?: {
@@ -34,6 +37,7 @@ type RawUserRecord = {
       children?: unknown;
       maritalStatus?: unknown;
       typeOfResidence?: unknown;
+      fullName?: unknown;
     };
     educationAndEmployment?: {
       officeEmail?: unknown;
@@ -98,6 +102,30 @@ function parseMonthlyIncomeRange(value: unknown): [string, string] {
   return ["0.00", "0.00"];
 }
 
+function getUserTier(status: User["status"]): UserDetails["tier"] {
+  if (status === "active") {
+    return 2;
+  }
+
+  if (status === "pending") {
+    return 1;
+  }
+
+  return 1;
+}
+
+function getUserCode(record: RawUserRecord): string {
+  const accountNumber = toSafeString(record.accountSummary?.accountNumber);
+  const accountSuffix = accountNumber.slice(-6);
+
+  if (accountSuffix.length > 0) {
+    return `LSQF${accountSuffix}90`;
+  }
+
+  const idSuffix = toSafeString(record.id).slice(-8).toUpperCase();
+  return idSuffix.length > 0 ? `LSQF${idSuffix}` : "LSQF000000";
+}
+
 function mapRecordToUser(record: RawUserRecord): User {
   const personalInformation = record.generalDetails?.personalInformation;
   const educationAndEmployment = record.generalDetails?.educationAndEmployment;
@@ -143,6 +171,13 @@ function mapRecordToUser(record: RawUserRecord): User {
       email: toSafeString(primaryGuarantor?.emailAddress),
       relationship: toSafeString(primaryGuarantor?.relationship),
     },
+    guarantors:
+      record.generalDetails?.guarantor?.map((item) => ({
+        fullName: toSafeString(item.fullName),
+        phoneNumber: toSafeString(item.phoneNumber),
+        email: toSafeString(item.emailAddress),
+        relationship: toSafeString(item.relationship),
+      })) ?? [],
   };
 }
 
@@ -152,6 +187,31 @@ export function getUsers(): User[] {
 
 export function getUserById(id: string): User | undefined {
   return getUsers().find((user) => user.id === id);
+}
+
+export function getUserDetailsById(id: string): UserDetails | undefined {
+  const record = db.usersRecords.find((item) => toSafeString(item.id) === id);
+  if (!record) {
+    return undefined;
+  }
+
+  const fullName =
+    toSafeString(record.generalDetails?.personalInformation?.fullName) ||
+    toSafeString(record.accountSummary?.accountName) ||
+    "Unnamed User";
+
+  const normalizedStatus = toUserStatus(record.status);
+
+  return {
+    id,
+    status: normalizedStatus,
+    fullName,
+    userCode: getUserCode(record),
+    tier: getUserTier(normalizedStatus),
+    accountBalance: toSafeString(record.accountSummary?.balance, "N0.00"),
+    accountNumber: toSafeString(record.accountSummary?.accountNumber),
+    bankName: toSafeString(record.accountSummary?.bankName),
+  };
 }
 
 export function getUsersKpis(): UsersKpi[] {

@@ -31,6 +31,8 @@ export const buttonVariants = cva(styles.button, {
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean;
+    loading?: boolean;
+    loadingText?: string;
   };
 
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
@@ -41,20 +43,40 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       size,
       fullWidth,
       asChild = false,
+      loading = false,
+      loadingText = "Loading...",
       type = "button",
+      disabled,
+      children,
       ...props
     },
     ref,
   ) => {
     const Comp = asChild ? Slot : "button";
+    const isDisabled = Boolean(disabled || loading);
 
     return (
       <Comp
-        className={cn(buttonVariants({ variant, size, fullWidth }), className)}
+        className={cn(
+          buttonVariants({ variant, size, fullWidth }),
+          loading && styles["button--loading"],
+          className,
+        )}
         ref={ref}
         type={type}
+        disabled={isDisabled}
+        aria-busy={loading || undefined}
         {...props}
-      />
+      >
+        {loading ? (
+          <>
+            <span className={styles.button__spinner} aria-hidden="true" />
+            <span>{loadingText}</span>
+          </>
+        ) : (
+          children
+        )}
+      </Comp>
     );
   },
 );

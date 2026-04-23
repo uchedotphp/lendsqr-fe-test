@@ -1,9 +1,12 @@
 "use client";
 
-import Link from "next/link";
+import { BackLink } from "@/app/_components/back-link/back-link";
 import { BodyText } from "@/app/_components/typography/body-text";
-import { HeadingText } from "@/app/_components/typography/heading-text";
-import { useUserQuery } from "@/app/(dashboard)/users/_hooks/use-user-query";
+import { UserDetailsTabContent } from "@/app/(dashboard)/users/_components/user-details-tab-content";
+import { UserDetailsTabs } from "@/app/(dashboard)/users/_components/user-details-tabs";
+import { UserDetailsTopHeader } from "@/app/(dashboard)/users/_components/user-details-top-header";
+import { UserSummaryCard } from "@/app/(dashboard)/users/_components/user-summary-card";
+import { useUserDetailsPageData } from "@/app/(dashboard)/users/_hooks/use-user-details-page-data";
 import styles from "@/app/(dashboard)/users/styles/user-details-view.module.scss";
 
 type UserDetailsViewProps = {
@@ -11,7 +14,7 @@ type UserDetailsViewProps = {
 };
 
 export function UserDetailsView({ userId }: UserDetailsViewProps) {
-  const { data: user, isLoading, isError } = useUserQuery(userId);
+  const { isLoading, isError } = useUserDetailsPageData(userId);
 
   if (isLoading) {
     return (
@@ -21,63 +24,28 @@ export function UserDetailsView({ userId }: UserDetailsViewProps) {
     );
   }
 
-  if (isError || !user) {
+  if (isError) {
     return (
       <section className={styles["user-details"]}>
         <BodyText>User not found.</BodyText>
-        <Link href="/users">Back to users</Link>
+        <BackLink href="/users" label="Back to Users" />
       </section>
     );
   }
 
   return (
     <section className={styles["user-details"]}>
-      <header className={styles["user-details__header"]}>
-        <HeadingText
-          level="h2"
-          size="xl"
-          className={styles["user-details__title"]}
-        >
-          {user.username}
-        </HeadingText>
-        <Link href="/users" className={styles["user-details__back"]}>
-          Back to users
-        </Link>
-      </header>
-
-      <div className={styles["user-details__grid"]}>
-        <article className={styles["user-details__card"]}>
-          <HeadingText level="h3" size="md">
-            Personal Information
-          </HeadingText>
-          <BodyText>Full Name: {user.guarantor.fullName}</BodyText>
-          <BodyText>Email: {user.email}</BodyText>
-          <BodyText>Phone: {user.phoneNumber}</BodyText>
-          <BodyText>BVN: {user.bvn}</BodyText>
-        </article>
-
-        <article className={styles["user-details__card"]}>
-          <HeadingText level="h3" size="md">
-            Education and Employment
-          </HeadingText>
-          <BodyText>Level: {user.educationLevel}</BodyText>
-          <BodyText>Status: {user.employmentStatus}</BodyText>
-          <BodyText>Sector: {user.sector}</BodyText>
-          <BodyText>
-            Income: NGN {user.monthlyIncome[0]} - NGN {user.monthlyIncome[1]}
-          </BodyText>
-        </article>
-
-        <article className={styles["user-details__card"]}>
-          <HeadingText level="h3" size="md">
-            Socials
-          </HeadingText>
-          <BodyText>Twitter: {user.twitter}</BodyText>
-          <BodyText>Facebook: {user.facebook}</BodyText>
-          <BodyText>Instagram: {user.instagram}</BodyText>
-          <BodyText>Loan Repayment: NGN {user.loanRepayment}</BodyText>
-        </article>
-      </div>
+      <BackLink
+        href="/users"
+        label="Back to Users"
+        className={styles["user-details__back-link"]}
+      />
+      <UserDetailsTopHeader />
+      <section className={styles["user-overview-panel"]}>
+        <UserSummaryCard />
+        <UserDetailsTabs />
+      </section>
+      <UserDetailsTabContent />
     </section>
   );
 }

@@ -17,7 +17,6 @@ import { toast } from "sonner";
 import { routes } from "@/app/_lib/constants/routes";
 import type { User } from "@/app/_lib/types/user";
 import { UsersTablePagination } from "@/app/(dashboard)/users/_components/users-table-pagination";
-import { useUsersQuery } from "@/app/(dashboard)/users/_hooks/use-users-query";
 import {
   formatDateJoined,
   getPositiveInt,
@@ -26,6 +25,7 @@ import {
   updateUserActivationStatus,
   updateUserBlacklistStatus,
 } from "@/app/(dashboard)/users/_services/users-api";
+import { useUsersStore } from "@/app/(dashboard)/users/_services/users-store";
 import styles from "@/app/(dashboard)/users/styles/users-table.module.scss";
 
 const DEFAULT_PAGE = 1;
@@ -173,7 +173,7 @@ export function UsersTable() {
   const tableBlockRef = useRef<HTMLElement | null>(null);
   const queryClient = useQueryClient();
 
-  const { data: users = [], isLoading, isError } = useUsersQuery();
+  const users = useUsersStore((state) => state.users);
   const refreshUsers = () => {
     queryClient.invalidateQueries({ queryKey: ["users"] });
   };
@@ -273,16 +273,6 @@ export function UsersTable() {
     params.set("rows", String(nextRows));
     router.replace(`${pathname}?${params.toString()}`, { scroll: false });
   };
-
-  if (isLoading) {
-    return <p className={styles.feedback}>Loading users...</p>;
-  }
-
-  if (isError) {
-    return (
-      <p className={styles.feedback}>Unable to load users at the moment.</p>
-    );
-  }
 
   return (
     <section className={styles.tableBlock} ref={tableBlockRef}>

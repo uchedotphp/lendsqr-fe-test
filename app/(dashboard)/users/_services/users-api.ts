@@ -1,5 +1,5 @@
 import { apiClient } from "@/app/_lib/api/client";
-import type { User } from "@/app/_lib/types/user";
+import type { User, UserDetails } from "@/app/_lib/types/user";
 
 type UsersListResponse = {
   users: User[];
@@ -7,6 +7,10 @@ type UsersListResponse = {
 
 type UserDetailResponse = {
   user: User;
+};
+
+type UserDetailsResponse = {
+  userDetails: UserDetails;
 };
 
 export type UsersKpi = {
@@ -30,6 +34,13 @@ export async function fetchUsers(): Promise<User[]> {
 export async function fetchUserById(id: string): Promise<User> {
   const response = await apiClient.get<UserDetailResponse>(`/users/${id}`);
   return response.data.user;
+}
+
+export async function fetchUserDetailsById(id: string): Promise<UserDetails> {
+  const response = await apiClient.get<UserDetailsResponse>(
+    `/users/${id}/details`,
+  );
+  return response.data.userDetails;
 }
 
 export async function fetchUsersKpis(): Promise<UsersKpi[]> {

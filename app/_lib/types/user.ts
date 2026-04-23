@@ -28,4 +28,21 @@ export type User = {
     email: string;
     relationship: string;
   };
+  guarantors?: Array<{
+    fullName: string;
+    phoneNumber: string;
+    email: string;
+    relationship: string;
+  }>;
+};
+
+export type UserDetails = {
+  id: string;
+  status: User["status"];
+  fullName: string;
+  userCode: string;
+  tier: 1 | 2 | 3;
+  accountBalance: string;
+  accountNumber: string;
+  bankName: string;
 };

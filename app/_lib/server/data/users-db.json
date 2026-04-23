@@ -21,7 +21,7 @@
     {
       "id": "686757e84d0adb53a27229e5",
       "email": "pearson_dotson@example.com",
-      "status": "active",
+      "status": "blacklisted",
       "lastName": "Dotson",
       "username": "pearson_dotson",
       "createdAt": "2020-02-18T12:39:11.870Z",
