@@ -1,3 +1,5 @@
+import { writeFile } from "node:fs/promises";
+import path from "node:path";
 import usersDb from "@/app/_lib/server/data/users-db.json";
 import type { User } from "@/app/_lib/types/user";
 
@@ -58,6 +60,10 @@ type RawUserRecord = {
 };
 
 const db = usersDb as RawUsersDb;
+const usersDbFilePath = path.join(
+  process.cwd(),
+  "app/_lib/server/data/users-db.json",
+);
 
 function toSafeString(value: unknown, fallback = ""): string {
   return typeof value === "string" ? value : fallback;
@@ -158,4 +164,40 @@ export function getUsersKpis(): UsersKpi[] {
           : Number.parseInt(toSafeString(item.value), 10),
     }))
     .filter((item) => item.label.length > 0 && Number.isFinite(item.value));
+}
+
+async function persistDb() {
+  await writeFile(usersDbFilePath, `${JSON.stringify(db, null, 2)}\n`, "utf8");
+}
+
+export async function updateUserBlacklistStatus(
+  id: string,
+  blacklisted: boolean,
+): Promise<User | undefined> {
+  const target = db.usersRecords.find(
+    (record) => toSafeString(record.id) === id,
+  );
+  if (!target) {
+    return undefined;
+  }
+
+  target.status = blacklisted ? "blacklisted" : "inactive";
+  await persistDb();
+  return mapRecordToUser(target);
+}
+
+export async function updateUserActivationStatus(
+  id: string,
+  active: boolean,
+): Promise<User | undefined> {
+  const target = db.usersRecords.find(
+    (record) => toSafeString(record.id) === id,
+  );
+  if (!target) {
+    return undefined;
+  }
+
+  target.status = active ? "active" : "inactive";
+  await persistDb();
+  return mapRecordToUser(target);
 }

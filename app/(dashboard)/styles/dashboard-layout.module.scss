@@ -1,0 +1,44 @@
+.dashboard-layout {
+  display: flex;
+  min-height: 100vh;
+
+  &__skip-link {
+    position: fixed;
+    z-index: 30;
+    top: 0.5rem;
+    left: 0.5rem;
+    transform: translateY(-180%);
+    border-radius: 0.5rem;
+    background: #213f7d;
+    color: #fff;
+    padding: 0.625rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+
+    &:focus-visible {
+      transform: translateY(0);
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-width: 0;
+    padding-top: 6.25rem;
+  }
+
+  &__content {
+    flex: 1;
+    padding: 1rem 1rem 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    &__content {
+      padding: 3.75rem;
+    }
+  }
+}

@@ -3,6 +3,6 @@ export const routes = {
   login: "/login",
   forgotPassword: "/forgot-password",
   dashboard: "/dashboard",
-  users: "/dashboard/users",
+  users: "/users",
   userDetails: (userId: string) => `/users/${userId}`,
 } as const;

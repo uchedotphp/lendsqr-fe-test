@@ -4,11 +4,14 @@ import {
   fetchUserById,
   fetchUsers,
   fetchUsersKpis,
+  updateUserActivationStatus,
+  updateUserBlacklistStatus,
 } from "@/app/(dashboard)/users/_services/users-api";
 
 vi.mock("@/app/_lib/api/client", () => ({
   apiClient: {
     get: vi.fn(),
+    patch: vi.fn(),
   },
 }));
 
@@ -127,5 +130,39 @@ describe("fetchUsersKpis", () => {
 
     expect(kpis).toEqual([{ label: "users", value: 156005000 }]);
     expect(apiClient.get).toHaveBeenCalledWith("/users/kpis");
+  });
+});
+
+describe("updateUserBlacklistStatus", () => {
+  it("calls blacklist endpoint and returns updated user", async () => {
+    vi.mocked(apiClient.patch).mockResolvedValueOnce({
+      data: {
+        user: { id: "usr-001", status: "blacklisted" },
+      },
+    });
+
+    const user = await updateUserBlacklistStatus("usr-001", true);
+
+    expect(apiClient.patch).toHaveBeenCalledWith("/users/usr-001/blacklist", {
+      blacklisted: true,
+    });
+    expect(user).toMatchObject({ id: "usr-001", status: "blacklisted" });
+  });
+});
+
+describe("updateUserActivationStatus", () => {
+  it("calls activation endpoint and returns updated user", async () => {
+    vi.mocked(apiClient.patch).mockResolvedValueOnce({
+      data: {
+        user: { id: "usr-001", status: "active" },
+      },
+    });
+
+    const user = await updateUserActivationStatus("usr-001", true);
+
+    expect(apiClient.patch).toHaveBeenCalledWith("/users/usr-001/activate", {
+      active: true,
+    });
+    expect(user).toMatchObject({ id: "usr-001", status: "active" });
   });
 });

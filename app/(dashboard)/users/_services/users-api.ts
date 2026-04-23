@@ -18,6 +18,10 @@ type UsersKpisResponse = {
   kpis: UsersKpi[];
 };
 
+type UpdateUserStatusResponse = {
+  user: User;
+};
+
 export async function fetchUsers(): Promise<User[]> {
   const response = await apiClient.get<UsersListResponse>("/users");
   return response.data.users;
@@ -31,4 +35,28 @@ export async function fetchUserById(id: string): Promise<User> {
 export async function fetchUsersKpis(): Promise<UsersKpi[]> {
   const response = await apiClient.get<UsersKpisResponse>("/users/kpis");
   return response.data.kpis;
+}
+
+export async function updateUserBlacklistStatus(
+  id: string,
+  blacklisted: boolean,
+): Promise<User> {
+  const response = await apiClient.patch<UpdateUserStatusResponse>(
+    `/users/${id}/blacklist`,
+    { blacklisted },
+  );
+
+  return response.data.user;
+}
+
+export async function updateUserActivationStatus(
+  id: string,
+  active: boolean,
+): Promise<User> {
+  const response = await apiClient.patch<UpdateUserStatusResponse>(
+    `/users/${id}/activate`,
+    { active },
+  );
+
+  return response.data.user;
 }

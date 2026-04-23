@@ -1,5 +1,6 @@
 import { HeadingText } from "@/app/_components/typography/heading-text";
 import { UsersKpiSection } from "@/app/(dashboard)/users/_components/users-kpi-section";
+import { UsersTable } from "@/app/(dashboard)/users/_components/users-table";
 import styles from "@/app/(dashboard)/users/styles/users-page-view.module.scss";
 
 export function UsersPageView() {
@@ -16,6 +17,7 @@ export function UsersPageView() {
       </header>
 
       <UsersKpiSection />
+      <UsersTable />
     </section>
   );
 }

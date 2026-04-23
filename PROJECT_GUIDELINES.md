@@ -62,6 +62,7 @@
 - Mock DB payloads can be stored as JSON under `app/_lib/server/data` and accessed through a repository layer.
 - Never let frontend components parse raw DB payload shapes directly; always return normalized, typed API envelopes.
 - Keep route response envelopes explicit and stable (e.g., `{ users: [...] }`, `{ user: {...} }`, `{ kpis: [...] }`).
+- Status transitions (e.g., activate/deactivate, blacklist/unban) must go through explicit API endpoints and persist to the backing JSON store through repository helpers.
 
 ## Quality and Testing Rules
 - Preserve strict TypeScript quality.

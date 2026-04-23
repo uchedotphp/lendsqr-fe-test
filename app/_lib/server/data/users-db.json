@@ -27,7 +27,10 @@
       "createdAt": "2020-02-18T12:39:11.870Z",
       "firstName": "Pearson",
       "phoneNumber": "+11517837482",
-      "organizations": ["Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,444,383.00",
         "bankName": "Stanbic IBTC",
@@ -86,7 +89,9 @@
       "createdAt": "2022-03-25T20:00:05.830Z",
       "firstName": "Wheeler",
       "phoneNumber": "+13018784060",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,744,442.00",
         "bankName": "First Bank",
@@ -145,7 +150,12 @@
       "createdAt": "2024-10-04T00:00:49.876Z",
       "firstName": "Dona",
       "phoneNumber": "+16334042838",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,754,837.00",
         "bankName": "First Bank",
@@ -204,7 +214,13 @@
       "createdAt": "2024-09-25T17:26:25.067Z",
       "firstName": "Grimes",
       "phoneNumber": "+13802660110",
-      "organizations": ["Bank A", "Bank D", "Bank D", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank D",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,210,718.00",
         "bankName": "Stanbic IBTC",
@@ -257,13 +273,17 @@
     {
       "id": "686757e8a43115b996f88de9",
       "email": "roth_lindsey@example.com",
-      "status": "blacklisted",
+      "status": "active",
       "lastName": "Lindsey",
       "username": "roth_lindsey",
       "createdAt": "2024-09-23T15:40:57.798Z",
       "firstName": "Roth",
       "phoneNumber": "+13031614772",
-      "organizations": ["Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,425,139.00",
         "bankName": "UBA",
@@ -316,7 +336,9 @@
       "createdAt": "2024-05-14T13:50:58.848Z",
       "firstName": "Saunders",
       "phoneNumber": "+16476146150",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,274,469.00",
         "bankName": "UBA",
@@ -369,13 +391,17 @@
     {
       "id": "686757e896e163c1f135d9e3",
       "email": "ida_frazier@example.com",
-      "status": "inactive",
+      "status": "blacklisted",
       "lastName": "Frazier",
       "username": "ida_frazier",
       "createdAt": "2021-03-20T20:59:45.408Z",
       "firstName": "Ida",
       "phoneNumber": "+17893581805",
-      "organizations": ["Bank A", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,828,505.00",
         "bankName": "GT Bank",
@@ -422,13 +448,16 @@
     {
       "id": "686757e8614ee99fc7b621ea",
       "email": "hoover_mccarthy@example.com",
-      "status": "active",
+      "status": "inactive",
       "lastName": "Mccarthy",
       "username": "hoover_mccarthy",
       "createdAt": "2024-11-02T16:31:26.443Z",
       "firstName": "Hoover",
       "phoneNumber": "+19504716458",
-      "organizations": ["Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,952,515.00",
         "bankName": "First Bank",
@@ -481,7 +510,9 @@
       "createdAt": "2023-03-20T14:41:56.327Z",
       "firstName": "Decker",
       "phoneNumber": "+11346195928",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,574,972.00",
         "bankName": "Zenith Bank",
@@ -540,7 +571,9 @@
       "createdAt": "2021-02-21T19:46:55.167Z",
       "firstName": "Rodriquez",
       "phoneNumber": "+17284021550",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,140,080.00",
         "bankName": "GT Bank",
@@ -599,7 +632,9 @@
       "createdAt": "2024-06-17T09:28:23.547Z",
       "firstName": "Janice",
       "phoneNumber": "+19928595890",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,758,437.00",
         "bankName": "UBA",
@@ -658,7 +693,10 @@
       "createdAt": "2020-04-09T10:09:22.703Z",
       "firstName": "Hatfield",
       "phoneNumber": "+12697731709",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦9,835,221.00",
         "bankName": "Stanbic IBTC",
@@ -717,7 +755,13 @@
       "createdAt": "2021-08-02T20:12:32.652Z",
       "firstName": "Knox",
       "phoneNumber": "+11979289860",
-      "organizations": ["Bank D", "Bank C", "Bank C", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,625,420.00",
         "bankName": "Access Bank",
@@ -770,7 +814,11 @@
       "createdAt": "2020-03-02T22:45:49.799Z",
       "firstName": "Dominguez",
       "phoneNumber": "+13437925137",
-      "organizations": ["Bank D", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,650,201.00",
         "bankName": "GT Bank",
@@ -823,7 +871,13 @@
       "createdAt": "2024-09-08T15:31:45.759Z",
       "firstName": "Alvarez",
       "phoneNumber": "+15704899770",
-      "organizations": ["Bank A", "Bank D", "Bank B", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank B",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,364,647.00",
         "bankName": "UBA",
@@ -876,7 +930,13 @@
       "createdAt": "2021-07-24T17:35:19.677Z",
       "firstName": "Sally",
       "phoneNumber": "+18346240987",
-      "organizations": ["Bank B", "Bank D", "Bank A", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank A",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦9,042,559.00",
         "bankName": "First Bank",
@@ -929,7 +989,12 @@
       "createdAt": "2024-04-17T10:43:52.371Z",
       "firstName": "Byers",
       "phoneNumber": "+12741120757",
-      "organizations": ["Bank B", "Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,466,862.00",
         "bankName": "Stanbic IBTC",
@@ -988,7 +1053,9 @@
       "createdAt": "2020-09-06T15:07:00.584Z",
       "firstName": "Ollie",
       "phoneNumber": "+19582198670",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,852,829.00",
         "bankName": "UBA",
@@ -1041,7 +1108,12 @@
       "createdAt": "2024-03-02T04:34:38.794Z",
       "firstName": "Haney",
       "phoneNumber": "+11704260207",
-      "organizations": ["Bank B", "Bank B", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,052,673.00",
         "bankName": "GT Bank",
@@ -1100,7 +1172,9 @@
       "createdAt": "2020-12-30T21:19:52.112Z",
       "firstName": "Nikki",
       "phoneNumber": "+11245078921",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,322,340.00",
         "bankName": "Zenith Bank",
@@ -1153,7 +1227,9 @@
       "createdAt": "2023-04-29T18:53:01.643Z",
       "firstName": "Stanton",
       "phoneNumber": "+17099752418",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,566,552.00",
         "bankName": "Zenith Bank",
@@ -1212,7 +1288,11 @@
       "createdAt": "2023-12-10T01:22:14.406Z",
       "firstName": "Tracy",
       "phoneNumber": "+13494542493",
-      "organizations": ["Bank C", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,611,381.00",
         "bankName": "UBA",
@@ -1271,7 +1351,11 @@
       "createdAt": "2024-08-09T00:24:45.816Z",
       "firstName": "Rosanne",
       "phoneNumber": "+15935587431",
-      "organizations": ["Bank D", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,171,776.00",
         "bankName": "GT Bank",
@@ -1330,7 +1414,12 @@
       "createdAt": "2020-08-27T09:43:21.495Z",
       "firstName": "Daisy",
       "phoneNumber": "+13205939384",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,292,194.00",
         "bankName": "UBA",
@@ -1389,7 +1478,9 @@
       "createdAt": "2022-03-15T08:41:33.295Z",
       "firstName": "Lisa",
       "phoneNumber": "+18739455731",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,041,056.00",
         "bankName": "Zenith Bank",
@@ -1448,7 +1539,10 @@
       "createdAt": "2021-09-07T08:22:19.082Z",
       "firstName": "Erna",
       "phoneNumber": "+17567405303",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,408,614.00",
         "bankName": "First Bank",
@@ -1507,7 +1601,11 @@
       "createdAt": "2023-09-04T20:25:12.213Z",
       "firstName": "Barber",
       "phoneNumber": "+18607582979",
-      "organizations": ["Bank B", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,586,592.00",
         "bankName": "Zenith Bank",
@@ -1566,7 +1664,9 @@
       "createdAt": "2024-08-10T21:54:58.807Z",
       "firstName": "Arline",
       "phoneNumber": "+14102524768",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦5,673,633.00",
         "bankName": "GT Bank",
@@ -1619,7 +1719,13 @@
       "createdAt": "2020-01-27T05:16:41.035Z",
       "firstName": "Christian",
       "phoneNumber": "+13218989110",
-      "organizations": ["Bank D", "Bank B", "Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,865,075.00",
         "bankName": "Access Bank",
@@ -1678,7 +1784,9 @@
       "createdAt": "2023-11-12T19:23:16.039Z",
       "firstName": "Briggs",
       "phoneNumber": "+18559116359",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,802,342.00",
         "bankName": "First Bank",
@@ -1731,7 +1839,13 @@
       "createdAt": "2020-08-31T17:43:30.882Z",
       "firstName": "Adrian",
       "phoneNumber": "+13919665412",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,493,656.00",
         "bankName": "Access Bank",
@@ -1790,7 +1904,11 @@
       "createdAt": "2020-11-01T14:09:22.496Z",
       "firstName": "Rosanna",
       "phoneNumber": "+14810944445",
-      "organizations": ["Bank C", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦371,064.00",
         "bankName": "Access Bank",
@@ -1843,7 +1961,12 @@
       "createdAt": "2024-11-30T21:46:44.015Z",
       "firstName": "Sanders",
       "phoneNumber": "+18584815347",
-      "organizations": ["Bank A", "Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,634,424.00",
         "bankName": "Stanbic IBTC",
@@ -1902,7 +2025,10 @@
       "createdAt": "2023-01-27T23:06:34.412Z",
       "firstName": "Flora",
       "phoneNumber": "+17964672071",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,405,047.00",
         "bankName": "GT Bank",
@@ -1961,7 +2087,10 @@
       "createdAt": "2023-05-05T01:43:32.315Z",
       "firstName": "Georgina",
       "phoneNumber": "+12722517621",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,963,645.00",
         "bankName": "GT Bank",
@@ -2020,7 +2149,13 @@
       "createdAt": "2024-01-13T07:59:46.986Z",
       "firstName": "David",
       "phoneNumber": "+12440905169",
-      "organizations": ["Bank B", "Bank C", "Bank C", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦746,047.00",
         "bankName": "Access Bank",
@@ -2073,7 +2208,9 @@
       "createdAt": "2024-03-13T21:57:14.819Z",
       "firstName": "Faulkner",
       "phoneNumber": "+16467114922",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,591,101.00",
         "bankName": "GT Bank",
@@ -2132,7 +2269,10 @@
       "createdAt": "2023-10-13T16:30:03.402Z",
       "firstName": "Mcneil",
       "phoneNumber": "+12110256098",
-      "organizations": ["Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦700,522.00",
         "bankName": "GT Bank",
@@ -2185,7 +2325,10 @@
       "createdAt": "2021-11-24T16:28:08.440Z",
       "firstName": "Denise",
       "phoneNumber": "+13693304077",
-      "organizations": ["Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦5,616,584.00",
         "bankName": "GT Bank",
@@ -2244,7 +2387,12 @@
       "createdAt": "2021-04-26T01:25:41.103Z",
       "firstName": "Mcintyre",
       "phoneNumber": "+15169341793",
-      "organizations": ["Bank B", "Bank A", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank A",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,157,832.00",
         "bankName": "Stanbic IBTC",
@@ -2303,7 +2451,13 @@
       "createdAt": "2022-04-11T20:35:10.234Z",
       "firstName": "Susanna",
       "phoneNumber": "+15606661047",
-      "organizations": ["Bank D", "Bank B", "Bank C", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,909,006.00",
         "bankName": "Access Bank",
@@ -2356,7 +2510,11 @@
       "createdAt": "2020-10-06T20:47:40.956Z",
       "firstName": "Vonda",
       "phoneNumber": "+12694430634",
-      "organizations": ["Bank D", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,454,861.00",
         "bankName": "UBA",
@@ -2409,7 +2567,12 @@
       "createdAt": "2022-06-30T01:18:19.859Z",
       "firstName": "Brandi",
       "phoneNumber": "+16408841555",
-      "organizations": ["Bank A", "Bank D", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦9,407,918.00",
         "bankName": "UBA",
@@ -2462,7 +2625,13 @@
       "createdAt": "2020-12-17T16:30:52.081Z",
       "firstName": "Tanisha",
       "phoneNumber": "+11630499477",
-      "organizations": ["Bank B", "Bank D", "Bank C", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank C",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦957,964.00",
         "bankName": "Zenith Bank",
@@ -2515,7 +2684,11 @@
       "createdAt": "2020-12-24T04:30:18.128Z",
       "firstName": "Woodard",
       "phoneNumber": "+19787525664",
-      "organizations": ["Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,935,727.00",
         "bankName": "Stanbic IBTC",
@@ -2568,7 +2741,13 @@
       "createdAt": "2024-05-27T22:55:12.853Z",
       "firstName": "Sanchez",
       "phoneNumber": "+11739925271",
-      "organizations": ["Bank C", "Bank D", "Bank C", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,097,534.00",
         "bankName": "First Bank",
@@ -2621,7 +2800,12 @@
       "createdAt": "2023-07-21T02:19:18.896Z",
       "firstName": "Marianne",
       "phoneNumber": "+18137968906",
-      "organizations": ["Bank A", "Bank A", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,991,384.00",
         "bankName": "First Bank",
@@ -2674,7 +2858,13 @@
       "createdAt": "2023-04-17T12:15:09.240Z",
       "firstName": "Alexander",
       "phoneNumber": "+18234133175",
-      "organizations": ["Bank B", "Bank C", "Bank A", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank A",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,146,121.00",
         "bankName": "Access Bank",
@@ -2727,7 +2917,10 @@
       "createdAt": "2023-11-28T15:55:59.670Z",
       "firstName": "Mayer",
       "phoneNumber": "+19967323307",
-      "organizations": ["Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,301,613.00",
         "bankName": "Stanbic IBTC",
@@ -2780,7 +2973,13 @@
       "createdAt": "2024-02-12T02:59:01.865Z",
       "firstName": "Farrell",
       "phoneNumber": "+12427376876",
-      "organizations": ["Bank C", "Bank B", "Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦666,556.00",
         "bankName": "Stanbic IBTC",
@@ -2833,7 +3032,11 @@
       "createdAt": "2024-07-26T06:48:39.384Z",
       "firstName": "Serrano",
       "phoneNumber": "+19428276179",
-      "organizations": ["Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,065,273.00",
         "bankName": "Stanbic IBTC",
@@ -2886,7 +3089,11 @@
       "createdAt": "2021-10-28T22:06:00.700Z",
       "firstName": "Liliana",
       "phoneNumber": "+14391541637",
-      "organizations": ["Bank A", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,739,018.00",
         "bankName": "Zenith Bank",
@@ -2939,7 +3146,9 @@
       "createdAt": "2023-11-13T02:56:40.679Z",
       "firstName": "Nora",
       "phoneNumber": "+18201427469",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,912,202.00",
         "bankName": "First Bank",
@@ -2998,7 +3207,10 @@
       "createdAt": "2023-03-02T18:12:32.008Z",
       "firstName": "Juliana",
       "phoneNumber": "+16496696374",
-      "organizations": ["Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,463,472.00",
         "bankName": "Stanbic IBTC",
@@ -3051,7 +3263,12 @@
       "createdAt": "2023-11-28T17:14:09.776Z",
       "firstName": "Dunlap",
       "phoneNumber": "+11944837515",
-      "organizations": ["Bank D", "Bank D", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,464,501.00",
         "bankName": "UBA",
@@ -3104,7 +3321,13 @@
       "createdAt": "2020-07-20T04:00:38.451Z",
       "firstName": "Ola",
       "phoneNumber": "+14082473049",
-      "organizations": ["Bank B", "Bank C", "Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,132,578.00",
         "bankName": "Stanbic IBTC",
@@ -3157,7 +3380,12 @@
       "createdAt": "2022-12-10T14:01:40.194Z",
       "firstName": "Debbie",
       "phoneNumber": "+18656960412",
-      "organizations": ["Bank D", "Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,334,677.00",
         "bankName": "Zenith Bank",
@@ -3216,7 +3444,13 @@
       "createdAt": "2022-03-16T23:35:20.230Z",
       "firstName": "Cross",
       "phoneNumber": "+13490908440",
-      "organizations": ["Bank D", "Bank D", "Bank D", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank D",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,139,561.00",
         "bankName": "Stanbic IBTC",
@@ -3269,7 +3503,11 @@
       "createdAt": "2024-11-11T13:40:21.127Z",
       "firstName": "Joseph",
       "phoneNumber": "+14476867758",
-      "organizations": ["Bank B", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,409,573.00",
         "bankName": "GT Bank",
@@ -3322,7 +3560,11 @@
       "createdAt": "2021-09-25T21:58:40.752Z",
       "firstName": "Scott",
       "phoneNumber": "+16942796115",
-      "organizations": ["Bank D", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,474,795.00",
         "bankName": "Stanbic IBTC",
@@ -3381,7 +3623,9 @@
       "createdAt": "2022-07-02T14:39:07.491Z",
       "firstName": "Bridges",
       "phoneNumber": "+19144995521",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦62,294.00",
         "bankName": "Zenith Bank",
@@ -3434,7 +3678,10 @@
       "createdAt": "2021-05-09T03:23:16.577Z",
       "firstName": "Angie",
       "phoneNumber": "+13980581630",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,239,444.00",
         "bankName": "Access Bank",
@@ -3493,7 +3740,9 @@
       "createdAt": "2024-09-16T17:25:17.029Z",
       "firstName": "Peters",
       "phoneNumber": "+19101402406",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,441,648.00",
         "bankName": "Access Bank",
@@ -3546,7 +3795,13 @@
       "createdAt": "2024-12-08T02:42:10.894Z",
       "firstName": "Lara",
       "phoneNumber": "+19806214370",
-      "organizations": ["Bank A", "Bank D", "Bank B", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank B",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦9,546,731.00",
         "bankName": "Stanbic IBTC",
@@ -3605,7 +3860,9 @@
       "createdAt": "2020-06-09T02:27:53.876Z",
       "firstName": "Robbie",
       "phoneNumber": "+19131610632",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦896,930.00",
         "bankName": "Stanbic IBTC",
@@ -3664,7 +3921,11 @@
       "createdAt": "2024-04-14T05:50:26.593Z",
       "firstName": "Camille",
       "phoneNumber": "+13095688126",
-      "organizations": ["Bank C", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,244,986.00",
         "bankName": "Zenith Bank",
@@ -3717,7 +3978,12 @@
       "createdAt": "2023-01-03T05:30:48.805Z",
       "firstName": "Cruz",
       "phoneNumber": "+18740331745",
-      "organizations": ["Bank C", "Bank D", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,142,930.00",
         "bankName": "Zenith Bank",
@@ -3776,7 +4042,12 @@
       "createdAt": "2023-12-31T06:18:00.125Z",
       "firstName": "Graham",
       "phoneNumber": "+14507792279",
-      "organizations": ["Bank B", "Bank B", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,060,834.00",
         "bankName": "Zenith Bank",
@@ -3835,7 +4106,13 @@
       "createdAt": "2022-05-10T18:39:06.626Z",
       "firstName": "Rocha",
       "phoneNumber": "+13835801856",
-      "organizations": ["Bank D", "Bank B", "Bank B", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank B",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,452,725.00",
         "bankName": "Zenith Bank",
@@ -3894,7 +4171,10 @@
       "createdAt": "2024-10-05T02:52:03.252Z",
       "firstName": "Edwina",
       "phoneNumber": "+15012197633",
-      "organizations": ["Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,709,194.00",
         "bankName": "First Bank",
@@ -3947,7 +4227,13 @@
       "createdAt": "2024-01-07T11:32:24.728Z",
       "firstName": "Minerva",
       "phoneNumber": "+14576207101",
-      "organizations": ["Bank B", "Bank D", "Bank D", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank D",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦589,152.00",
         "bankName": "GT Bank",
@@ -4000,7 +4286,11 @@
       "createdAt": "2021-11-04T22:45:37.479Z",
       "firstName": "Brewer",
       "phoneNumber": "+19494375254",
-      "organizations": ["Bank B", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦946,157.00",
         "bankName": "First Bank",
@@ -4053,7 +4343,12 @@
       "createdAt": "2024-02-28T17:35:22.363Z",
       "firstName": "Marci",
       "phoneNumber": "+15720039884",
-      "organizations": ["Bank C", "Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦862,386.00",
         "bankName": "Zenith Bank",
@@ -4106,7 +4401,12 @@
       "createdAt": "2024-05-15T05:19:34.266Z",
       "firstName": "Bettye",
       "phoneNumber": "+17418794604",
-      "organizations": ["Bank B", "Bank A", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank A",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦5,637,926.00",
         "bankName": "Stanbic IBTC",
@@ -4159,7 +4459,12 @@
       "createdAt": "2024-05-27T06:01:31.097Z",
       "firstName": "Gardner",
       "phoneNumber": "+12678561486",
-      "organizations": ["Bank C", "Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,132,005.00",
         "bankName": "GT Bank",
@@ -4218,7 +4523,9 @@
       "createdAt": "2024-03-16T03:01:58.988Z",
       "firstName": "Earline",
       "phoneNumber": "+12278739656",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,479,706.00",
         "bankName": "GT Bank",
@@ -4277,7 +4584,10 @@
       "createdAt": "2023-08-25T05:49:27.972Z",
       "firstName": "Salas",
       "phoneNumber": "+11163848879",
-      "organizations": ["Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,605,251.00",
         "bankName": "UBA",
@@ -4330,7 +4640,12 @@
       "createdAt": "2021-07-28T08:21:41.091Z",
       "firstName": "Cole",
       "phoneNumber": "+19153437897",
-      "organizations": ["Bank D", "Bank A", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,220,211.00",
         "bankName": "Zenith Bank",
@@ -4389,7 +4704,11 @@
       "createdAt": "2022-05-06T03:38:43.801Z",
       "firstName": "Cox",
       "phoneNumber": "+19334928372",
-      "organizations": ["Bank A", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,412,882.00",
         "bankName": "GT Bank",
@@ -4442,7 +4761,12 @@
       "createdAt": "2021-04-04T04:44:02.347Z",
       "firstName": "Rosales",
       "phoneNumber": "+16117308644",
-      "organizations": ["Bank B", "Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,647,656.00",
         "bankName": "Stanbic IBTC",
@@ -4495,7 +4819,10 @@
       "createdAt": "2022-06-04T03:06:45.538Z",
       "firstName": "Christi",
       "phoneNumber": "+11282972363",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,587,246.00",
         "bankName": "UBA",
@@ -4554,7 +4881,10 @@
       "createdAt": "2021-08-21T09:18:58.608Z",
       "firstName": "Frank",
       "phoneNumber": "+15141402286",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,622,761.00",
         "bankName": "Zenith Bank",
@@ -4607,7 +4937,12 @@
       "createdAt": "2020-06-15T07:06:55.157Z",
       "firstName": "Guzman",
       "phoneNumber": "+11953136666",
-      "organizations": ["Bank C", "Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦922,740.00",
         "bankName": "First Bank",
@@ -4660,7 +4995,10 @@
       "createdAt": "2023-05-05T23:52:06.701Z",
       "firstName": "Lupe",
       "phoneNumber": "+19859070240",
-      "organizations": ["Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,999,726.00",
         "bankName": "Stanbic IBTC",
@@ -4719,7 +5057,12 @@
       "createdAt": "2024-07-26T16:59:04.084Z",
       "firstName": "Hines",
       "phoneNumber": "+15532810295",
-      "organizations": ["Bank A", "Bank A", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,636,033.00",
         "bankName": "Stanbic IBTC",
@@ -4772,7 +5115,13 @@
       "createdAt": "2022-01-20T05:06:20.779Z",
       "firstName": "Rebecca",
       "phoneNumber": "+13173438694",
-      "organizations": ["Bank A", "Bank D", "Bank C", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,715,264.00",
         "bankName": "Access Bank",
@@ -4831,7 +5180,13 @@
       "createdAt": "2024-03-02T20:34:14.680Z",
       "firstName": "Parker",
       "phoneNumber": "+11555560605",
-      "organizations": ["Bank B", "Bank D", "Bank B", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank B",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,319,564.00",
         "bankName": "First Bank",
@@ -4890,7 +5245,13 @@
       "createdAt": "2023-02-24T13:49:25.999Z",
       "firstName": "Vinson",
       "phoneNumber": "+19931047486",
-      "organizations": ["Bank D", "Bank A", "Bank B", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank B",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,563,365.00",
         "bankName": "Zenith Bank",
@@ -4943,7 +5304,11 @@
       "createdAt": "2022-11-29T15:42:09.005Z",
       "firstName": "Eve",
       "phoneNumber": "+11181799316",
-      "organizations": ["Bank A", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,814,487.00",
         "bankName": "UBA",
@@ -4996,7 +5361,9 @@
       "createdAt": "2023-07-07T22:48:47.662Z",
       "firstName": "Katy",
       "phoneNumber": "+14152862245",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,820,333.00",
         "bankName": "Access Bank",
@@ -5055,7 +5422,9 @@
       "createdAt": "2022-12-28T08:28:24.966Z",
       "firstName": "Hubbard",
       "phoneNumber": "+15953253637",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,648,324.00",
         "bankName": "First Bank",
@@ -5114,7 +5483,9 @@
       "createdAt": "2020-03-16T05:13:30.886Z",
       "firstName": "Victoria",
       "phoneNumber": "+13516903138",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,953,443.00",
         "bankName": "Zenith Bank",
@@ -5167,7 +5538,9 @@
       "createdAt": "2022-02-20T23:38:21.013Z",
       "firstName": "Joni",
       "phoneNumber": "+17918356317",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦468,778.00",
         "bankName": "Stanbic IBTC",
@@ -5226,7 +5599,12 @@
       "createdAt": "2021-02-03T03:53:22.164Z",
       "firstName": "Mcmillan",
       "phoneNumber": "+12836622719",
-      "organizations": ["Bank D", "Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,289,652.00",
         "bankName": "UBA",
@@ -5285,7 +5663,12 @@
       "createdAt": "2024-12-12T10:02:30.808Z",
       "firstName": "Lucile",
       "phoneNumber": "+11112815124",
-      "organizations": ["Bank B", "Bank B", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,949,178.00",
         "bankName": "GT Bank",
@@ -5332,13 +5715,18 @@
     {
       "id": "686757e8fc41cc5b051d4603",
       "email": "sheryl_compton@example.com",
-      "status": "blacklisted",
+      "status": "inactive",
       "lastName": "Compton",
       "username": "sheryl_compton",
       "createdAt": "2023-06-03T03:42:46.217Z",
       "firstName": "Sheryl",
       "phoneNumber": "+18611591036",
-      "organizations": ["Bank A", "Bank D", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,680,577.00",
         "bankName": "GT Bank",
@@ -5397,7 +5785,12 @@
       "createdAt": "2022-01-22T00:19:22.129Z",
       "firstName": "Ashley",
       "phoneNumber": "+18372913272",
-      "organizations": ["Bank D", "Bank A", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,751,038.00",
         "bankName": "First Bank",
@@ -5450,7 +5843,9 @@
       "createdAt": "2020-01-18T11:13:43.856Z",
       "firstName": "Suzanne",
       "phoneNumber": "+17629620268",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,244,979.00",
         "bankName": "Access Bank",
@@ -5509,7 +5904,9 @@
       "createdAt": "2020-07-27T05:21:36.080Z",
       "firstName": "Noreen",
       "phoneNumber": "+12668703028",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,627,403.00",
         "bankName": "Zenith Bank",
@@ -5562,7 +5959,13 @@
       "createdAt": "2020-04-01T16:30:40.481Z",
       "firstName": "Baker",
       "phoneNumber": "+16539968011",
-      "organizations": ["Bank B", "Bank A", "Bank B", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank A",
+        "Bank B",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,204,661.00",
         "bankName": "Stanbic IBTC",
@@ -5621,7 +6024,10 @@
       "createdAt": "2024-12-01T04:42:27.531Z",
       "firstName": "Trevino",
       "phoneNumber": "+15058887259",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,152,605.00",
         "bankName": "First Bank",
@@ -5674,7 +6080,12 @@
       "createdAt": "2020-02-02T22:07:56.546Z",
       "firstName": "Annabelle",
       "phoneNumber": "+12999732646",
-      "organizations": ["Bank D", "Bank D", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,366,003.00",
         "bankName": "UBA",
@@ -5733,7 +6144,10 @@
       "createdAt": "2023-12-01T23:11:07.326Z",
       "firstName": "Noel",
       "phoneNumber": "+12383360874",
-      "organizations": ["Bank A", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,685,542.00",
         "bankName": "UBA",
@@ -5792,7 +6206,12 @@
       "createdAt": "2021-03-30T18:31:43.486Z",
       "firstName": "Liza",
       "phoneNumber": "+18101974342",
-      "organizations": ["Bank C", "Bank A", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,202,368.00",
         "bankName": "GT Bank",
@@ -5851,7 +6270,9 @@
       "createdAt": "2020-01-13T04:27:18.650Z",
       "firstName": "Elsa",
       "phoneNumber": "+17027623962",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,528,023.00",
         "bankName": "Access Bank",
@@ -5904,7 +6325,12 @@
       "createdAt": "2023-06-15T15:53:02.306Z",
       "firstName": "Violet",
       "phoneNumber": "+15255435656",
-      "organizations": ["Bank C", "Bank B", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,469,583.00",
         "bankName": "First Bank",
@@ -5957,7 +6383,10 @@
       "createdAt": "2020-08-03T18:36:28.398Z",
       "firstName": "Walton",
       "phoneNumber": "+12231848430",
-      "organizations": ["Bank A", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,860,454.00",
         "bankName": "UBA",
@@ -6010,7 +6439,13 @@
       "createdAt": "2022-03-03T05:20:15.466Z",
       "firstName": "Roman",
       "phoneNumber": "+14129048560",
-      "organizations": ["Bank B", "Bank C", "Bank B", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,991,665.00",
         "bankName": "First Bank",
@@ -6063,7 +6498,9 @@
       "createdAt": "2020-08-14T15:41:08.176Z",
       "firstName": "Martina",
       "phoneNumber": "+13969488717",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦540,946.00",
         "bankName": "Access Bank",
@@ -6122,7 +6559,11 @@
       "createdAt": "2024-05-06T23:00:55.929Z",
       "firstName": "Georgette",
       "phoneNumber": "+16765297654",
-      "organizations": ["Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,965,349.00",
         "bankName": "GT Bank",
@@ -6181,7 +6622,9 @@
       "createdAt": "2023-01-12T07:52:38.781Z",
       "firstName": "Brianna",
       "phoneNumber": "+14737233648",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,305,145.00",
         "bankName": "GT Bank",
@@ -6240,7 +6683,10 @@
       "createdAt": "2022-02-05T09:29:21.640Z",
       "firstName": "Cline",
       "phoneNumber": "+14771184563",
-      "organizations": ["Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,304,039.00",
         "bankName": "Stanbic IBTC",
@@ -6299,7 +6745,9 @@
       "createdAt": "2023-06-23T14:48:31.425Z",
       "firstName": "Deanne",
       "phoneNumber": "+16941498932",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦9,236,937.00",
         "bankName": "GT Bank",
@@ -6358,7 +6806,13 @@
       "createdAt": "2020-04-13T06:24:41.160Z",
       "firstName": "Elise",
       "phoneNumber": "+13353941810",
-      "organizations": ["Bank C", "Bank A", "Bank D", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank D",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,444,453.00",
         "bankName": "UBA",
@@ -6417,7 +6871,11 @@
       "createdAt": "2022-04-22T22:24:32.225Z",
       "firstName": "Carver",
       "phoneNumber": "+19860183649",
-      "organizations": ["Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,461,385.00",
         "bankName": "First Bank",
@@ -6476,7 +6934,11 @@
       "createdAt": "2024-06-14T05:48:03.394Z",
       "firstName": "Lenora",
       "phoneNumber": "+14662056910",
-      "organizations": ["Bank D", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦888,487.00",
         "bankName": "Access Bank",
@@ -6529,7 +6991,12 @@
       "createdAt": "2023-03-06T13:54:49.702Z",
       "firstName": "Billie",
       "phoneNumber": "+14163228375",
-      "organizations": ["Bank D", "Bank D", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,992,435.00",
         "bankName": "Stanbic IBTC",
@@ -6588,7 +7055,10 @@
       "createdAt": "2021-04-03T12:25:36.363Z",
       "firstName": "Kaitlin",
       "phoneNumber": "+15089392165",
-      "organizations": ["Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,072,087.00",
         "bankName": "Access Bank",
@@ -6647,7 +7117,10 @@
       "createdAt": "2024-09-21T10:17:50.347Z",
       "firstName": "Chang",
       "phoneNumber": "+11092986982",
-      "organizations": ["Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦25,794.00",
         "bankName": "Access Bank",
@@ -6706,7 +7179,12 @@
       "createdAt": "2020-05-13T00:44:01.297Z",
       "firstName": "Kane",
       "phoneNumber": "+13014292985",
-      "organizations": ["Bank A", "Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,722,720.00",
         "bankName": "Access Bank",
@@ -6759,7 +7237,11 @@
       "createdAt": "2022-05-28T00:39:13.469Z",
       "firstName": "Monica",
       "phoneNumber": "+19903140693",
-      "organizations": ["Bank A", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,120,644.00",
         "bankName": "First Bank",
@@ -6818,7 +7300,11 @@
       "createdAt": "2023-09-01T17:05:09.807Z",
       "firstName": "Kasey",
       "phoneNumber": "+13020952390",
-      "organizations": ["Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,114,061.00",
         "bankName": "Stanbic IBTC",
@@ -6877,7 +7363,9 @@
       "createdAt": "2024-11-27T02:10:56.513Z",
       "firstName": "Johnnie",
       "phoneNumber": "+15893556718",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦6,564,629.00",
         "bankName": "Access Bank",
@@ -6930,7 +7418,10 @@
       "createdAt": "2023-11-12T13:32:20.729Z",
       "firstName": "Mavis",
       "phoneNumber": "+18429394790",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,387,693.00",
         "bankName": "Stanbic IBTC",
@@ -6989,7 +7480,13 @@
       "createdAt": "2022-05-19T14:16:25.836Z",
       "firstName": "Margret",
       "phoneNumber": "+19020398524",
-      "organizations": ["Bank C", "Bank D", "Bank C", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,191,883.00",
         "bankName": "Access Bank",
@@ -7042,7 +7539,12 @@
       "createdAt": "2022-08-31T20:19:56.429Z",
       "firstName": "Craig",
       "phoneNumber": "+19872047345",
-      "organizations": ["Bank C", "Bank A", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,031,535.00",
         "bankName": "Zenith Bank",
@@ -7095,7 +7597,13 @@
       "createdAt": "2022-01-25T21:09:48.334Z",
       "firstName": "Chase",
       "phoneNumber": "+14321000988",
-      "organizations": ["Bank B", "Bank C", "Bank C", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,656,525.00",
         "bankName": "GT Bank",
@@ -7148,7 +7656,9 @@
       "createdAt": "2021-10-26T04:00:50.302Z",
       "firstName": "Francis",
       "phoneNumber": "+17309067239",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,284,902.00",
         "bankName": "Zenith Bank",
@@ -7207,7 +7717,12 @@
       "createdAt": "2022-11-24T14:37:37.177Z",
       "firstName": "Ernestine",
       "phoneNumber": "+15800187165",
-      "organizations": ["Bank C", "Bank B", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,783,088.00",
         "bankName": "First Bank",
@@ -7266,7 +7781,10 @@
       "createdAt": "2024-04-19T13:16:05.835Z",
       "firstName": "Diane",
       "phoneNumber": "+12793824510",
-      "organizations": ["Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,902,723.00",
         "bankName": "Stanbic IBTC",
@@ -7325,7 +7843,13 @@
       "createdAt": "2022-05-26T22:00:50.473Z",
       "firstName": "Margaret",
       "phoneNumber": "+17967167815",
-      "organizations": ["Bank B", "Bank C", "Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,961,412.00",
         "bankName": "Zenith Bank",
@@ -7378,7 +7902,13 @@
       "createdAt": "2024-03-13T03:00:31.228Z",
       "firstName": "Mallory",
       "phoneNumber": "+14412564633",
-      "organizations": ["Bank D", "Bank C", "Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,775,316.00",
         "bankName": "Stanbic IBTC",
@@ -7437,7 +7967,12 @@
       "createdAt": "2023-04-21T18:46:51.932Z",
       "firstName": "Krystal",
       "phoneNumber": "+15127594609",
-      "organizations": ["Bank B", "Bank B", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,834,470.00",
         "bankName": "UBA",
@@ -7490,7 +8025,13 @@
       "createdAt": "2024-10-15T14:51:11.454Z",
       "firstName": "Prince",
       "phoneNumber": "+13034181367",
-      "organizations": ["Bank C", "Bank B", "Bank D", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank D",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,091,498.00",
         "bankName": "GT Bank",
@@ -7549,7 +8090,10 @@
       "createdAt": "2024-12-29T14:24:48.099Z",
       "firstName": "Osborne",
       "phoneNumber": "+15274721084",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦693,662.00",
         "bankName": "Access Bank",
@@ -7608,7 +8152,9 @@
       "createdAt": "2020-03-14T08:27:22.139Z",
       "firstName": "Lakisha",
       "phoneNumber": "+11716410374",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,445,770.00",
         "bankName": "Access Bank",
@@ -7667,7 +8213,9 @@
       "createdAt": "2020-01-09T14:57:30.520Z",
       "firstName": "Rebekah",
       "phoneNumber": "+15362210301",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,170,774.00",
         "bankName": "Access Bank",
@@ -7726,7 +8274,10 @@
       "createdAt": "2024-08-21T16:32:18.059Z",
       "firstName": "Lacy",
       "phoneNumber": "+11659064283",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦5,290,899.00",
         "bankName": "First Bank",
@@ -7779,7 +8330,13 @@
       "createdAt": "2023-12-30T11:20:30.777Z",
       "firstName": "Goff",
       "phoneNumber": "+14590550196",
-      "organizations": ["Bank D", "Bank D", "Bank B", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank B",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,086,497.00",
         "bankName": "Access Bank",
@@ -7838,7 +8395,13 @@
       "createdAt": "2022-05-01T06:25:24.471Z",
       "firstName": "Calderon",
       "phoneNumber": "+17426256907",
-      "organizations": ["Bank A", "Bank C", "Bank B", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank B",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,645,902.00",
         "bankName": "Access Bank",
@@ -7891,7 +8454,9 @@
       "createdAt": "2021-07-11T16:33:21.317Z",
       "firstName": "Dina",
       "phoneNumber": "+13740592145",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,568,512.00",
         "bankName": "UBA",
@@ -7950,7 +8515,10 @@
       "createdAt": "2021-03-04T04:47:34.265Z",
       "firstName": "Flores",
       "phoneNumber": "+18193114044",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,488,622.00",
         "bankName": "Stanbic IBTC",
@@ -8003,7 +8571,11 @@
       "createdAt": "2023-06-09T00:39:29.131Z",
       "firstName": "Hall",
       "phoneNumber": "+12821980104",
-      "organizations": ["Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,277,010.00",
         "bankName": "First Bank",
@@ -8056,7 +8628,12 @@
       "createdAt": "2022-10-13T21:04:01.087Z",
       "firstName": "Emilia",
       "phoneNumber": "+17716894706",
-      "organizations": ["Bank B", "Bank C", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,208,570.00",
         "bankName": "First Bank",
@@ -8109,7 +8686,11 @@
       "createdAt": "2023-05-09T00:34:36.806Z",
       "firstName": "Jodi",
       "phoneNumber": "+18138779364",
-      "organizations": ["Bank B", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦908,851.00",
         "bankName": "Access Bank",
@@ -8162,7 +8743,9 @@
       "createdAt": "2020-08-16T08:05:15.497Z",
       "firstName": "Clark",
       "phoneNumber": "+17932126145",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦9,996,620.00",
         "bankName": "First Bank",
@@ -8221,7 +8804,9 @@
       "createdAt": "2020-04-17T11:25:12.111Z",
       "firstName": "Natalia",
       "phoneNumber": "+19814939968",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,438,195.00",
         "bankName": "First Bank",
@@ -8280,7 +8865,11 @@
       "createdAt": "2024-12-05T17:17:18.162Z",
       "firstName": "Winnie",
       "phoneNumber": "+19615469304",
-      "organizations": ["Bank A", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,579,316.00",
         "bankName": "GT Bank",
@@ -8339,7 +8928,11 @@
       "createdAt": "2024-04-06T02:11:51.508Z",
       "firstName": "Schwartz",
       "phoneNumber": "+14991215388",
-      "organizations": ["Bank A", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,062,718.00",
         "bankName": "GT Bank",
@@ -8398,7 +8991,12 @@
       "createdAt": "2022-12-13T18:20:00.766Z",
       "firstName": "Wooten",
       "phoneNumber": "+17075335048",
-      "organizations": ["Bank A", "Bank B", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,536,757.00",
         "bankName": "GT Bank",
@@ -8451,7 +9049,9 @@
       "createdAt": "2023-08-29T01:07:52.666Z",
       "firstName": "Jensen",
       "phoneNumber": "+19737287383",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,257,817.00",
         "bankName": "Access Bank",
@@ -8510,7 +9110,10 @@
       "createdAt": "2020-03-07T19:26:13.406Z",
       "firstName": "Rose",
       "phoneNumber": "+17959013007",
-      "organizations": ["Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,542,701.00",
         "bankName": "Zenith Bank",
@@ -8563,7 +9166,11 @@
       "createdAt": "2021-12-23T05:05:12.897Z",
       "firstName": "Helena",
       "phoneNumber": "+14239725891",
-      "organizations": ["Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦9,552,898.00",
         "bankName": "Stanbic IBTC",
@@ -8622,7 +9229,9 @@
       "createdAt": "2023-04-17T06:20:36.028Z",
       "firstName": "Pauline",
       "phoneNumber": "+13802030884",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,781,960.00",
         "bankName": "UBA",
@@ -8675,7 +9284,12 @@
       "createdAt": "2024-01-11T22:38:20.023Z",
       "firstName": "Reid",
       "phoneNumber": "+17544950376",
-      "organizations": ["Bank D", "Bank C", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦248,247.00",
         "bankName": "Access Bank",
@@ -8734,7 +9348,9 @@
       "createdAt": "2020-12-09T23:57:40.243Z",
       "firstName": "Johnson",
       "phoneNumber": "+15466080436",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦9,704,652.00",
         "bankName": "Access Bank",
@@ -8793,7 +9409,10 @@
       "createdAt": "2020-12-07T11:53:50.885Z",
       "firstName": "Diana",
       "phoneNumber": "+14005358853",
-      "organizations": ["Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,435,546.00",
         "bankName": "Zenith Bank",
@@ -8846,7 +9465,12 @@
       "createdAt": "2020-05-08T07:34:38.711Z",
       "firstName": "Quinn",
       "phoneNumber": "+12280353523",
-      "organizations": ["Bank B", "Bank D", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,705,870.00",
         "bankName": "Access Bank",
@@ -8899,7 +9523,9 @@
       "createdAt": "2023-09-01T08:23:25.590Z",
       "firstName": "Gregory",
       "phoneNumber": "+11883937143",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,493,005.00",
         "bankName": "First Bank",
@@ -8958,7 +9584,13 @@
       "createdAt": "2022-02-23T23:29:30.620Z",
       "firstName": "Galloway",
       "phoneNumber": "+13047162095",
-      "organizations": ["Bank C", "Bank C", "Bank B", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,156,554.00",
         "bankName": "Stanbic IBTC",
@@ -9017,7 +9649,12 @@
       "createdAt": "2024-06-22T12:13:23.998Z",
       "firstName": "Robyn",
       "phoneNumber": "+14315213582",
-      "organizations": ["Bank D", "Bank D", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,753,563.00",
         "bankName": "GT Bank",
@@ -9076,7 +9713,9 @@
       "createdAt": "2024-08-08T21:39:45.040Z",
       "firstName": "Ashley",
       "phoneNumber": "+14838452380",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,449,994.00",
         "bankName": "Access Bank",
@@ -9135,7 +9774,12 @@
       "createdAt": "2024-10-07T15:33:48.313Z",
       "firstName": "Sims",
       "phoneNumber": "+16465292117",
-      "organizations": ["Bank C", "Bank B", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,007,863.00",
         "bankName": "Stanbic IBTC",
@@ -9194,7 +9838,12 @@
       "createdAt": "2022-07-01T19:31:13.003Z",
       "firstName": "Parsons",
       "phoneNumber": "+11510964636",
-      "organizations": ["Bank C", "Bank B", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,639,925.00",
         "bankName": "First Bank",
@@ -9247,7 +9896,9 @@
       "createdAt": "2022-11-04T10:09:38.825Z",
       "firstName": "Patsy",
       "phoneNumber": "+14126416942",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,349,226.00",
         "bankName": "UBA",
@@ -9300,7 +9951,12 @@
       "createdAt": "2021-01-14T21:49:56.811Z",
       "firstName": "Nona",
       "phoneNumber": "+17196412580",
-      "organizations": ["Bank D", "Bank C", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,963,386.00",
         "bankName": "UBA",
@@ -9353,7 +10009,13 @@
       "createdAt": "2022-12-05T11:02:08.595Z",
       "firstName": "Lester",
       "phoneNumber": "+13283530062",
-      "organizations": ["Bank A", "Bank C", "Bank A", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank A",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,060,291.00",
         "bankName": "Stanbic IBTC",
@@ -9412,7 +10074,10 @@
       "createdAt": "2023-12-31T15:57:50.177Z",
       "firstName": "Fuentes",
       "phoneNumber": "+13720647968",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,980,455.00",
         "bankName": "UBA",
@@ -9465,7 +10130,9 @@
       "createdAt": "2022-06-16T21:05:11.712Z",
       "firstName": "Gross",
       "phoneNumber": "+14644074424",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,988,675.00",
         "bankName": "Stanbic IBTC",
@@ -9518,7 +10185,9 @@
       "createdAt": "2024-09-18T10:10:27.494Z",
       "firstName": "Corinne",
       "phoneNumber": "+13778005209",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,950,828.00",
         "bankName": "GT Bank",
@@ -9577,7 +10246,9 @@
       "createdAt": "2021-10-03T21:13:03.929Z",
       "firstName": "Maryann",
       "phoneNumber": "+19368680701",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,180,940.00",
         "bankName": "UBA",
@@ -9636,7 +10307,11 @@
       "createdAt": "2024-05-04T13:56:15.902Z",
       "firstName": "Shelley",
       "phoneNumber": "+11819588063",
-      "organizations": ["Bank B", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦274,346.00",
         "bankName": "Access Bank",
@@ -9695,7 +10370,13 @@
       "createdAt": "2023-10-11T15:11:44.127Z",
       "firstName": "Hill",
       "phoneNumber": "+11964285289",
-      "organizations": ["Bank D", "Bank B", "Bank B", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank B",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,246,605.00",
         "bankName": "GT Bank",
@@ -9754,7 +10435,12 @@
       "createdAt": "2023-10-13T13:22:55.714Z",
       "firstName": "Fanny",
       "phoneNumber": "+13370418184",
-      "organizations": ["Bank A", "Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦46,610.00",
         "bankName": "First Bank",
@@ -9813,7 +10499,11 @@
       "createdAt": "2021-02-08T20:18:58.555Z",
       "firstName": "Whitaker",
       "phoneNumber": "+16441342657",
-      "organizations": ["Bank C", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,910,290.00",
         "bankName": "UBA",
@@ -9866,7 +10556,12 @@
       "createdAt": "2022-05-26T11:09:49.766Z",
       "firstName": "Etta",
       "phoneNumber": "+17104634645",
-      "organizations": ["Bank B", "Bank B", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,790,366.00",
         "bankName": "First Bank",
@@ -9925,7 +10620,10 @@
       "createdAt": "2022-09-26T09:44:13.999Z",
       "firstName": "Holt",
       "phoneNumber": "+13980511441",
-      "organizations": ["Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,201,744.00",
         "bankName": "First Bank",
@@ -9978,7 +10676,10 @@
       "createdAt": "2024-02-01T14:26:37.023Z",
       "firstName": "Julia",
       "phoneNumber": "+17578366672",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦6,479,085.00",
         "bankName": "Stanbic IBTC",
@@ -10031,7 +10732,10 @@
       "createdAt": "2020-06-07T18:23:59.261Z",
       "firstName": "Lindsay",
       "phoneNumber": "+13913204578",
-      "organizations": ["Bank D", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦9,961,856.00",
         "bankName": "Stanbic IBTC",
@@ -10084,7 +10788,12 @@
       "createdAt": "2024-06-30T01:03:37.466Z",
       "firstName": "Amalia",
       "phoneNumber": "+11973654972",
-      "organizations": ["Bank B", "Bank D", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦876,304.00",
         "bankName": "Access Bank",
@@ -10143,7 +10852,9 @@
       "createdAt": "2024-01-18T17:26:21.869Z",
       "firstName": "Mccullough",
       "phoneNumber": "+11312824837",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,787,493.00",
         "bankName": "First Bank",
@@ -10196,7 +10907,11 @@
       "createdAt": "2022-08-19T06:25:58.196Z",
       "firstName": "Simon",
       "phoneNumber": "+18775733460",
-      "organizations": ["Bank C", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,322,338.00",
         "bankName": "Stanbic IBTC",
@@ -10249,7 +10964,11 @@
       "createdAt": "2020-11-01T20:32:40.677Z",
       "firstName": "Schneider",
       "phoneNumber": "+18856396731",
-      "organizations": ["Bank B", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,940,756.00",
         "bankName": "GT Bank",
@@ -10302,7 +11021,12 @@
       "createdAt": "2023-02-23T19:21:54.901Z",
       "firstName": "Delaney",
       "phoneNumber": "+13858176984",
-      "organizations": ["Bank D", "Bank A", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,605,438.00",
         "bankName": "UBA",
@@ -10355,7 +11079,13 @@
       "createdAt": "2024-12-15T01:03:32.730Z",
       "firstName": "Santos",
       "phoneNumber": "+15640122481",
-      "organizations": ["Bank B", "Bank B", "Bank A", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank A",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,225,811.00",
         "bankName": "Access Bank",
@@ -10414,7 +11144,9 @@
       "createdAt": "2020-11-13T05:47:51.909Z",
       "firstName": "Alisa",
       "phoneNumber": "+11185604756",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,909,368.00",
         "bankName": "UBA",
@@ -10467,7 +11199,13 @@
       "createdAt": "2023-07-07T13:05:46.139Z",
       "firstName": "Sexton",
       "phoneNumber": "+12651142293",
-      "organizations": ["Bank D", "Bank D", "Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,673,277.00",
         "bankName": "GT Bank",
@@ -10520,7 +11258,13 @@
       "createdAt": "2023-12-29T00:15:35.420Z",
       "firstName": "Jackson",
       "phoneNumber": "+18991177736",
-      "organizations": ["Bank D", "Bank B", "Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,967,286.00",
         "bankName": "Access Bank",
@@ -10579,7 +11323,13 @@
       "createdAt": "2022-06-12T04:36:26.148Z",
       "firstName": "Gutierrez",
       "phoneNumber": "+11816636774",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,849,005.00",
         "bankName": "First Bank",
@@ -10632,7 +11382,10 @@
       "createdAt": "2022-10-13T17:19:31.377Z",
       "firstName": "Shanna",
       "phoneNumber": "+18671125409",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,183,523.00",
         "bankName": "UBA",
@@ -10691,7 +11444,10 @@
       "createdAt": "2020-01-01T05:37:01.728Z",
       "firstName": "Tyson",
       "phoneNumber": "+18857389723",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,113,019.00",
         "bankName": "First Bank",
@@ -10744,7 +11500,10 @@
       "createdAt": "2022-01-08T05:48:45.230Z",
       "firstName": "Martin",
       "phoneNumber": "+14550752478",
-      "organizations": ["Bank A", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,402,165.00",
         "bankName": "Access Bank",
@@ -10797,7 +11556,10 @@
       "createdAt": "2023-11-22T17:49:08.129Z",
       "firstName": "Erica",
       "phoneNumber": "+11787380906",
-      "organizations": ["Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,753,477.00",
         "bankName": "GT Bank",
@@ -10856,7 +11618,9 @@
       "createdAt": "2024-08-22T21:26:31.139Z",
       "firstName": "Vargas",
       "phoneNumber": "+14955798360",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,670,140.00",
         "bankName": "Access Bank",
@@ -10909,7 +11673,11 @@
       "createdAt": "2021-11-25T01:06:45.482Z",
       "firstName": "Lorie",
       "phoneNumber": "+16793823956",
-      "organizations": ["Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦979,256.00",
         "bankName": "UBA",
@@ -10962,7 +11730,12 @@
       "createdAt": "2024-02-10T12:10:57.311Z",
       "firstName": "Mcpherson",
       "phoneNumber": "+16227787839",
-      "organizations": ["Bank A", "Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦9,435,123.00",
         "bankName": "UBA",
@@ -11015,7 +11788,13 @@
       "createdAt": "2022-01-24T19:27:34.206Z",
       "firstName": "Horne",
       "phoneNumber": "+15840709305",
-      "organizations": ["Bank C", "Bank B", "Bank D", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank D",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,192,027.00",
         "bankName": "GT Bank",
@@ -11074,7 +11853,13 @@
       "createdAt": "2023-08-18T21:08:04.792Z",
       "firstName": "Calhoun",
       "phoneNumber": "+13620011299",
-      "organizations": ["Bank C", "Bank B", "Bank C", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,370,351.00",
         "bankName": "Access Bank",
@@ -11127,7 +11912,12 @@
       "createdAt": "2023-12-13T18:55:47.117Z",
       "firstName": "Hewitt",
       "phoneNumber": "+19501339512",
-      "organizations": ["Bank C", "Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,115,840.00",
         "bankName": "GT Bank",
@@ -11180,7 +11970,10 @@
       "createdAt": "2022-04-13T20:52:20.292Z",
       "firstName": "Brennan",
       "phoneNumber": "+16764861010",
-      "organizations": ["Bank D", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,927,384.00",
         "bankName": "Stanbic IBTC",
@@ -11239,7 +12032,10 @@
       "createdAt": "2020-10-12T14:11:46.630Z",
       "firstName": "Cristina",
       "phoneNumber": "+18037542333",
-      "organizations": ["Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,648,718.00",
         "bankName": "Zenith Bank",
@@ -11298,7 +12094,12 @@
       "createdAt": "2022-10-04T22:38:29.351Z",
       "firstName": "Lori",
       "phoneNumber": "+11642821544",
-      "organizations": ["Bank D", "Bank D", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,179,071.00",
         "bankName": "UBA",
@@ -11351,7 +12152,11 @@
       "createdAt": "2021-01-27T17:26:48.754Z",
       "firstName": "Socorro",
       "phoneNumber": "+16355928036",
-      "organizations": ["Bank B", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,569,655.00",
         "bankName": "UBA",
@@ -11404,7 +12209,10 @@
       "createdAt": "2022-01-10T01:50:31.090Z",
       "firstName": "Jeanette",
       "phoneNumber": "+11942736395",
-      "organizations": ["Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦769,044.00",
         "bankName": "UBA",
@@ -11457,7 +12265,10 @@
       "createdAt": "2023-11-17T07:37:46.242Z",
       "firstName": "Barbara",
       "phoneNumber": "+13729576018",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,210,838.00",
         "bankName": "Access Bank",
@@ -11510,7 +12321,11 @@
       "createdAt": "2020-05-17T19:58:26.869Z",
       "firstName": "Lucy",
       "phoneNumber": "+16238282334",
-      "organizations": ["Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,027,050.00",
         "bankName": "Access Bank",
@@ -11569,7 +12384,13 @@
       "createdAt": "2023-04-25T02:47:07.689Z",
       "firstName": "Rita",
       "phoneNumber": "+19167040048",
-      "organizations": ["Bank D", "Bank B", "Bank C", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,519,468.00",
         "bankName": "Stanbic IBTC",
@@ -11628,7 +12449,13 @@
       "createdAt": "2022-09-17T08:57:25.890Z",
       "firstName": "Preston",
       "phoneNumber": "+13130927280",
-      "organizations": ["Bank A", "Bank C", "Bank B", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank B",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,968,204.00",
         "bankName": "GT Bank",
@@ -11681,7 +12508,12 @@
       "createdAt": "2021-06-18T12:17:56.447Z",
       "firstName": "Elizabeth",
       "phoneNumber": "+12163985440",
-      "organizations": ["Bank A", "Bank B", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,438,037.00",
         "bankName": "Stanbic IBTC",
@@ -11740,7 +12572,11 @@
       "createdAt": "2021-12-02T13:26:54.474Z",
       "firstName": "Fowler",
       "phoneNumber": "+16859678303",
-      "organizations": ["Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,336,349.00",
         "bankName": "First Bank",
@@ -11793,7 +12629,11 @@
       "createdAt": "2023-03-04T20:07:49.844Z",
       "firstName": "Juarez",
       "phoneNumber": "+14758601800",
-      "organizations": ["Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦706,143.00",
         "bankName": "Stanbic IBTC",
@@ -11852,7 +12692,13 @@
       "createdAt": "2020-08-27T04:46:50.171Z",
       "firstName": "Marguerite",
       "phoneNumber": "+15367026046",
-      "organizations": ["Bank A", "Bank B", "Bank A", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank A",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,039,766.00",
         "bankName": "GT Bank",
@@ -11911,7 +12757,10 @@
       "createdAt": "2024-12-25T06:59:35.362Z",
       "firstName": "Nelda",
       "phoneNumber": "+12406756826",
-      "organizations": ["Bank A", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,971,116.00",
         "bankName": "First Bank",
@@ -11970,7 +12819,13 @@
       "createdAt": "2022-07-13T21:30:29.029Z",
       "firstName": "Ball",
       "phoneNumber": "+14569711052",
-      "organizations": ["Bank C", "Bank A", "Bank B", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank B",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,483,688.00",
         "bankName": "Zenith Bank",
@@ -12029,7 +12884,12 @@
       "createdAt": "2024-06-11T17:53:44.867Z",
       "firstName": "Lloyd",
       "phoneNumber": "+17717955315",
-      "organizations": ["Bank C", "Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,835,514.00",
         "bankName": "UBA",
@@ -12082,7 +12942,11 @@
       "createdAt": "2024-08-07T05:12:47.427Z",
       "firstName": "Odonnell",
       "phoneNumber": "+11428890526",
-      "organizations": ["Bank B", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,171,398.00",
         "bankName": "UBA",
@@ -12135,7 +12999,10 @@
       "createdAt": "2023-05-20T11:12:03.258Z",
       "firstName": "Marks",
       "phoneNumber": "+16411986819",
-      "organizations": ["Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,386,770.00",
         "bankName": "GT Bank",
@@ -12188,7 +13055,9 @@
       "createdAt": "2020-04-05T23:12:55.023Z",
       "firstName": "Lucas",
       "phoneNumber": "+13347753089",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,899,120.00",
         "bankName": "Zenith Bank",
@@ -12247,7 +13116,9 @@
       "createdAt": "2023-08-25T17:28:48.067Z",
       "firstName": "Dominique",
       "phoneNumber": "+13894506531",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,497,318.00",
         "bankName": "GT Bank",
@@ -12300,7 +13171,9 @@
       "createdAt": "2023-01-21T10:00:09.409Z",
       "firstName": "Stokes",
       "phoneNumber": "+18310333972",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,445,559.00",
         "bankName": "GT Bank",
@@ -12359,7 +13232,9 @@
       "createdAt": "2024-12-26T04:07:03.134Z",
       "firstName": "Hutchinson",
       "phoneNumber": "+14046284678",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,029,071.00",
         "bankName": "First Bank",
@@ -12412,7 +13287,11 @@
       "createdAt": "2023-04-16T04:42:31.054Z",
       "firstName": "Mullins",
       "phoneNumber": "+18245788184",
-      "organizations": ["Bank D", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,592,586.00",
         "bankName": "GT Bank",
@@ -12471,7 +13350,13 @@
       "createdAt": "2021-05-03T19:43:50.962Z",
       "firstName": "Vincent",
       "phoneNumber": "+17744561617",
-      "organizations": ["Bank A", "Bank B", "Bank B", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank B",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,945,573.00",
         "bankName": "GT Bank",
@@ -12530,7 +13415,12 @@
       "createdAt": "2021-04-12T01:23:07.461Z",
       "firstName": "Stacie",
       "phoneNumber": "+18507253936",
-      "organizations": ["Bank D", "Bank D", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,772,701.00",
         "bankName": "Zenith Bank",
@@ -12589,7 +13479,12 @@
       "createdAt": "2023-04-17T15:21:35.977Z",
       "firstName": "Burgess",
       "phoneNumber": "+13441468058",
-      "organizations": ["Bank B", "Bank D", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦335,088.00",
         "bankName": "Access Bank",
@@ -12648,7 +13543,13 @@
       "createdAt": "2024-01-23T13:47:19.290Z",
       "firstName": "Pat",
       "phoneNumber": "+13871328179",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,760,952.00",
         "bankName": "GT Bank",
@@ -12707,7 +13608,11 @@
       "createdAt": "2022-01-24T09:14:52.164Z",
       "firstName": "Griffith",
       "phoneNumber": "+12245931142",
-      "organizations": ["Bank C", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,297,885.00",
         "bankName": "First Bank",
@@ -12760,7 +13665,11 @@
       "createdAt": "2024-04-22T15:26:06.797Z",
       "firstName": "Gilbert",
       "phoneNumber": "+12369982652",
-      "organizations": ["Bank D", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,415,566.00",
         "bankName": "GT Bank",
@@ -12819,7 +13728,13 @@
       "createdAt": "2022-03-30T08:26:03.325Z",
       "firstName": "Vivian",
       "phoneNumber": "+11388239977",
-      "organizations": ["Bank A", "Bank A", "Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,780,156.00",
         "bankName": "First Bank",
@@ -12872,7 +13787,12 @@
       "createdAt": "2023-07-29T11:08:44.052Z",
       "firstName": "Lynnette",
       "phoneNumber": "+18573428717",
-      "organizations": ["Bank C", "Bank D", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,256,679.00",
         "bankName": "Stanbic IBTC",
@@ -12931,7 +13851,12 @@
       "createdAt": "2022-08-16T21:23:36.799Z",
       "firstName": "Alma",
       "phoneNumber": "+16719440519",
-      "organizations": ["Bank D", "Bank B", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,247,890.00",
         "bankName": "Access Bank",
@@ -12984,7 +13909,11 @@
       "createdAt": "2020-02-09T17:27:05.255Z",
       "firstName": "Hogan",
       "phoneNumber": "+19977633917",
-      "organizations": ["Bank D", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,155,107.00",
         "bankName": "First Bank",
@@ -13037,7 +13966,10 @@
       "createdAt": "2021-07-21T20:04:11.945Z",
       "firstName": "Wiley",
       "phoneNumber": "+14735309125",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,038,239.00",
         "bankName": "Zenith Bank",
@@ -13096,7 +14028,9 @@
       "createdAt": "2023-02-01T12:38:58.936Z",
       "firstName": "Yvonne",
       "phoneNumber": "+11394969479",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,296,788.00",
         "bankName": "Zenith Bank",
@@ -13155,7 +14089,11 @@
       "createdAt": "2020-08-03T09:10:50.235Z",
       "firstName": "Campos",
       "phoneNumber": "+16585761001",
-      "organizations": ["Bank D", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦9,706,690.00",
         "bankName": "Access Bank",
@@ -13214,7 +14152,13 @@
       "createdAt": "2022-03-05T22:59:22.696Z",
       "firstName": "Gracie",
       "phoneNumber": "+19539896346",
-      "organizations": ["Bank C", "Bank D", "Bank B", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank B",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,559,658.00",
         "bankName": "Zenith Bank",
@@ -13273,7 +14217,13 @@
       "createdAt": "2020-10-26T10:46:11.404Z",
       "firstName": "Brandy",
       "phoneNumber": "+15080473575",
-      "organizations": ["Bank C", "Bank A", "Bank A", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank A",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,096,562.00",
         "bankName": "Stanbic IBTC",
@@ -13326,7 +14276,13 @@
       "createdAt": "2020-04-22T12:47:17.456Z",
       "firstName": "Bartlett",
       "phoneNumber": "+12127651051",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,896,730.00",
         "bankName": "Stanbic IBTC",
@@ -13385,7 +14341,11 @@
       "createdAt": "2024-07-22T07:51:06.672Z",
       "firstName": "Coleman",
       "phoneNumber": "+15548995427",
-      "organizations": ["Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,756,124.00",
         "bankName": "UBA",
@@ -13444,7 +14404,12 @@
       "createdAt": "2023-02-10T02:53:04.936Z",
       "firstName": "Camacho",
       "phoneNumber": "+17583440088",
-      "organizations": ["Bank C", "Bank B", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦9,665,812.00",
         "bankName": "UBA",
@@ -13497,7 +14462,11 @@
       "createdAt": "2024-05-09T20:10:42.585Z",
       "firstName": "Yvette",
       "phoneNumber": "+18011457763",
-      "organizations": ["Bank C", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,047,370.00",
         "bankName": "First Bank",
@@ -13550,7 +14519,9 @@
       "createdAt": "2022-04-06T16:36:57.080Z",
       "firstName": "Patrick",
       "phoneNumber": "+11196639393",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,354,110.00",
         "bankName": "Stanbic IBTC",
@@ -13603,7 +14574,10 @@
       "createdAt": "2024-03-29T09:12:45.693Z",
       "firstName": "Ericka",
       "phoneNumber": "+11348685697",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦6,176,792.00",
         "bankName": "GT Bank",
@@ -13656,7 +14630,13 @@
       "createdAt": "2020-08-16T17:12:50.672Z",
       "firstName": "Richard",
       "phoneNumber": "+14832108038",
-      "organizations": ["Bank D", "Bank A", "Bank A", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank A",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,900,525.00",
         "bankName": "Access Bank",
@@ -13715,7 +14695,11 @@
       "createdAt": "2022-01-17T23:58:11.538Z",
       "firstName": "Katherine",
       "phoneNumber": "+18609142014",
-      "organizations": ["Bank B", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,632,453.00",
         "bankName": "Access Bank",
@@ -13774,7 +14758,11 @@
       "createdAt": "2022-09-27T00:55:16.484Z",
       "firstName": "Noelle",
       "phoneNumber": "+19873720671",
-      "organizations": ["Bank B", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,161,471.00",
         "bankName": "First Bank",
@@ -13833,7 +14821,12 @@
       "createdAt": "2020-01-11T07:50:30.045Z",
       "firstName": "Oconnor",
       "phoneNumber": "+18026449427",
-      "organizations": ["Bank C", "Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,405,857.00",
         "bankName": "UBA",
@@ -13886,7 +14879,13 @@
       "createdAt": "2021-03-30T10:56:44.614Z",
       "firstName": "Cara",
       "phoneNumber": "+11347091966",
-      "organizations": ["Bank D", "Bank A", "Bank B", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank B",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,041,241.00",
         "bankName": "Access Bank",
@@ -13939,7 +14938,13 @@
       "createdAt": "2023-02-22T05:39:42.522Z",
       "firstName": "Christy",
       "phoneNumber": "+11304423069",
-      "organizations": ["Bank A", "Bank D", "Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,085,622.00",
         "bankName": "Access Bank",
@@ -13998,7 +15003,10 @@
       "createdAt": "2022-12-28T13:15:29.991Z",
       "firstName": "Eva",
       "phoneNumber": "+18714580962",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,523,895.00",
         "bankName": "Access Bank",
@@ -14057,7 +15065,11 @@
       "createdAt": "2022-12-14T11:06:30.445Z",
       "firstName": "Marian",
       "phoneNumber": "+11019385943",
-      "organizations": ["Bank A", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,290,619.00",
         "bankName": "Stanbic IBTC",
@@ -14116,7 +15128,10 @@
       "createdAt": "2024-07-21T21:36:36.251Z",
       "firstName": "Steele",
       "phoneNumber": "+19801855262",
-      "organizations": ["Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,082,316.00",
         "bankName": "Zenith Bank",
@@ -14169,7 +15184,12 @@
       "createdAt": "2024-10-21T17:45:39.511Z",
       "firstName": "Eddie",
       "phoneNumber": "+19627965388",
-      "organizations": ["Bank A", "Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦376,555.00",
         "bankName": "Access Bank",
@@ -14222,7 +15242,12 @@
       "createdAt": "2020-04-26T02:29:42.590Z",
       "firstName": "Merle",
       "phoneNumber": "+11998255025",
-      "organizations": ["Bank A", "Bank B", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,345,045.00",
         "bankName": "Stanbic IBTC",
@@ -14275,7 +15300,10 @@
       "createdAt": "2023-09-26T08:28:04.169Z",
       "firstName": "Charlotte",
       "phoneNumber": "+19859499863",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,093,601.00",
         "bankName": "First Bank",
@@ -14328,7 +15356,10 @@
       "createdAt": "2020-05-06T09:25:02.353Z",
       "firstName": "Cathy",
       "phoneNumber": "+18165260429",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,289,042.00",
         "bankName": "GT Bank",
@@ -14387,7 +15418,11 @@
       "createdAt": "2021-11-01T18:31:42.705Z",
       "firstName": "Glenna",
       "phoneNumber": "+19959790398",
-      "organizations": ["Bank A", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,836,910.00",
         "bankName": "Stanbic IBTC",
@@ -14446,7 +15481,10 @@
       "createdAt": "2023-02-17T00:10:11.452Z",
       "firstName": "Garrett",
       "phoneNumber": "+13894573089",
-      "organizations": ["Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,604,048.00",
         "bankName": "Access Bank",
@@ -14499,7 +15537,13 @@
       "createdAt": "2024-05-18T23:38:26.482Z",
       "firstName": "Roseann",
       "phoneNumber": "+18635043777",
-      "organizations": ["Bank D", "Bank A", "Bank B", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank B",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,790,179.00",
         "bankName": "First Bank",
@@ -14558,7 +15602,10 @@
       "createdAt": "2021-10-02T00:45:31.101Z",
       "firstName": "Ashlee",
       "phoneNumber": "+12480217977",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦6,812,778.00",
         "bankName": "UBA",
@@ -14617,7 +15664,12 @@
       "createdAt": "2020-10-22T17:55:53.403Z",
       "firstName": "Beck",
       "phoneNumber": "+18489728864",
-      "organizations": ["Bank B", "Bank D", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,578,690.00",
         "bankName": "Stanbic IBTC",
@@ -14676,7 +15728,9 @@
       "createdAt": "2024-02-09T18:08:02.117Z",
       "firstName": "Lola",
       "phoneNumber": "+15928180939",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,856,790.00",
         "bankName": "Access Bank",
@@ -14735,7 +15789,10 @@
       "createdAt": "2021-11-28T06:36:35.455Z",
       "firstName": "Lou",
       "phoneNumber": "+17453898973",
-      "organizations": ["Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦4,247,876.00",
         "bankName": "First Bank",
@@ -14794,7 +15851,10 @@
       "createdAt": "2024-12-05T07:16:15.368Z",
       "firstName": "Dyer",
       "phoneNumber": "+19512912718",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,953,318.00",
         "bankName": "UBA",
@@ -14847,7 +15907,13 @@
       "createdAt": "2022-01-16T20:37:52.608Z",
       "firstName": "Carey",
       "phoneNumber": "+15434951008",
-      "organizations": ["Bank D", "Bank A", "Bank D", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank D",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,256,764.00",
         "bankName": "Access Bank",
@@ -14906,7 +15972,10 @@
       "createdAt": "2020-08-22T13:54:33.760Z",
       "firstName": "Candy",
       "phoneNumber": "+15177211985",
-      "organizations": ["Bank A", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦997,141.00",
         "bankName": "Stanbic IBTC",
@@ -14965,7 +16034,10 @@
       "createdAt": "2021-08-10T10:49:50.437Z",
       "firstName": "Booth",
       "phoneNumber": "+14487757682",
-      "organizations": ["Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦104,793.00",
         "bankName": "Access Bank",
@@ -15024,7 +16096,9 @@
       "createdAt": "2024-05-05T21:14:57.754Z",
       "firstName": "Regina",
       "phoneNumber": "+16971763189",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,973,635.00",
         "bankName": "GT Bank",
@@ -15077,7 +16151,12 @@
       "createdAt": "2020-09-16T23:42:15.925Z",
       "firstName": "Lynch",
       "phoneNumber": "+12980780257",
-      "organizations": ["Bank D", "Bank C", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦426,579.00",
         "bankName": "GT Bank",
@@ -15136,7 +16215,13 @@
       "createdAt": "2021-01-29T14:32:20.435Z",
       "firstName": "Ewing",
       "phoneNumber": "+19654477850",
-      "organizations": ["Bank B", "Bank B", "Bank C", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank C",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,667,214.00",
         "bankName": "GT Bank",
@@ -15195,7 +16280,13 @@
       "createdAt": "2024-02-02T00:18:39.382Z",
       "firstName": "Sybil",
       "phoneNumber": "+12797552604",
-      "organizations": ["Bank B", "Bank C", "Bank A", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank A",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,108,829.00",
         "bankName": "First Bank",
@@ -15254,7 +16345,12 @@
       "createdAt": "2024-12-02T04:45:56.871Z",
       "firstName": "Knight",
       "phoneNumber": "+15997718586",
-      "organizations": ["Bank B", "Bank B", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,557,552.00",
         "bankName": "First Bank",
@@ -15313,7 +16409,11 @@
       "createdAt": "2021-07-08T02:22:27.574Z",
       "firstName": "Acevedo",
       "phoneNumber": "+18114531144",
-      "organizations": ["Bank D", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦4,201,161.00",
         "bankName": "Stanbic IBTC",
@@ -15372,7 +16472,9 @@
       "createdAt": "2023-04-14T06:31:46.982Z",
       "firstName": "Natalie",
       "phoneNumber": "+13224217609",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,084,912.00",
         "bankName": "First Bank",
@@ -15425,7 +16527,13 @@
       "createdAt": "2021-12-15T11:07:51.113Z",
       "firstName": "Jessie",
       "phoneNumber": "+15067930634",
-      "organizations": ["Bank A", "Bank C", "Bank B", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank B",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,664,602.00",
         "bankName": "Access Bank",
@@ -15484,7 +16592,10 @@
       "createdAt": "2020-02-24T03:05:06.983Z",
       "firstName": "Deborah",
       "phoneNumber": "+11771223108",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦2,803,081.00",
         "bankName": "GT Bank",
@@ -15537,7 +16648,11 @@
       "createdAt": "2021-12-27T14:11:00.339Z",
       "firstName": "Kari",
       "phoneNumber": "+15887204773",
-      "organizations": ["Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦490,750.00",
         "bankName": "UBA",
@@ -15590,7 +16705,10 @@
       "createdAt": "2021-07-31T07:36:20.022Z",
       "firstName": "Hooper",
       "phoneNumber": "+19534176827",
-      "organizations": ["Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,563,843.00",
         "bankName": "First Bank",
@@ -15643,7 +16761,11 @@
       "createdAt": "2022-02-20T12:20:58.555Z",
       "firstName": "Stark",
       "phoneNumber": "+16890452372",
-      "organizations": ["Bank A", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,241,515.00",
         "bankName": "First Bank",
@@ -15696,7 +16818,13 @@
       "createdAt": "2023-06-22T05:37:51.691Z",
       "firstName": "Bates",
       "phoneNumber": "+12693470466",
-      "organizations": ["Bank C", "Bank C", "Bank C", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank C",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,893,990.00",
         "bankName": "GT Bank",
@@ -15755,7 +16883,10 @@
       "createdAt": "2023-05-03T18:55:57.122Z",
       "firstName": "Landry",
       "phoneNumber": "+19685721149",
-      "organizations": ["Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,833,792.00",
         "bankName": "GT Bank",
@@ -15808,7 +16939,9 @@
       "createdAt": "2022-11-28T23:04:35.109Z",
       "firstName": "Wilkerson",
       "phoneNumber": "+14191659426",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,690,689.00",
         "bankName": "Stanbic IBTC",
@@ -15867,7 +17000,9 @@
       "createdAt": "2020-02-26T18:21:15.255Z",
       "firstName": "Eaton",
       "phoneNumber": "+14060770154",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,567,109.00",
         "bankName": "UBA",
@@ -15920,7 +17055,9 @@
       "createdAt": "2024-05-05T02:11:26.098Z",
       "firstName": "Owens",
       "phoneNumber": "+13058168755",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,042,590.00",
         "bankName": "GT Bank",
@@ -15979,7 +17116,9 @@
       "createdAt": "2022-01-21T11:35:57.621Z",
       "firstName": "Muriel",
       "phoneNumber": "+14552723303",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,356,444.00",
         "bankName": "GT Bank",
@@ -16038,7 +17177,11 @@
       "createdAt": "2022-09-29T05:10:24.281Z",
       "firstName": "Francisca",
       "phoneNumber": "+13827641848",
-      "organizations": ["Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,509,588.00",
         "bankName": "UBA",
@@ -16097,7 +17240,10 @@
       "createdAt": "2024-09-20T17:06:49.336Z",
       "firstName": "Whitehead",
       "phoneNumber": "+18413318444",
-      "organizations": ["Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,633,483.00",
         "bankName": "First Bank",
@@ -16156,7 +17302,10 @@
       "createdAt": "2020-05-31T01:40:35.746Z",
       "firstName": "Marilyn",
       "phoneNumber": "+18470473644",
-      "organizations": ["Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,264,228.00",
         "bankName": "Access Bank",
@@ -16209,7 +17358,11 @@
       "createdAt": "2022-12-09T20:05:12.277Z",
       "firstName": "Neal",
       "phoneNumber": "+12434664181",
-      "organizations": ["Bank A", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,384,236.00",
         "bankName": "First Bank",
@@ -16262,7 +17415,9 @@
       "createdAt": "2023-08-05T09:24:57.457Z",
       "firstName": "Chandler",
       "phoneNumber": "+19100462899",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦308,374.00",
         "bankName": "Access Bank",
@@ -16321,7 +17476,11 @@
       "createdAt": "2024-01-15T16:30:05.733Z",
       "firstName": "Anne",
       "phoneNumber": "+18921864914",
-      "organizations": ["Bank B", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,336,046.00",
         "bankName": "Stanbic IBTC",
@@ -16374,7 +17533,11 @@
       "createdAt": "2023-10-23T09:48:10.514Z",
       "firstName": "Villarreal",
       "phoneNumber": "+14109722655",
-      "organizations": ["Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,100,140.00",
         "bankName": "Access Bank",
@@ -16433,7 +17596,12 @@
       "createdAt": "2020-04-13T15:09:34.566Z",
       "firstName": "Hunt",
       "phoneNumber": "+12352414249",
-      "organizations": ["Bank A", "Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,488,729.00",
         "bankName": "UBA",
@@ -16486,7 +17654,11 @@
       "createdAt": "2022-06-19T10:03:10.201Z",
       "firstName": "Ruth",
       "phoneNumber": "+16367545109",
-      "organizations": ["Bank A", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,916,363.00",
         "bankName": "Access Bank",
@@ -16539,7 +17711,11 @@
       "createdAt": "2021-05-11T00:42:42.090Z",
       "firstName": "Pam",
       "phoneNumber": "+14649081912",
-      "organizations": ["Bank B", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,518,161.00",
         "bankName": "Stanbic IBTC",
@@ -16598,7 +17774,12 @@
       "createdAt": "2021-02-25T01:05:57.729Z",
       "firstName": "Silva",
       "phoneNumber": "+15635955864",
-      "organizations": ["Bank C", "Bank D", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,142,979.00",
         "bankName": "Stanbic IBTC",
@@ -16657,7 +17838,12 @@
       "createdAt": "2022-06-22T19:09:32.132Z",
       "firstName": "Gwendolyn",
       "phoneNumber": "+14623695111",
-      "organizations": ["Bank B", "Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,968,072.00",
         "bankName": "GT Bank",
@@ -16716,7 +17902,11 @@
       "createdAt": "2023-03-11T13:25:30.773Z",
       "firstName": "Richards",
       "phoneNumber": "+19605487412",
-      "organizations": ["Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦5,302,922.00",
         "bankName": "UBA",
@@ -16775,7 +17965,10 @@
       "createdAt": "2022-12-27T00:19:21.696Z",
       "firstName": "Nichole",
       "phoneNumber": "+16465747681",
-      "organizations": ["Bank C", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,587,978.00",
         "bankName": "First Bank",
@@ -16834,7 +18027,9 @@
       "createdAt": "2020-02-28T14:00:58.884Z",
       "firstName": "Rachael",
       "phoneNumber": "+16937712365",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,580,188.00",
         "bankName": "Access Bank",
@@ -16893,7 +18088,12 @@
       "createdAt": "2024-02-25T05:14:54.041Z",
       "firstName": "Lucinda",
       "phoneNumber": "+15868398106",
-      "organizations": ["Bank A", "Bank B", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,425,066.00",
         "bankName": "Zenith Bank",
@@ -16952,7 +18152,13 @@
       "createdAt": "2021-05-29T19:03:40.401Z",
       "firstName": "Della",
       "phoneNumber": "+12205421108",
-      "organizations": ["Bank B", "Bank B", "Bank D", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank D",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,257,069.00",
         "bankName": "First Bank",
@@ -17005,7 +18211,13 @@
       "createdAt": "2023-02-08T04:58:41.866Z",
       "firstName": "Araceli",
       "phoneNumber": "+19088218483",
-      "organizations": ["Bank C", "Bank D", "Bank D", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank D",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦42,327.00",
         "bankName": "Access Bank",
@@ -17064,7 +18276,11 @@
       "createdAt": "2020-04-11T00:31:31.964Z",
       "firstName": "Carmella",
       "phoneNumber": "+13278594854",
-      "organizations": ["Bank B", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,505,494.00",
         "bankName": "Access Bank",
@@ -17123,7 +18339,13 @@
       "createdAt": "2023-07-21T17:54:37.458Z",
       "firstName": "Nanette",
       "phoneNumber": "+11639136843",
-      "organizations": ["Bank D", "Bank D", "Bank B", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank B",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,314,163.00",
         "bankName": "Stanbic IBTC",
@@ -17176,7 +18398,10 @@
       "createdAt": "2022-08-12T07:11:24.433Z",
       "firstName": "Kristen",
       "phoneNumber": "+14427892405",
-      "organizations": ["Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,152,034.00",
         "bankName": "GT Bank",
@@ -17229,7 +18454,9 @@
       "createdAt": "2020-07-27T14:07:11.727Z",
       "firstName": "Judy",
       "phoneNumber": "+19696780679",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,646,371.00",
         "bankName": "UBA",
@@ -17288,7 +18515,12 @@
       "createdAt": "2021-03-26T23:42:33.376Z",
       "firstName": "Mcclure",
       "phoneNumber": "+14929115544",
-      "organizations": ["Bank A", "Bank A", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,924,492.00",
         "bankName": "First Bank",
@@ -17341,7 +18573,11 @@
       "createdAt": "2022-02-17T23:16:40.817Z",
       "firstName": "Mae",
       "phoneNumber": "+19819242816",
-      "organizations": ["Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦9,551,114.00",
         "bankName": "First Bank",
@@ -17400,7 +18636,9 @@
       "createdAt": "2024-09-14T01:57:25.598Z",
       "firstName": "Jones",
       "phoneNumber": "+16292600187",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,298,438.00",
         "bankName": "Stanbic IBTC",
@@ -17459,7 +18697,12 @@
       "createdAt": "2021-04-20T07:42:01.892Z",
       "firstName": "Hinton",
       "phoneNumber": "+16534169119",
-      "organizations": ["Bank B", "Bank C", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,106,387.00",
         "bankName": "UBA",
@@ -17512,7 +18755,10 @@
       "createdAt": "2022-09-08T17:43:18.821Z",
       "firstName": "Osborn",
       "phoneNumber": "+15428573905",
-      "organizations": ["Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦16,731.00",
         "bankName": "Zenith Bank",
@@ -17571,7 +18817,9 @@
       "createdAt": "2021-03-07T19:16:26.126Z",
       "firstName": "Kramer",
       "phoneNumber": "+17559422417",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦5,949,580.00",
         "bankName": "First Bank",
@@ -17624,7 +18872,10 @@
       "createdAt": "2024-11-14T15:35:14.286Z",
       "firstName": "Alissa",
       "phoneNumber": "+15741987526",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,262,986.00",
         "bankName": "First Bank",
@@ -17683,7 +18934,9 @@
       "createdAt": "2021-03-19T01:17:22.945Z",
       "firstName": "Tate",
       "phoneNumber": "+17074772464",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,716,940.00",
         "bankName": "Access Bank",
@@ -17736,7 +18989,12 @@
       "createdAt": "2022-01-25T00:26:50.216Z",
       "firstName": "Harmon",
       "phoneNumber": "+13112813672",
-      "organizations": ["Bank A", "Bank C", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,248,854.00",
         "bankName": "Access Bank",
@@ -17789,7 +19047,11 @@
       "createdAt": "2022-01-06T00:34:18.756Z",
       "firstName": "Felecia",
       "phoneNumber": "+19111409097",
-      "organizations": ["Bank B", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,240,886.00",
         "bankName": "GT Bank",
@@ -17848,7 +19110,9 @@
       "createdAt": "2024-05-07T22:44:46.490Z",
       "firstName": "Meagan",
       "phoneNumber": "+17404221168",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,899,625.00",
         "bankName": "UBA",
@@ -17907,7 +19171,9 @@
       "createdAt": "2021-03-15T18:12:03.384Z",
       "firstName": "Oneil",
       "phoneNumber": "+13003395008",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,587,954.00",
         "bankName": "Stanbic IBTC",
@@ -17960,7 +19226,11 @@
       "createdAt": "2023-08-27T13:07:58.456Z",
       "firstName": "Sullivan",
       "phoneNumber": "+12048381890",
-      "organizations": ["Bank B", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,663,947.00",
         "bankName": "Stanbic IBTC",
@@ -18019,7 +19289,10 @@
       "createdAt": "2021-03-17T06:31:30.474Z",
       "firstName": "Mann",
       "phoneNumber": "+16880421664",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,485,724.00",
         "bankName": "UBA",
@@ -18078,7 +19351,9 @@
       "createdAt": "2020-12-19T02:03:57.796Z",
       "firstName": "Hodges",
       "phoneNumber": "+17910932136",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,011,920.00",
         "bankName": "Zenith Bank",
@@ -18131,7 +19406,11 @@
       "createdAt": "2021-07-28T19:54:17.512Z",
       "firstName": "Brooke",
       "phoneNumber": "+15824669777",
-      "organizations": ["Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,525,882.00",
         "bankName": "Stanbic IBTC",
@@ -18184,7 +19463,12 @@
       "createdAt": "2022-04-08T21:02:53.973Z",
       "firstName": "Sampson",
       "phoneNumber": "+12093549471",
-      "organizations": ["Bank B", "Bank C", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,529,211.00",
         "bankName": "GT Bank",
@@ -18243,7 +19527,13 @@
       "createdAt": "2022-10-09T21:42:01.850Z",
       "firstName": "Dena",
       "phoneNumber": "+17190005334",
-      "organizations": ["Bank A", "Bank C", "Bank B", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank B",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦4,739,483.00",
         "bankName": "UBA",
@@ -18296,7 +19586,11 @@
       "createdAt": "2022-11-06T10:12:16.700Z",
       "firstName": "Miles",
       "phoneNumber": "+16439960219",
-      "organizations": ["Bank D", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦6,468,076.00",
         "bankName": "First Bank",
@@ -18349,7 +19643,13 @@
       "createdAt": "2020-10-22T21:28:56.966Z",
       "firstName": "Julie",
       "phoneNumber": "+19533573245",
-      "organizations": ["Bank D", "Bank B", "Bank A", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank A",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,486,670.00",
         "bankName": "GT Bank",
@@ -18402,7 +19702,13 @@
       "createdAt": "2022-02-13T06:35:08.340Z",
       "firstName": "Stevens",
       "phoneNumber": "+16870139803",
-      "organizations": ["Bank A", "Bank D", "Bank C", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,839,355.00",
         "bankName": "Access Bank",
@@ -18461,7 +19767,11 @@
       "createdAt": "2020-02-01T15:41:02.486Z",
       "firstName": "Soto",
       "phoneNumber": "+19426217194",
-      "organizations": ["Bank D", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,763,586.00",
         "bankName": "Access Bank",
@@ -18514,7 +19824,11 @@
       "createdAt": "2021-03-31T16:07:41.244Z",
       "firstName": "Marietta",
       "phoneNumber": "+14371470366",
-      "organizations": ["Bank C", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦899,266.00",
         "bankName": "GT Bank",
@@ -18567,7 +19881,12 @@
       "createdAt": "2020-11-18T14:00:13.537Z",
       "firstName": "Bobbi",
       "phoneNumber": "+15982218097",
-      "organizations": ["Bank D", "Bank C", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,476,930.00",
         "bankName": "GT Bank",
@@ -18620,7 +19939,10 @@
       "createdAt": "2022-04-27T05:40:16.451Z",
       "firstName": "Hartman",
       "phoneNumber": "+14693621040",
-      "organizations": ["Bank C", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,068,580.00",
         "bankName": "First Bank",
@@ -18673,7 +19995,12 @@
       "createdAt": "2021-09-25T22:59:05.033Z",
       "firstName": "Rose",
       "phoneNumber": "+14549226763",
-      "organizations": ["Bank A", "Bank D", "Bank C", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦8,033,278.00",
         "bankName": "Access Bank",
@@ -18732,7 +20059,10 @@
       "createdAt": "2023-05-16T08:15:45.283Z",
       "firstName": "Fields",
       "phoneNumber": "+11789261703",
-      "organizations": ["Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,484,507.00",
         "bankName": "Stanbic IBTC",
@@ -18785,7 +20115,9 @@
       "createdAt": "2020-11-27T17:44:58.602Z",
       "firstName": "Burks",
       "phoneNumber": "+15671364882",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦9,903,089.00",
         "bankName": "GT Bank",
@@ -18844,7 +20176,9 @@
       "createdAt": "2021-10-23T09:03:06.006Z",
       "firstName": "Myra",
       "phoneNumber": "+15813242847",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦624,174.00",
         "bankName": "GT Bank",
@@ -18903,7 +20237,12 @@
       "createdAt": "2022-08-05T19:16:28.111Z",
       "firstName": "Curry",
       "phoneNumber": "+18919527395",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦2,912,233.00",
         "bankName": "Access Bank",
@@ -18962,7 +20301,11 @@
       "createdAt": "2020-08-01T11:25:45.407Z",
       "firstName": "Hallie",
       "phoneNumber": "+17558657190",
-      "organizations": ["Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,287,125.00",
         "bankName": "UBA",
@@ -19021,7 +20364,9 @@
       "createdAt": "2022-06-21T12:05:24.817Z",
       "firstName": "Christina",
       "phoneNumber": "+14247716382",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦4,286,045.00",
         "bankName": "Access Bank",
@@ -19080,7 +20425,11 @@
       "createdAt": "2021-03-23T22:25:10.649Z",
       "firstName": "Sonya",
       "phoneNumber": "+18316478519",
-      "organizations": ["Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦5,175,712.00",
         "bankName": "UBA",
@@ -19139,7 +20488,12 @@
       "createdAt": "2023-03-03T03:50:54.559Z",
       "firstName": "Tamika",
       "phoneNumber": "+12553611976",
-      "organizations": ["Bank A", "Bank C", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,929,510.00",
         "bankName": "UBA",
@@ -19192,7 +20546,12 @@
       "createdAt": "2021-12-24T22:08:13.316Z",
       "firstName": "Jeanie",
       "phoneNumber": "+17646242490",
-      "organizations": ["Bank D", "Bank C", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,472,118.00",
         "bankName": "Access Bank",
@@ -19245,7 +20604,13 @@
       "createdAt": "2020-12-24T22:10:00.921Z",
       "firstName": "Ortega",
       "phoneNumber": "+18668046709",
-      "organizations": ["Bank D", "Bank B", "Bank D", "Bank B", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank D",
+        "Bank B",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,064,796.00",
         "bankName": "Stanbic IBTC",
@@ -19304,7 +20669,11 @@
       "createdAt": "2023-03-17T23:40:13.039Z",
       "firstName": "Poole",
       "phoneNumber": "+12987037925",
-      "organizations": ["Bank D", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦374,062.00",
         "bankName": "Zenith Bank",
@@ -19357,7 +20726,10 @@
       "createdAt": "2020-11-03T06:48:30.287Z",
       "firstName": "Dianne",
       "phoneNumber": "+12176331558",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦9,058,976.00",
         "bankName": "UBA",
@@ -19416,7 +20788,9 @@
       "createdAt": "2020-03-21T15:15:05.515Z",
       "firstName": "Dora",
       "phoneNumber": "+13843450767",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦1,448,768.00",
         "bankName": "GT Bank",
@@ -19469,7 +20843,10 @@
       "createdAt": "2021-12-03T15:34:29.459Z",
       "firstName": "Theresa",
       "phoneNumber": "+18060845475",
-      "organizations": ["Bank B", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦8,918,344.00",
         "bankName": "First Bank",
@@ -19528,7 +20905,12 @@
       "createdAt": "2022-09-01T19:02:51.986Z",
       "firstName": "William",
       "phoneNumber": "+14067404805",
-      "organizations": ["Bank C", "Bank C", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦916,030.00",
         "bankName": "Access Bank",
@@ -19587,7 +20969,12 @@
       "createdAt": "2020-11-08T08:24:32.391Z",
       "firstName": "Fernandez",
       "phoneNumber": "+16584402692",
-      "organizations": ["Bank D", "Bank A", "Bank A", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank A",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦9,070,242.00",
         "bankName": "UBA",
@@ -19640,7 +21027,10 @@
       "createdAt": "2021-01-18T20:07:17.045Z",
       "firstName": "Hancock",
       "phoneNumber": "+13388475131",
-      "organizations": ["Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦8,826,732.00",
         "bankName": "UBA",
@@ -19699,7 +21089,11 @@
       "createdAt": "2024-06-29T23:55:58.492Z",
       "firstName": "Valencia",
       "phoneNumber": "+15947115866",
-      "organizations": ["Bank C", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,972,720.00",
         "bankName": "Zenith Bank",
@@ -19758,7 +21152,11 @@
       "createdAt": "2023-12-24T20:14:19.682Z",
       "firstName": "June",
       "phoneNumber": "+14918461428",
-      "organizations": ["Bank A", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,385,620.00",
         "bankName": "GT Bank",
@@ -19811,7 +21209,12 @@
       "createdAt": "2021-06-04T23:08:27.247Z",
       "firstName": "Clarice",
       "phoneNumber": "+18262569725",
-      "organizations": ["Bank D", "Bank B", "Bank C", "Bank C"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,692,477.00",
         "bankName": "GT Bank",
@@ -19864,7 +21267,9 @@
       "createdAt": "2024-04-12T06:59:49.496Z",
       "firstName": "Manning",
       "phoneNumber": "+16850935094",
-      "organizations": ["Bank C"],
+      "organizations": [
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦1,238,739.00",
         "bankName": "Access Bank",
@@ -19917,7 +21322,11 @@
       "createdAt": "2020-10-14T04:27:34.832Z",
       "firstName": "Melva",
       "phoneNumber": "+16730467007",
-      "organizations": ["Bank C", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦70,195.00",
         "bankName": "GT Bank",
@@ -19970,7 +21379,9 @@
       "createdAt": "2021-03-18T09:19:02.715Z",
       "firstName": "Greene",
       "phoneNumber": "+16990165636",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,767,174.00",
         "bankName": "UBA",
@@ -20029,7 +21440,12 @@
       "createdAt": "2021-12-17T20:32:38.255Z",
       "firstName": "Concepcion",
       "phoneNumber": "+13586538183",
-      "organizations": ["Bank A", "Bank A", "Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank A",
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,638,589.00",
         "bankName": "UBA",
@@ -20082,7 +21498,12 @@
       "createdAt": "2023-09-21T15:03:20.197Z",
       "firstName": "Carly",
       "phoneNumber": "+17608659733",
-      "organizations": ["Bank D", "Bank B", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦8,555,577.00",
         "bankName": "First Bank",
@@ -20135,7 +21556,13 @@
       "createdAt": "2023-04-18T07:52:09.026Z",
       "firstName": "James",
       "phoneNumber": "+16968961977",
-      "organizations": ["Bank A", "Bank B", "Bank C", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank C",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,317,080.00",
         "bankName": "UBA",
@@ -20194,7 +21621,11 @@
       "createdAt": "2020-09-03T11:37:29.699Z",
       "firstName": "Florence",
       "phoneNumber": "+14674267429",
-      "organizations": ["Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦213,324.00",
         "bankName": "Zenith Bank",
@@ -20253,7 +21684,10 @@
       "createdAt": "2021-03-11T18:59:05.403Z",
       "firstName": "Mcfarland",
       "phoneNumber": "+16508423794",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦6,032,825.00",
         "bankName": "UBA",
@@ -20306,7 +21740,10 @@
       "createdAt": "2021-01-16T17:00:41.794Z",
       "firstName": "Evangeline",
       "phoneNumber": "+13537673065",
-      "organizations": ["Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦6,257,439.00",
         "bankName": "UBA",
@@ -20359,7 +21796,11 @@
       "createdAt": "2022-09-22T00:53:44.680Z",
       "firstName": "Doris",
       "phoneNumber": "+15483683659",
-      "organizations": ["Bank D", "Bank D", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,129,279.00",
         "bankName": "First Bank",
@@ -20412,7 +21853,9 @@
       "createdAt": "2020-04-26T14:23:03.878Z",
       "firstName": "Jessica",
       "phoneNumber": "+17870417116",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,972,732.00",
         "bankName": "Zenith Bank",
@@ -20471,7 +21914,12 @@
       "createdAt": "2020-01-03T13:03:33.083Z",
       "firstName": "Bullock",
       "phoneNumber": "+13956247865",
-      "organizations": ["Bank A", "Bank D", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank D",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,410,077.00",
         "bankName": "Stanbic IBTC",
@@ -20530,7 +21978,10 @@
       "createdAt": "2021-11-05T12:15:54.731Z",
       "firstName": "Gentry",
       "phoneNumber": "+19404137817",
-      "organizations": ["Bank C", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,821,208.00",
         "bankName": "Stanbic IBTC",
@@ -20589,7 +22040,12 @@
       "createdAt": "2021-07-16T07:03:03.026Z",
       "firstName": "Harriet",
       "phoneNumber": "+19641813082",
-      "organizations": ["Bank A", "Bank C", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank C",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,134,736.00",
         "bankName": "Access Bank",
@@ -20642,7 +22098,13 @@
       "createdAt": "2024-04-19T16:17:21.360Z",
       "firstName": "Joyce",
       "phoneNumber": "+17666662658",
-      "organizations": ["Bank D", "Bank B", "Bank A", "Bank C", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank A",
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦6,558,280.00",
         "bankName": "GT Bank",
@@ -20701,7 +22163,13 @@
       "createdAt": "2024-09-20T22:39:14.290Z",
       "firstName": "Eileen",
       "phoneNumber": "+16261190504",
-      "organizations": ["Bank D", "Bank C", "Bank A", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank C",
+        "Bank A",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,265,397.00",
         "bankName": "First Bank",
@@ -20760,7 +22228,13 @@
       "createdAt": "2020-05-22T15:03:16.907Z",
       "firstName": "Ines",
       "phoneNumber": "+15504161406",
-      "organizations": ["Bank D", "Bank A", "Bank A", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank A",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,844,578.00",
         "bankName": "Zenith Bank",
@@ -20819,7 +22293,10 @@
       "createdAt": "2024-10-16T13:22:57.923Z",
       "firstName": "Nguyen",
       "phoneNumber": "+12230773404",
-      "organizations": ["Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,506,616.00",
         "bankName": "First Bank",
@@ -20878,7 +22355,10 @@
       "createdAt": "2023-12-22T20:03:46.870Z",
       "firstName": "Harriett",
       "phoneNumber": "+19924984147",
-      "organizations": ["Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,019,296.00",
         "bankName": "UBA",
@@ -20931,7 +22411,12 @@
       "createdAt": "2021-11-27T15:09:01.329Z",
       "firstName": "Ayers",
       "phoneNumber": "+19436930491",
-      "organizations": ["Bank B", "Bank C", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank C",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦7,394,634.00",
         "bankName": "Zenith Bank",
@@ -20984,7 +22469,9 @@
       "createdAt": "2021-05-14T02:58:06.096Z",
       "firstName": "Shawn",
       "phoneNumber": "+12891800864",
-      "organizations": ["Bank A"],
+      "organizations": [
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,095,341.00",
         "bankName": "Zenith Bank",
@@ -21037,7 +22524,12 @@
       "createdAt": "2021-08-08T08:56:13.873Z",
       "firstName": "Rachelle",
       "phoneNumber": "+12515109092",
-      "organizations": ["Bank B", "Bank B", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦3,821,780.00",
         "bankName": "GT Bank",
@@ -21096,7 +22588,9 @@
       "createdAt": "2021-04-08T21:46:50.558Z",
       "firstName": "Mcfadden",
       "phoneNumber": "+18738457911",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,389,614.00",
         "bankName": "Access Bank",
@@ -21149,7 +22643,9 @@
       "createdAt": "2022-01-08T23:40:14.106Z",
       "firstName": "Felicia",
       "phoneNumber": "+11330492684",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦2,236,499.00",
         "bankName": "UBA",
@@ -21202,7 +22698,13 @@
       "createdAt": "2023-02-06T18:23:30.824Z",
       "firstName": "Gay",
       "phoneNumber": "+13857363336",
-      "organizations": ["Bank D", "Bank B", "Bank A", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank A",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,719,625.00",
         "bankName": "Access Bank",
@@ -21255,7 +22757,11 @@
       "createdAt": "2021-08-05T05:43:04.198Z",
       "firstName": "Madeleine",
       "phoneNumber": "+17438901632",
-      "organizations": ["Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,492,551.00",
         "bankName": "Stanbic IBTC",
@@ -21314,7 +22820,11 @@
       "createdAt": "2024-06-07T05:47:40.169Z",
       "firstName": "Gloria",
       "phoneNumber": "+14302323626",
-      "organizations": ["Bank C", "Bank B", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank B",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦7,411,740.00",
         "bankName": "UBA",
@@ -21367,7 +22877,11 @@
       "createdAt": "2021-02-12T19:41:01.487Z",
       "firstName": "Queen",
       "phoneNumber": "+12861384698",
-      "organizations": ["Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,336,247.00",
         "bankName": "Access Bank",
@@ -21426,7 +22940,9 @@
       "createdAt": "2021-04-24T02:34:52.362Z",
       "firstName": "Maura",
       "phoneNumber": "+16368762262",
-      "organizations": ["Bank D"],
+      "organizations": [
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,506,001.00",
         "bankName": "Stanbic IBTC",
@@ -21485,7 +23001,10 @@
       "createdAt": "2024-05-14T14:27:43.164Z",
       "firstName": "Laverne",
       "phoneNumber": "+12084036113",
-      "organizations": ["Bank A", "Bank C"],
+      "organizations": [
+        "Bank A",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦6,075,501.00",
         "bankName": "Access Bank",
@@ -21544,7 +23063,10 @@
       "createdAt": "2020-06-09T08:31:32.047Z",
       "firstName": "Swanson",
       "phoneNumber": "+12890942051",
-      "organizations": ["Bank C", "Bank B"],
+      "organizations": [
+        "Bank C",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦1,989,645.00",
         "bankName": "Access Bank",
@@ -21597,7 +23119,10 @@
       "createdAt": "2022-12-02T12:26:35.981Z",
       "firstName": "Holly",
       "phoneNumber": "+12923677477",
-      "organizations": ["Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,679,466.00",
         "bankName": "Zenith Bank",
@@ -21656,7 +23181,10 @@
       "createdAt": "2023-09-24T05:39:47.538Z",
       "firstName": "Audra",
       "phoneNumber": "+13806958373",
-      "organizations": ["Bank B", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,238,299.00",
         "bankName": "First Bank",
@@ -21715,7 +23243,9 @@
       "createdAt": "2020-05-29T23:02:30.973Z",
       "firstName": "Aimee",
       "phoneNumber": "+19158092378",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦3,092,434.00",
         "bankName": "First Bank",
@@ -21768,7 +23298,11 @@
       "createdAt": "2024-11-10T00:46:51.530Z",
       "firstName": "Bernard",
       "phoneNumber": "+11980273776",
-      "organizations": ["Bank D", "Bank A", "Bank B"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,742,922.00",
         "bankName": "Zenith Bank",
@@ -21827,7 +23361,10 @@
       "createdAt": "2022-06-07T05:44:42.798Z",
       "firstName": "Nellie",
       "phoneNumber": "+16419493978",
-      "organizations": ["Bank C", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,052,030.00",
         "bankName": "Access Bank",
@@ -21886,7 +23423,13 @@
       "createdAt": "2022-03-28T03:00:14.582Z",
       "firstName": "Polly",
       "phoneNumber": "+17670263218",
-      "organizations": ["Bank D", "Bank A", "Bank C", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank A",
+        "Bank C",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦3,215,648.00",
         "bankName": "Stanbic IBTC",
@@ -21939,7 +23482,11 @@
       "createdAt": "2021-10-25T12:02:00.288Z",
       "firstName": "Beatrice",
       "phoneNumber": "+15557941693",
-      "organizations": ["Bank C", "Bank C", "Bank D"],
+      "organizations": [
+        "Bank C",
+        "Bank C",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦5,985,120.00",
         "bankName": "Access Bank",
@@ -21992,7 +23539,9 @@
       "createdAt": "2022-10-11T03:48:38.208Z",
       "firstName": "Millicent",
       "phoneNumber": "+16170741003",
-      "organizations": ["Bank B"],
+      "organizations": [
+        "Bank B"
+      ],
       "accountSummary": {
         "balance": "₦7,680,491.00",
         "bankName": "Zenith Bank",
@@ -22051,7 +23600,13 @@
       "createdAt": "2024-08-30T06:53:32.579Z",
       "firstName": "Herminia",
       "phoneNumber": "+15676545992",
-      "organizations": ["Bank C", "Bank A", "Bank C", "Bank D", "Bank C"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank C",
+        "Bank D",
+        "Bank C"
+      ],
       "accountSummary": {
         "balance": "₦2,484,648.00",
         "bankName": "UBA",
@@ -22110,7 +23665,11 @@
       "createdAt": "2020-12-05T15:11:09.499Z",
       "firstName": "Richardson",
       "phoneNumber": "+11985674294",
-      "organizations": ["Bank D", "Bank D", "Bank A"],
+      "organizations": [
+        "Bank D",
+        "Bank D",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦684,331.00",
         "bankName": "GT Bank",
@@ -22163,7 +23722,12 @@
       "createdAt": "2024-02-08T18:09:45.641Z",
       "firstName": "Harrison",
       "phoneNumber": "+15661148787",
-      "organizations": ["Bank B", "Bank D", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank B",
+        "Bank D",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦7,196,245.00",
         "bankName": "First Bank",
@@ -22216,7 +23780,11 @@
       "createdAt": "2021-02-08T18:57:00.770Z",
       "firstName": "Lois",
       "phoneNumber": "+16334935817",
-      "organizations": ["Bank B", "Bank B", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank B",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦9,231,353.00",
         "bankName": "Access Bank",
@@ -22269,7 +23837,12 @@
       "createdAt": "2022-03-19T21:08:42.500Z",
       "firstName": "Lily",
       "phoneNumber": "+18595819258",
-      "organizations": ["Bank D", "Bank B", "Bank D", "Bank D"],
+      "organizations": [
+        "Bank D",
+        "Bank B",
+        "Bank D",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦672,356.00",
         "bankName": "First Bank",
@@ -22322,7 +23895,11 @@
       "createdAt": "2024-02-02T22:45:20.691Z",
       "firstName": "Claudine",
       "phoneNumber": "+11787079621",
-      "organizations": ["Bank B", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank B",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦976,932.00",
         "bankName": "Access Bank",
@@ -22375,7 +23952,11 @@
       "createdAt": "2021-08-18T10:14:16.679Z",
       "firstName": "Morgan",
       "phoneNumber": "+16067138771",
-      "organizations": ["Bank A", "Bank B", "Bank D"],
+      "organizations": [
+        "Bank A",
+        "Bank B",
+        "Bank D"
+      ],
       "accountSummary": {
         "balance": "₦1,314,177.00",
         "bankName": "GT Bank",
@@ -22428,7 +24009,13 @@
       "createdAt": "2022-02-19T17:29:13.315Z",
       "firstName": "Marjorie",
       "phoneNumber": "+18524535275",
-      "organizations": ["Bank C", "Bank A", "Bank D", "Bank A", "Bank A"],
+      "organizations": [
+        "Bank C",
+        "Bank A",
+        "Bank D",
+        "Bank A",
+        "Bank A"
+      ],
       "accountSummary": {
         "balance": "₦3,283,036.00",
         "bankName": "UBA",
